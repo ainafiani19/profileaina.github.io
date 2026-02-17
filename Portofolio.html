@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
   <meta charset="UTF-8">
-  <title>CV - Nama Kamu</title>
+  <title>Portfolio - Nama Kamu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -47,176 +47,142 @@
       color: white;
     }
 
-    /* ===== CV SECTION ===== */
-    .cv-section {
+    /* ===== GENERAL ===== */
+    section {
       padding: 50px 10%;
-      text-align: center;
     }
 
-    .cv-section h1 {
-      font-size: 32px;
-      margin-bottom: 20px;
+    .glass {
+      background: rgba(255, 255, 255, 0.55);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      margin-bottom: 15px;
       color: #333;
     }
 
-    /* ===== LANGUAGE BUTTONS ===== */
-    .lang-buttons {
+    /* ===== INTRO ===== */
+    .intro {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.7);
       display: flex;
+      align-items: center;
       justify-content: center;
-      gap: 15px;
-      margin-bottom: 25px;
-    }
-
-    .lang-buttons button {
-      padding: 10px 22px;
-      border-radius: 20px;
-      border: 2px solid #F07979;
-      background: white;
-      color: #F07979;
       font-weight: bold;
-      cursor: pointer;
-      transition: 0.3s;
+      color: #888;
     }
 
-    .lang-buttons button.active {
+    /* ===== GRID 4 BOX ===== */
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    /* ===== CERTIFICATE ===== */
+    .certificate {
+      margin-bottom: 40px;
+    }
+
+    /* ===== SKILL ===== */
+    .skill-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      padding: 6px 14px;
+      border-radius: 14px;
       background: #F07979;
       color: white;
+      font-size: 14px;
     }
 
-    /* ===== PDF VIEW ===== */
-    .pdf-wrapper {
-      max-width: 900px;
-      margin: 0 auto 35px;
-      background: rgba(255, 255, 255, 0.65);
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-      overflow: hidden;
+    /* ===== LANGUAGE ===== */
+    .language-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
     }
 
-    .pdf-wrapper iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
+    .language {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
     }
 
-    /* ===== DOWNLOAD BUTTON ===== */
-    .download-btn {
-      display: inline-block;
-      padding: 14px 30px;
+    .level {
       background: #F07979;
       color: white;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 30px;
-      transition: 0.3s;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 13px;
     }
 
-    .download-btn:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    }
-
+    /* ===== RESPONSIVE ===== */
     @media (max-width: 768px) {
-      .pdf-wrapper iframe {
-        height: 450px;
+      .intro {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .photo {
+        margin: 0 auto;
+      }
+
+      .skill-grid {
+        grid-template-columns: 1fr;
       }
     }
 
-    /* ===== MOBILE RESPONSIVE ===== */
-    @media (max-width: 600px) {
+    /* ===== HOVER POP-UP EFFECT ===== */
+    .glass {
+      transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        background 0.35s ease;
+    }
 
-      /* NAVBAR */
-      nav {
-        gap: 20px;
-        padding: 14px 10px;
-        flex-wrap: wrap;
-      }
+    .glass:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow:
+        0 25px 45px rgba(0, 0, 0, 0.2),
+        0 0 20px rgba(240, 121, 121, 0.35);
+      background: rgba(255, 255, 255, 0.65);
+    }
 
-      nav a {
-        font-size: 14px;
-      }
+    .skill {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-      /* CONTAINER */
-      .container {
-        padding: 40px 6%;
-      }
-
-      /* HERO */
-      .hero h1 {
-        font-size: 28px;
-      }
-
-      .hero p {
-        font-size: 14px;
-        margin-bottom: 20px;
-      }
-
-      .hero-btns {
-        flex-direction: column;
-        gap: 12px;
-      }
-
-      .hero-btns a {
-        width: 100%;
-        text-align: center;
-      }
-
-      /* HIGHLIGHT */
-      .highlight-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        margin-bottom: 50px;
-      }
-
-      .highlight-card {
-        padding: 24px;
-      }
-
-      .highlight-card h3 {
-        font-size: 16px;
-      }
-
-      .highlight-card p {
-        font-size: 14px;
-      }
-
-      /* PREVIEW */
-      .preview-grid {
-        grid-template-columns: 1fr;
-        gap: 25px;
-      }
-
-      .preview-box {
-        padding: 28px 22px;
-      }
-
-      .preview-box h1 {
-        font-size: 22px;
-      }
-
-      .preview-box p {
-        font-size: 14px;
-      }
-
-      .map-preview-link {
-        height: 220px;
-      }
-
-      /* BUILT SECTION */
-      .built h2 {
-        font-size: 22px;
-      }
-
-      .built ul {
-        font-size: 14px;
-        line-height: 1.8;
-      }
-
-      /* TASK BUTTON */
-      .task-btn {
-        width: 100%;
-        text-align: center;
-      }
+    .skill:hover {
+      transform: scale(1.12);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
     }
   </style>
 </head>
@@ -231,44 +197,90 @@
     <a href="Contact.html">Contact</a>
   </nav>
 
-  <!-- CV SECTION -->
-  <section class="cv-section">
-    <h1>Curiculum Vitae</h1>
-
-    <!-- LANGUAGE SWITCH -->
-    <div class="lang-buttons">
-      <button id="btn-id" class="active" onclick="showCV('id')">
-        Bahasa Indonesia
-      </button>
-      <button id="btn-en" onclick="showCV('en')">
-        English
-      </button>
+  <!-- INTRO -->
+  <section>
+    <div class="glass intro">
+      <div class="photo">Photo</div>
+      <div>
+        <h2>Pengenalan Diri</h2>
+        <p>
+          Saya adalah mahasiswa dengan ketertarikan pada GIS, pemetaan,
+          dan pengembangan web. Terbiasa mengolah data spasial dan
+          membuat visualisasi yang informatif.
+        </p>
+      </div>
     </div>
 
-    <!-- PDF VIEWER -->
-    <div class="pdf-wrapper">
-      <iframe id="cvViewer" src="cv-id.pdf"></iframe>
+    <!-- GRID 4 -->
+    <div class="grid-4">
+      <div class="glass">
+        <h2>Pendidikan</h2>
+        <p>Universitas / Jurusan<br>2021 – Sekarang</p>
+      </div>
+
+      <div class="glass">
+        <h2>Pengalaman Profesional</h2>
+        <p>Magang / Freelance / Project</p>
+      </div>
+
+      <div class="glass">
+        <h2>Project Kuliah</h2>
+        <p>WebGIS, Analisis Spasial, Pemetaan</p>
+      </div>
+
+      <div class="glass">
+        <h2>Organisasi</h2>
+        <p>Himpunan, Kepanitiaan, Relawan</p>
+      </div>
     </div>
+
+    <!-- CERTIFICATE -->
+    <div class="glass certificate">
+      <h2>Sertifikasi</h2>
+      <p>Bootcamp GIS, Pelatihan Web, Kursus Online</p>
+    </div>
+
+    <!-- SKILL -->
+    <div class="glass">
+      <h2>Kemampuan</h2>
+
+      <div class="skill-grid">
+        <div>
+          <h3>Hard Skill</h3>
+          <div class="skill-list">
+            <span class="skill">QGIS</span>
+            <span class="skill">ArcGIS</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+          </div>
+        </div>
+
+        <div>
+          <h3>Soft Skill</h3>
+          <div class="skill-list">
+            <span class="skill">Teamwork</span>
+            <span class="skill">Communication</span>
+            <span class="skill">Problem Solving</span>
+            <span class="skill">Leadership</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- LANGUAGE -->
+      <h2>Bahasa</h2>
+      <div class="language-grid">
+        <div class="language">
+          <span>Bahasa Indonesia</span>
+          <span class="level">Native</span>
+        </div>
+        <div class="language">
+          <span>English</span>
+          <span class="level">Intermediate</span>
+        </div>
+      </div>
+    </div>
+
   </section>
-
-  <!-- SCRIPT -->
-  <script>
-    function showCV(lang) {
-      const viewer = document.getElementById("cvViewer");
-      const btnId = document.getElementById("btn-id");
-      const btnEn = document.getElementById("btn-en");
-
-      if (lang === "id") {
-        viewer.src = "cv-id.pdf";
-        btnId.classList.add("active");
-        btnEn.classList.remove("active");
-      } else {
-        viewer.src = "cv-en.pdf";
-        btnEn.classList.add("active");
-        btnId.classList.remove("active");
-      }
-    }
-  </script>
 
 </body>
 
