@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Web</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg,
+                    #FEEAC9,
+                    #FFCDC9,
+                    #FDACAC,
+                    #F07979);
+            min-height: 100vh;
+        }
+
+        /* ===== NAVBAR ===== */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px 0;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(8px);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 8px;
+        }
+
+        nav a.active,
+        nav a:hover {
+            background-color: #F07979;
+            color: white;
+        }
+
+        /* ===== HOME SECTION ===== */
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+            padding: 80px 10%;
+        }
+
+        .home img {
+            width: 220px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .intro {
+            max-width: 500px;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .intro h2 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .intro p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #444;
+        }
+
+        /* ===== BUTTONS ===== */
+        .buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-cv {
+            background-color: #F07979;
+            color: white;
+        }
+
+        .btn-contact {
+            background-color: white;
+            color: #F07979;
+            border: 2px solid #F07979;
+        }
+
+        .buttons a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .home {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .buttons {
+                justify-content: center;
+            }
+        }
+
+        /* ===== WHAT I'M DOING NOW ===== */
+        .now {
+            padding: 30px 10%;
+            text-align: center;
+        }
+
+        .now h3 {
+            font-size: 28px;
+            margin-bottom: 45px;
+            color: #333;
+        }
+
+        .now-cards {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.65);
+            backdrop-filter: blur(6px);
+            width: 230px;
+            padding: 30px 25px;
+            border-radius: 22px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+            transition: 0.3s ease;
+        }
+
+        .card span {
+            font-size: 32px;
+        }
+
+        .card h4 {
+            margin: 15px 0 10px;
+            font-size: 18px;
+            color: #444;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="Home_Profile.html" class="active">Home</a>
+        <a href="Portofoliosementara.html">Portofolio</a>
+        <a href="Profile.html">About Me</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section class="home">
+        <img src="asset/Desain tanpa judul (5).png" alt="Profile Photo">
+
+        <div class="intro">
+            <h1>Aina Nurfiani</h1>
+            <h2>(GIS & WebGIS Enthusiast)</h2>
+
+            <p>
+                I am a GIS and WebGIS enthusiast 🌍🗺️ who is currently improving my English skills 📚✍️ through online courses and writing practice to support my academic and professional development 🚀
+            </p>
+
+            <div class="buttons">
+                <a href="Portofolio.html" class="btn-cv">View My Porto Here</a>
+                <a href="Contact.html" class="btn-contact">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- HIGHLIGHT -->
+    <section class="now">
+        <h3>✨Highlight✨</h3>
+
+        <div class="now-cards">
+            <div class="card">
+                <span>🎓</span>
+                <h4>Coursera</h4>
+                <p>Following online courses to strengthen technical and analytical skills.</p>
+            </div>
+
+            <div class="card">
+                <span>📝</span>
+                <h4>Improving English</h4>
+                <p>Improving English skills through the Titik Nol English program.</p>
+            </div>
+
+            <a href="Bootcamp.html" class="card" style="text-decoration:none; color:inherit;">
+                <span>🚀</span>
+                <h4>WebGIS Bootcamp</h4>
+                <p>Applying spatial analysis and WebGIS development skills.</p>
+            </a>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

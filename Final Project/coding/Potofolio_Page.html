@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: "class" }
+  </script>
+  <title>Portofolio Page</title>
+</head>
+
+<body class="
+min-h-screen
+bg-gradient-to-br from-[#A8E6CF] via-[#BEE7E8] to-[#5FB3B3]
+dark:bg-gradient-to-br dark:from-[#1F3F3B] dark:via-[#2F5D58] dark:to-[#1F3F3B]
+">
+
+  <!-- NAVBAR -->
+  <nav class="w-full flex justify-center
+  bg-gradient-to-r from-[#A8E6CF] via-[#BEE7E8] to-[#5FB3B3]
+  dark:from-[#1F3F3B] dark:via-[#2F5D58] dark:to-[#1F3F3B]
+  text-[#2F7F7B] dark:text-[#E9EFE5]
+  px-4 py-4 sticky top-0 z-10 backdrop-blur-md">
+
+    <ul class="flex space-x-6 font-medium">
+      <li><a href="Home_Page.html" class="hover:text-[#2F7F7B] dark:hover:text-[#6FBFB8]">Home</a></li>
+      <li><a href="index.html" class="hover:text-[#2F7F7B] dark:hover:text-[#6FBFB8]">Map</a></li>
+      <li><a href="Potofolio_Page.html" class="underline font-semibold">Portofolio</a></li>
+      <li><button onclick="changeTheme()" class="hover:text-[#2F7F7B] dark:hover:text-[#6FBFB8]">Dark / Light</button></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="
+  bg-gradient-to-r from-[#7FCFC8] via-[#5FB3B3] to-[#3FA7A0]
+  dark:from-[#163A36] dark:via-[#1F4F4A] dark:to-[#163A36]
+  py-4 shadow-md">
+    <h1 class="text-center font-serif font-bold
+text-[#E9EFE5] dark:text-[#E9EFE5] tracking-wide">
+      Profil Singkat
+    </h1>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="
+  bg-[#F7FBFA]/90 dark:bg-[#1F3F3B]/80
+  rounded-lg grid grid-cols-1 md:grid-cols-2
+  items-center px-4 py-8 m-4 shadow-md">
+
+    <div>
+      <p class="text-[#355F5B] dark:text-[#E9EFE5]">
+        Halo, nama aku Aina Nurfiani
+      </p>
+
+      <h2 class="font-bold leading-tight text-justify
+      text-[#355F5B] dark:text-[#E9EFE5] mt-2">
+        Aku lulusan S1 Perencanaan Wilayah dan Kota Universitas Brawijaya. Selama kuliah,
+        aku terbiasa mengerjakan analisis spasial, menyusun dokumen perencanaan,
+        dan mengolah data menggunakan ArcGIS, QGIS, SketchUp, dan Microsoft Office.
+      </h2>
+
+      <h3 class="font-semibold text-[#2F7F7B] dark:text-[#6FBFB8] mt-4 mb-2">
+        Tentang Saya
+      </h3>
+
+      <p class="text-justify text-[#355F5B] dark:text-[#E9EFE5]">
+        Dari pengalaman tersebut, aku belajar kerja tim, berpikir strategis,
+        dan beradaptasi dalam situasi dinamis. Aku juga memiliki rasa ingin tahu tinggi
+        dan selalu semangat untuk terus berkembang 🚀
+      </p>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="assets/poto.jpg"
+        class="rounded-lg h-72 border-4
+        border-[#A8E6CF] dark:border-[#6FBFB8]" />
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <div class="
+  bg-gradient-to-r from-[#7FCFC8] via-[#5FB3B3] to-[#3FA7A0]
+  dark:from-[#163A36] dark:via-[#1F4F4A] dark:to-[#163A36]
+  py-4 shadow-md">
+    <h1 class="text-center font-serif font-bold
+text-[#E9EFE5] dark:text-[#E9EFE5] tracking-wide">
+      Latar Belakang Pendidikan
+    </h1>
+  </div>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-8">
+  <div class="rounded-xl p-6 text-center font-medium
+  bg-[#F7FBFA] dark:bg-[#1F3F3B]
+  shadow-md border border-[#5FB3B3]/40
+  text-[#355F5B] dark:text-[#E9EFE5]">
+    🎓 S1 Universitas Brawijaya
+  </div>
+
+  <div class="rounded-xl p-6 text-center font-medium
+  bg-[#F7FBFA] dark:bg-[#1F3F3B]
+  shadow-md border border-[#5FB3B3]/40
+  text-[#355F5B] dark:text-[#E9EFE5]">
+    🏫 SMA Negeri 4 Tambun Selatan
+  </div>
+</section>
+
+  <!-- EXPERIENCE -->
+  <div class="
+  bg-gradient-to-r from-[#7FCFC8] via-[#5FB3B3] to-[#3FA7A0]
+  dark:from-[#163A36] dark:via-[#1F4F4A] dark:to-[#163A36]
+  py-4 shadow-md">
+    <h1 class="text-center font-serif font-bold
+text-[#E9EFE5] dark:text-[#E9EFE5] tracking-wide">
+      Pengalaman Kerja
+    </h1>
+  </div>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 py-8">
+
+  <!-- CARD 1 -->
+  <div class="rounded-xl p-6
+  bg-[#F7FBFA]/90 dark:bg-[#1F3F3B]/80
+  shadow-md hover:scale-105 transition
+  text-[#355F5B] dark:text-[#E9EFE5]">
+
+    <h2 class="font-mono text-center font-semibold text-[#2F7F7B] dark:text-[#6FBFB8]">
+      KLHS WP Cicalengka
+    </h2>
+
+    <p class="text-xs text-center text-gray-500 dark:text-gray-300 mb-2">
+      Magang | Dokumen KLHS
+    </p>
+
+    <img src="assets/KLHSCICALENGKA.png"
+         class="rounded-md my-2">
+
+    <p class="font-serif text-justify mt-2">
+      Terlibat dalam analisis spasial, overlay KRP berdampak,
+      analisis DPSIR, dan penyusunan rekomendasi.
+    </p>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="rounded-xl p-6
+  bg-[#F7FBFA]/90 dark:bg-[#1F3F3B]/80
+  shadow-md hover:scale-105 transition
+  text-[#355F5B] dark:text-[#E9EFE5]">
+
+    <h2 class="font-mono text-center font-semibold text-[#2F7F7B] dark:text-[#6FBFB8]">
+      KLHS RDTR Kota Blitar
+    </h2>
+
+    <p class="text-xs text-center text-gray-500 dark:text-gray-300 mb-2">
+      Freelancer
+    </p>
+
+    <img src="assets/KLHSBLITAR.png"
+         class="rounded-md my-2">
+
+    <p class="font-serif text-justify mt-2">
+      Menyusun materi konsultasi publik dan dokumen penjamin kualitas.
+    </p>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="rounded-xl p-6
+  bg-[#F7FBFA]/90 dark:bg-[#1F3F3B]/80
+  shadow-md hover:scale-105 transition
+  text-[#355F5B] dark:text-[#E9EFE5]">
+
+    <h2 class="font-mono text-center font-semibold text-[#2F7F7B] dark:text-[#6FBFB8]">
+      Studio PWK
+    </h2>
+
+    <p class="text-xs text-center text-gray-500 dark:text-gray-300 mb-2">
+      Rencana Strategis Pariwisata
+    </p>
+
+    <img src="assets/light.png"
+         class="rounded-md my-2">
+
+    <p class="font-serif text-justify mt-2">
+      Penyusunan dokumen rencana strategis sektor pariwisata.
+    </p>
+  </div>
+
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="
+  bg-gradient-to-r from-[#A8E6CF] to-[#BEE7E8]
+  dark:from-[#1F3F3B] dark:to-[#2F5D58]
+  text-center py-3 mt-10
+  text-[#355F5B] dark:text-[#E9EFE5]">
+    &copy; 2025 Aina Nurfiani. All Rights Reserved.
+  </footer>
+
+  <!-- DARK MODE SCRIPT (ASLI) -->
+  <script>
+    if (localStorage.theme === "dark") document.documentElement.classList.add("dark")
+    else if (localStorage.theme === "light") document.documentElement.classList.remove("dark")
+    else if (window.matchMedia("(prefers-color-scheme:dark)").matches)
+      document.documentElement.classList.add("dark")
+
+    function changeTheme() {
+      document.documentElement.classList.toggle("dark")
+      localStorage.theme = document.documentElement.classList.contains("dark") ? "dark" : "light"
+    }
+  </script>
+
+</body>
+</html>

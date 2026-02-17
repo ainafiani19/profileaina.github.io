@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Profile - Nama Kamu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #FEEAC9, #FFCDC9, #FDACAC, #F07979);
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 0;
+      background: rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(8px);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 10px;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background: #F07979;
+      color: white;
+    }
+
+    /* PROFILE */
+    .profile {
+      padding: 70px 10%;
+    }
+
+    .intro-box {
+      background: rgba(255, 255, 255, 0.6);
+      padding: 30px 40px;
+      border-radius: 25px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+      margin-bottom: 60px;
+    }
+
+    .intro-box p {
+      line-height: 1.7;
+      color: #444;
+    }
+
+    /* CONTENT GRID */
+    .content-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 35px;
+      margin-bottom: 50px;
+    }
+
+    .content-box {
+      background: rgba(255, 255, 255, 0.65);
+      padding: 35px 30px;
+      border-radius: 25px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+      cursor: pointer;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .content-box:hover,
+    .content-box.active {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .content-box h3 {
+      color: #333;
+    }
+
+    /* DETAIL BOX */
+    .detail-box {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .detail-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .detail-box ul {
+      list-style: none;
+    }
+
+    .detail-box li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    /* LINK ANIMATION (GLOBAL) */
+    .detail-box a {
+      color: #000;
+      text-decoration: none;
+      position: relative;
+      font-weight: 500;
+    }
+
+    .detail-box a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      width: 0;
+      height: 2px;
+      background: #000;
+      transition: width 0.3s ease;
+    }
+
+    .detail-box a:hover::after {
+      width: 100%;
+    }
+
+    .detail {
+      display: none;
+    }
+
+    .detail.active {
+      display: block;
+    }
+
+    @media (max-width: 900px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="Home_Profile.html">Home</a>
+    <a href="Portofoliosementara.html">Portofolio</a>
+    <a href="Profile.html" class="active">About Me</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <section class="profile">
+
+    <!-- INTRO -->
+    <div class="intro-box">
+      <p>
+        This page is where I share what I am currently learning, what I have completed,
+        and the stories I enjoy through dramas, films, or books.
+      </p>
+    </div>
+
+    <!-- CLICKABLE BOXES -->
+    <div class="content-grid">
+      <div class="content-box active" data-target="current">
+        <h3>Currently Doing</h3>
+      </div>
+
+      <div class="content-box" data-target="completed">
+        <h3>Completed Course</h3>
+      </div>
+
+      <div class="content-box" data-target="review">
+        <h3>Drama / Film / Book</h3>
+      </div>
+    </div>
+
+    <!-- DETAIL CONTENT -->
+    <div class="detail-box">
+
+      <div id="current" class="detail active">
+        <h2>Currently Doing</h2>
+        <ul>
+          <li>📚 <a href="CourseraArcGIS.html">Coursera: GIS Data Acquisition and Map Design</a></li>
+          <li>🗣 <a href="Currently.html">Titik Nol English sessions</a></li>
+          <li>✍️ <a href="Currently.html">Writing short reflections & reviews</a></li>
+        </ul>
+      </div>
+
+      <div id="completed" class="detail">
+        <h2>Completed Course</h2>
+        <ul>
+          <li>🗺️ <a href="Bootcamp.html">BOOTCAMP WebGIS</a></li>
+        </ul>
+      </div>
+
+      <div id="review" class="detail">
+        <h2>Drama / Film / Book</h2>
+        <ul>
+          <li>🎬 <a href="Reviews.html">Korean drama reviews (theme & character)</a></li>
+          <li>📖 <a href="Reviews.html">Self-development books</a></li>
+          <li>✒️ <a href="Reviews.html">Written in English as practice</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    document.querySelectorAll('.content-box').forEach(box => {
+      box.addEventListener('click', function () {
+        const target = this.dataset.target;
+
+        document.querySelectorAll('.detail').forEach(d => d.classList.remove('active'));
+        document.querySelectorAll('.content-box').forEach(b => b.classList.remove('active'));
+
+        document.getElementById(target).classList.add('active');
+        this.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

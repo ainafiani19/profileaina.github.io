@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Soft & Calm Gradient</title>
+    <style>
+        :root {
+            --mint: #A8E6CF;
+            --soft-teal: #5FB3B3;
+            --sky-blue: #BEE7E8;
+            --deep-teal: #2F7F7B;
+            --off-white: #F7FBFA;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            min-height: 100vh;
+
+            /* MAIN GRADIENT */
+            background: linear-gradient(135deg,
+                    var(--mint),
+                    var(--sky-blue),
+                    var(--soft-teal));
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: rgba(247, 251, 250, 0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 700px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--deep-teal);
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #355f5b;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .button {
+            margin-top: 25px;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+
+            background: linear-gradient(135deg, #A8E6CF 0%, #5FB3B3 50%, #2F7F7B 100%);
+
+
+            box-shadow: 0 8px 20px rgba(47, 127, 123, 0.4);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(47, 127, 123, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Soft & Calm Theme</h1>
+        <p>
+            This website uses a smooth green–blue gradient inspired by a
+            soft and calm color palette. Perfect for CVs, portfolios,
+            and professional personal websites.
+        </p>
+
+        <button class="button">Get Started</button>
+    </div>
+
+</body>
+
+</html>

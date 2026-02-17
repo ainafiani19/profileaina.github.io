@@ -1,0 +1,100 @@
+<!-- WebGIS Navbar - Pure HTML/CSS Version -->
+<!-- Tailwind removed: using simple CSS -->
+
+<style>
+  body, button, input {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    width: 100%;
+    background: #ffffffcc;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #ddd;
+    padding: 8px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+  .search-box input {
+    width: 260px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .nav-actions {
+    display: flex;
+    gap: 6px;
+  }
+  .btn {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: #ddd;
+  }
+  .user-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #bbb;
+  }
+</style>
+
+<header>
+  <div class="navbar">
+
+    <!-- Left Section -->
+    <div class="navbar-left">
+      <button class="btn">☰</button>
+      <div class="brand">📍 MyWebGIS</div>
+    </div>
+
+    <!-- Search -->
+    <div class="search-box">
+      <input type="text" placeholder="Cari rumah atau alamat..." />
+    </div>
+
+    <!-- Right Actions -->
+    <div class="nav-actions">
+      <button class="btn">Layer</button>
+      <button class="btn">Filter</button>
+      <button class="btn">Map/List</button>
+    </div>
+
+    <!-- User -->
+    <div class="user-section">
+      <div class="avatar"></div>
+      <span style="font-size: 14px;">Login</span>
+    </div>
+
+  </div>
+</header>
+
+<!-- End Navbar HTML/CSS Version -->

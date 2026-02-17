@@ -1,0 +1,1093 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "3a76b98e-ce30-4179-ae40-61b16d01f92d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1941988,
+          -6.424592869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KUTANEGARA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "KAB. BEKASI, KEC. BOJONGMANGU, KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.23",
+        "KECAMATAN": "BOJONGMANGU",
+        "ID_DESA": "32.16.23.2003",
+        "DESA": "BOJONGMANGU",
+        "LONGITUDE": 107.1941988,
+        "LATITUDE": -6.424592869,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "2a7e3901-8d91-4da9-be88-bbad4d12cdc2",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1855701,
+          -6.341827745
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KARAWANG BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKARANG TIM., HEGARMUKTI, KEC. CIKARANG PUSAT, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.20",
+        "KECAMATAN": "CIKARANG PUSAT",
+        "ID_DESA": "32.16.20.2004",
+        "DESA": "HEGARMUKTI",
+        "LONGITUDE": 107.1855701,
+        "LATITUDE": -6.341827745,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "f5c7098d-b7eb-43ab-bc7e-b4e28bd6be55",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1622411,
+          -6.332237129
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG TIMUR",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIBATU, CIKARANG SEL., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.19",
+        "KECAMATAN": "CIKARANG SELATAN",
+        "ID_DESA": "32.16.19.2001",
+        "DESA": "CIBATU",
+        "LONGITUDE": 107.1622411,
+        "LATITUDE": -6.332237129,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c6ff01ff-3eac-4e75-a9ae-be6ce4522642",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1400191,
+          -6.311427693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG BARAT 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKARANG BAR. 1, JL. RAYA TEGAL GEDE, PASIRSARI, CIKARANG SEL., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.19",
+        "KECAMATAN": "CIKARANG SELATAN",
+        "ID_DESA": "32.16.19.2007",
+        "DESA": "PASIRSARI",
+        "LONGITUDE": 107.1400191,
+        "LATITUDE": -6.311427693,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "daafdbd7-999f-4d71-8ef1-709a1154e21b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1371646,
+          -6.312765731
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG BARAT 5",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG, PASIRSARI, CIKARANG SEL., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.19",
+        "KECAMATAN": "CIKARANG SELATAN",
+        "ID_DESA": "32.16.19.2007",
+        "DESA": "PASIRSARI",
+        "LONGITUDE": 107.1371646,
+        "LATITUDE": -6.312765731,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "875e83a3-abc2-4654-aea3-b30b0405b30d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1368062,
+          -6.311864851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG BARAT 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG BAR. 2, SUKARESMI, CIKARANG SEL., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.19",
+        "KECAMATAN": "CIKARANG SELATAN",
+        "ID_DESA": "32.16.19.2007",
+        "DESA": "PASIRSARI",
+        "LONGITUDE": 107.1368062,
+        "LATITUDE": -6.311864851,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "9f5fe193-ae36-471a-a6f4-54364485627e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1360243,
+          -6.31195959
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBATU",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG BAR. 3, SUKARESMI, CIKARANG SEL., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.19",
+        "KECAMATAN": "CIKARANG SELATAN",
+        "ID_DESA": "32.16.19.2007",
+        "DESA": "PASIRSARI",
+        "LONGITUDE": 107.1360243,
+        "LATITUDE": -6.31195959,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b5744838-c34a-4cae-aa3e-ded666e7c455",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1358197,
+          -6.313482359
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG BARAT 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKARANG BAR. 5, PASIRSARI, CIKARANG SEL., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.19",
+        "KECAMATAN": "CIKARANG SELATAN",
+        "ID_DESA": "32.16.19.2007",
+        "DESA": "PASIRSARI",
+        "LONGITUDE": 107.1358197,
+        "LATITUDE": -6.313482359,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "2f24ffdd-6ce3-421c-9aa5-2024d98d371b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1244919,
+          -6.299289822
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PASIR KOJA 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKARANG UTARA, WANGUNHARJA, KEC. CIKARANG UTARA, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2011",
+        "DESA": "WANGUNHARJA",
+        "LONGITUDE": 107.1244919,
+        "LATITUDE": -6.299289822,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "19385983-efdd-478c-97e3-1278be106307",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1209417,
+          -6.303180488
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "WANGUNHARJA, KEC. CIKARANG UTARA, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2011",
+        "DESA": "WANGUNHARJA",
+        "LONGITUDE": 107.1209417,
+        "LATITUDE": -6.303180488,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ada71266-aa8f-4414-8669-76651605c93b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.097214,
+          -6.39069469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SUKABUNGAH",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "KAB. BEKASI, KEC. SERANG BARU, KABUPATEN BEKASI, JAWA BARAT 17330",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.21",
+        "KECAMATAN": "SERANG BARU",
+        "ID_DESA": "32.16.21.2003",
+        "DESA": "SUKASARI",
+        "LONGITUDE": 107.097214,
+        "LATITUDE": -6.39069469,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b9c07596-87c7-4f13-add4-a7bddde441ba",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0968708,
+          -6.269544337
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 7",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "TELAGA ASIH, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.1008",
+        "DESA": "TELAGA ASIH",
+        "LONGITUDE": 107.0968708,
+        "LATITUDE": -6.269544337,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "550af125-18e4-478c-88a5-49a902586692",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0854086,
+          -6.28588307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 6",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBITUNG 2, GANDAMEKAR, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2005",
+        "DESA": "GANDAMEKAR",
+        "LONGITUDE": 107.0854086,
+        "LATITUDE": -6.28588307,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7116461e-0daf-4a28-a20d-0cdec876e9cb",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0850774,
+          -6.282414802
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBITUNG 1, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0850774,
+        "LATITUDE": -6.282414802,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c083e0db-ad7d-4fd3-88b3-1fbfa9af6c07",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0845456,
+          -6.285912808
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKARANG UTARA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBITUNG 2, GANDAMEKAR, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0845456,
+        "LATITUDE": -6.285912808,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "11e24388-6e9d-4c03-9940-e2c6c390beae",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0834791,
+          -6.287127273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0834791,
+        "LATITUDE": -6.287127273,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "dc89f51f-6a12-4ca4-8f1d-8f3b776a4d3d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.083032,
+          -6.287661013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 8",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.083032,
+        "LATITUDE": -6.287661013,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c4ec0698-b3ec-438f-8129-08ea517e649f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0817715,
+          -6.288025398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL CIMANGGIS - CIBITUNG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0817715,
+        "LATITUDE": -6.288025398,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "592f7ec2-6b2f-456e-971a-aa8128dcc77e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0817539,
+          -6.288020474
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL CIMANGGIS - CIBITUNG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0817539,
+        "LATITUDE": -6.288020474,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5dc94f29-eb12-4e1a-b26c-8751647f16c5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0817358,
+          -6.288026859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 5",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL CIMANGGIS - CIBITUNG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0817358,
+        "LATITUDE": -6.288026859,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "466e6e80-f07d-41fd-a992-392fcf0d19ae",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0811222,
+          -6.289221884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBITUNG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0811222,
+        "LATITUDE": -6.289221884,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "9becb0e0-eba7-4ba5-b212-1f8a85058e68",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0810365,
+          -6.28549613
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SEMPER",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. LAYANG SHEIKH MOHAMMED BIN ZAYED, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0810365,
+        "LATITUDE": -6.28549613,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "93bd6c7f-c244-4254-93d0-dfa51d9350cc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0807155,
+          -6.28627202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 4",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0807155,
+        "LATITUDE": -6.28627202,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "91c9795e-a668-429f-9362-be59d7b99a5a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0795794,
+          -6.286095901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 9",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0795794,
+        "LATITUDE": -6.286095901,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "75697b4f-48cf-4b33-b878-a8b89f447f91",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0795415,
+          -6.2860727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JEMBATAN TIGA 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "CIKARANG, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0795415,
+        "LATITUDE": -6.2860727,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e23eeae1-86f9-4952-8b75-e404262130fb",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.075214,
+          -6.283031801
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TARUMAJAYA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL JAKARTA - CIKAMPEK NO.21, RT.4/RW.7, CIBUNTU, KEC. CIBITUNG, KABUPATEN BEKASI, JAWA BARAT 17520",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.07",
+        "KECAMATAN": "CIBITUNG",
+        "ID_DESA": "32.16.07.2007",
+        "DESA": "CIBUNTU",
+        "LONGITUDE": 107.075214,
+        "LATITUDE": -6.283031801,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "308b6202-da86-43eb-96fd-2b18e6f45ca0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0683952,
+          -6.187075866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TELAGA ASIH",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "SRIJAYA, KEC. TAMBUN UTARA, KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.05",
+        "KECAMATAN": "TAMBUN UTARA",
+        "ID_DESA": "32.16.05.2006",
+        "DESA": "SRIJAYA",
+        "LONGITUDE": 107.0683952,
+        "LATITUDE": -6.187075866,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "0bb31a29-3b85-466c-84b0-ccf1072161b4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0516671,
+          -6.278473636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL TAMBUN, LAMBANGJAYA, KEC. TAMBUN SEL., KABUPATEN BEKASI, JAWA BARAT 17510",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.06",
+        "KECAMATAN": "TAMBUN SELATAN",
+        "ID_DESA": "32.16.06.2003",
+        "DESA": "LAMBANGJAYA",
+        "LONGITUDE": 107.0516671,
+        "LATITUDE": -6.278473636,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "163e7447-a9c2-48d0-b6be-131877cb2425",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0294889,
+          -6.342044888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SUKARAGAM",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL CIMANGGIS - CIBITUNG, BURANGKENG, KEC. SETU, KABUPATEN BEKASI, JAWA BARAT 17320",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.18",
+        "KECAMATAN": "SETU",
+        "ID_DESA": "32.16.18.2003",
+        "DESA": "BURANGKENG",
+        "LONGITUDE": 107.0294889,
+        "LATITUDE": -6.342044888,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "375c40a2-e425-45a8-a6af-13dfb2bdde64",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0247455,
+          -6.350960634
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL NAROGONG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "KAB. BEKASI, BURANGKENG, KEC. SETU, KABUPATEN BEKASI, JAWA BARAT 17320",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.18",
+        "KECAMATAN": "SETU",
+        "ID_DESA": "32.16.18.2003",
+        "DESA": "BURANGKENG",
+        "LONGITUDE": 107.0247455,
+        "LATITUDE": -6.350960634,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "20fec829-c91c-45bf-a932-7a455253b627",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9910622,
+          -6.108294816
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TAMBELANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "KAB. BEKASI, SAGARA MAKMUR, KEC. TARUMAJAYA, KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.01",
+        "KECAMATAN": "TARUMAJAYA",
+        "ID_DESA": "32.16.01.2008",
+        "DESA": "PANTAI MAKMUR",
+        "LONGITUDE": 106.9910622,
+        "LATITUDE": -6.108294816,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "78325725-0172-4737-8b98-9a74672bd5d0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9765254,
+          -6.116771398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL CIBITUNG - CILINCING, SAGARA MAKMUR, KEC. TARUMAJAYA, KABUPATEN BEKASI, JAWA BARAT 17211",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.01",
+        "KECAMATAN": "TARUMAJAYA",
+        "ID_DESA": "32.16.01.2001",
+        "DESA": "SAGARA MAKMUR",
+        "LONGITUDE": 106.9765254,
+        "LATITUDE": -6.116771398,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c9e2bcbd-adb7-4481-8dd3-19d976172237",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0752544,
+          -6.2829178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BESUKI",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "BEKASI-CIKARANG TOLL GATE, BRIDGE PARK, JAKARTA - CIKAMPEK TOLL RD NO.21, RT.4/RW.7, CIBUNTU, CIBITUNG, BEKASI REGENCY, WEST JAVA 17520",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.07",
+        "KECAMATAN": "CIBITUNG",
+        "ID_DESA": "32.16.07.2007",
+        "DESA": "CIBUNTU",
+        "LONGITUDE": 107.0752544,
+        "LATITUDE": -6.2829178,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5405abdd-dc9a-4c4f-9653-165bb97a7cdf",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0797192,
+          -6.2863492
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBITUNG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBITUNG 7, GANDASARI, KEC. CIKARANG BAR., KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2006",
+        "DESA": "GANDASARI",
+        "LONGITUDE": 107.0797192,
+        "LATITUDE": -6.2863492,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    }
+  ]
+}

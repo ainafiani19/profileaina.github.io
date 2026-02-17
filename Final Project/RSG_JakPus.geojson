@@ -1,0 +1,2725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "fc952562-e4c9-48b0-b281-7034fa5505c1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8617881,
+          -6.1847754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-8277-7063",
+        "ALAMAT": "JL.MUSHOLLA AS SA'DAH GG.M NUR 1 RT.015 RW.001 NO 51 B, RT.16/RW.5, JAKARAT TIMUR, KEC. JOHAR BARU, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 13560",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.08",
+        "KECAMATAN": "JOHAR BARU",
+        "ID_DESA": "31.71.08.1001",
+        "DESA": "JOHAR BARU",
+        "LONGITUDE": 106.8617881,
+        "LATITUDE": -6.1847754,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "356cd9aa-24a9-4e12-b325-573eddda52f3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8740175,
+          -6.1889822
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "HAPPY DENTAL CLINIC GREEN PRAMUKA SQUARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 29624834",
+        "ALAMAT": "GREEN PRAMUKA SQUARE, JL. JENDERAL AHMAD YANI NO.49 LT. LG, RT.13/RW.9, RAWASARI, KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10570",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1003",
+        "DESA": "RAWASARI",
+        "LONGITUDE": 106.8740175,
+        "LATITUDE": -6.1889822,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "b99da1d1-cea3-4568-806c-700a0e0e34d4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8279279,
+          -6.1850015
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "FARIS DENTAL (SPESIALIS GIGI)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0877-0182-3906",
+        "ALAMAT": "JL. KEBON SIRIH BARAT I NO.56-58 13, RT.5/RW.2, KB. SIRIH, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10340",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1005",
+        "DESA": "KEBON SIRIH",
+        "LONGITUDE": 106.8279279,
+        "LATITUDE": -6.1850015,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "14cf3008-7029-4525-a26a-bf5707f5d46d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8149854,
+          -6.165137
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI FDC DENTAL CLINIC - HASYIM ASHARI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-1220-5817",
+        "ALAMAT": "JL. KH. HASYIM ASHARI NO.42 B 10, RT.17/RW.3, PETOJO UTARA, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10130",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1003",
+        "DESA": "PETOJO UTARA",
+        "LONGITUDE": 106.8149854,
+        "LATITUDE": -6.165137,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "67097643-617c-424f-918c-015b1e89df9a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8173986,
+          -6.197414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "THAMRIN DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0838-0691-9191",
+        "ALAMAT": "APARTEMEN THAMRIN RESIDENCE RUKO RTD LT. LG BLOK D NO. 9, JALAN KEBON KACANG RAYA, RT.4/RW.8, KB. MELATI, JAKARTA PUSAT, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10250",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1005",
+        "DESA": "KEBON MELATI",
+        "LONGITUDE": 106.8173986,
+        "LATITUDE": -6.197414,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "43fe5513-171d-46dd-87c5-0bbf0ba0e5e4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8427895,
+          -6.1912719
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KIANG DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-8232-038",
+        "ALAMAT": "JL. RADEN SALEH RAYA NO.394, RT.2/RW.3, CIKINI, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 15157",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1003",
+        "DESA": "CIKINI",
+        "LONGITUDE": 106.8427895,
+        "LATITUDE": -6.1912719,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "92f7cab7-f794-4a5d-bebd-5c9ff7fd01be",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8350178,
+          -6.1492061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "ORANGE DENTAL GUNUNG SAHARI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0852-8012-6147",
+        "ALAMAT": "JL. GN. SAHARI NO.2C, NORTH GUNUNG SAHARI, SAWAH BESAR, CENTRAL JAKARTA CITY, JAKARTA 10720",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.02",
+        "KECAMATAN": "SAWAH BESAR",
+        "ID_DESA": "31.71.02.1004",
+        "DESA": "GUNUNG SAHARI UTARA",
+        "LONGITUDE": 106.8350178,
+        "LATITUDE": -6.1492061,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2405777b-b39f-45cd-9cb6-a7c2a07719ea",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8495351,
+          -6.1935975
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTAL CITY SALEMBA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0813-1000-5250",
+        "ALAMAT": "JL. SALEMBA RAYA NO.17, RT.1/RW.1 PASEBAN, KEC. SENEN, KOTA JAKARTA PUSAT DAERAH KHUSUS IBUKOTA JAKARTA 10440, RT.1/RW.3, PASEBAN, KEC. SENEN, JAKARTA, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8495351,
+        "LATITUDE": -6.1935975,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "aa29449c-e36a-46de-92ba-0bf962c1908f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8336791,
+          -6.1603754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "FENDY DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0878-7723-8813",
+        "ALAMAT": "JL. SAMANHUDI NO.15A, RT.5/RW.5, PASAR BARU, SAWAH BESAR, CENTRAL JAKARTA CITY, JAKARTA 10710",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.02",
+        "KECAMATAN": "SAWAH BESAR",
+        "ID_DESA": "31.71.02.1001",
+        "DESA": "PASAR BARU",
+        "LONGITUDE": 106.8336791,
+        "LATITUDE": -6.1603754,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "5f77b05a-9979-45a5-b9fc-d2d863a7f903",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.843725,
+          -6.163579
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DEDE MULTI DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0858-8112-6637",
+        "ALAMAT": "JL. KEPU DALAM I NO.283A 3, RT.3/RW.4, KEMAYORAN, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1001",
+        "DESA": "KEMAYORAN",
+        "LONGITUDE": 106.843725,
+        "LATITUDE": -6.163579,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "d8d9db76-a6b1-4249-b58a-14fc2f1c85c9",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8639244,
+          -6.1571249
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI \"SOPONYONO DENTAL\"",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0878-7793-9909",
+        "ALAMAT": "14, JL. SERDANG BARU II NO.374, RT.14/RW.5, SERDANG, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10650",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1004",
+        "DESA": "SERDANG",
+        "LONGITUDE": 106.8639244,
+        "LATITUDE": -6.1571249,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "179a5170-7f18-4eb5-bec3-75c42d1b160a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8627942,
+          -6.1681583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK A+ DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0856-7678-910",
+        "ALAMAT": "JALAN CEMPAKA BARU TIMUR RT 04 RW 04, CEMPAKA BARU, KEMAYORAN, RT.15, RT.15/RW.4, CEMP. BARU, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1006",
+        "DESA": "CEMPAKA BARU",
+        "LONGITUDE": 106.8627942,
+        "LATITUDE": -6.1681583,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "8094b556-7520-47f9-8542-e0cc3a27d2da",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8753202,
+          -6.1628954
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "LAURENT MEDICAL & DENTAL CLINIC (LMDC)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 42900013",
+        "ALAMAT": "JL. LETJEN SUPRAPTO, KOMPLEK RUKO MEGA GROSIR CEMPAKA MAS BLOK I NO. 35, RT/RW: 007/008, KELURAHAN SUMUR BATU, KECAMATAN KEMAYORAN, RW.8, SUMUR BATU, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1007",
+        "DESA": "SUMUR BATU",
+        "LONGITUDE": 106.8753202,
+        "LATITUDE": -6.1628954,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "eeb831df-4381-4b73-bc18-ddc3ecbeb73f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8197159,
+          -6.1949067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "HAPPY DENTAL CLINIC GRAND INDONESIA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-1050-0061",
+        "ALAMAT": "GRAND INDONESIA WEST MALL, JL. TLK. BETUNG I NO.45A LT. 3, KB. MELATI, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1005",
+        "DESA": "KEBON MELATI",
+        "LONGITUDE": 106.8197159,
+        "LATITUDE": -6.1949067,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "06b0eecd-35c2-40b1-a977-fad6259f80d2",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8163984,
+          -6.2052289
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SAPPHIRE DENTAL AESTHETIC SUDIRMAN",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0817-716-161",
+        "ALAMAT": "RT.10/RW.6, KARET TENGSIN, JAKARTA, CENTRAL JAKARTA CITY, JAKARTA 10250",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8163984,
+        "LATITUDE": -6.2052289,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ae0cb59e-69e5-4188-a6c3-638ac3c53a1d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8036479,
+          -6.2244843
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GUNARSO GUNADI DENTAL CENTRE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 25554337",
+        "ALAMAT": "JL. JENDERAL SUDIRMAN, RT.1/RW.3, GELORA, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10270",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1001",
+        "DESA": "GELORA",
+        "LONGITUDE": 106.8036479,
+        "LATITUDE": -6.2244843,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "21340cef-517b-40b1-bcc4-10d5279742cd",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8198573,
+          -6.1903667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK & APOTEK KEBON KACANG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 31934734",
+        "ALAMAT": "JL. KB. KACANG XII NO.11 4, RT.4/RW.3, KB. KACANG, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10240",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1006",
+        "DESA": "KEBON KACANG",
+        "LONGITUDE": 106.8198573,
+        "LATITUDE": -6.1903667,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "916fa03c-8381-4564-9053-b5f7365dabf6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8200345,
+          -6.2038382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MELATI DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 5702526",
+        "ALAMAT": "WISMA 46 - KOTA BNI, 3RD FLOOR, JL. JENDERAL SUDIRMAN NO.KAV 1 SUITE 3.02, JAKARTA 10220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8200345,
+        "LATITUDE": -6.2038382,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ab36900b-bf8f-4b6d-9630-5e3df3b04e5a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8006401,
+          -6.2223921
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI PPKGBK",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 5734070",
+        "ALAMAT": "BKM PPKGBK, JL. PINTU SATU SENAYAN NO.1, RT.1/RW.3, GELORA, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10270",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1001",
+        "DESA": "GELORA",
+        "LONGITUDE": 106.8006401,
+        "LATITUDE": -6.2223921,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "112712a2-769e-4741-b636-d18de01e643b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8066101,
+          -6.2072982
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "TOOTH'S KINGDOM DENTAL CARE BENHIL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0852-8009-7308",
+        "ALAMAT": "JL. D. TONDANO NO.5, BEND. HILIR, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.8066101,
+        "LATITUDE": -6.2072982,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "6c16e79d-1fce-4fb8-82b6-1ae623ebbcf8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8109933,
+          -6.199619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "ANNISA DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0815-1309-2204",
+        "ALAMAT": "JL. ADMINISTRASI NEGARA I NO.28 1, RT.1/RW.7, BEND. HILIR, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.8109933,
+        "LATITUDE": -6.199619,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "f76b1e02-8568-4436-a28d-2414a53c3790",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.812092,
+          -6.210924
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI KIMIA FARMA 298",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "",
+        "ALAMAT": "JL. BENDUNGAN HILIR NO.27, RT.4/RW.3, BEND. HILIR, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.812092,
+        "LATITUDE": -6.210924,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "adf45db7-0ce4-40c4-9cad-1c314d3c03a9",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8153122,
+          -6.1927329
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "BELA DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0856-7157-311",
+        "ALAMAT": "JL. KEBON KACANG 41 NO.8 1, RT.1/RW.10, KB. KACANG, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10240",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1006",
+        "DESA": "KEBON KACANG",
+        "LONGITUDE": 106.8153122,
+        "LATITUDE": -6.1927329,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "d4c539ee-b8d5-4465-aba2-405924cb3706",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8163377,
+          -6.2052605
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI NOTO SUDIRMAN",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "",
+        "ALAMAT": "JL. K.H. MAS MANSYUR NO.9 10, RT.10/RW.6, KARET TENGSIN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10250",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8163377,
+        "LATITUDE": -6.2052605,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "5afb3367-911f-4dad-b7ff-20f2ec42d4b8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8116697,
+          -6.2114016
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK PRATAMA BENDUNGAN HILIR",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 57901686",
+        "ALAMAT": "JL. BENDUNGAN HILIR 14 NO.2 4, RT.4/RW.3, BEND. HILIR, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.8116697,
+        "LATITUDE": -6.2114016,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "843a8a4f-bc1e-4399-b2f2-d85a99b57d68",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8164748,
+          -6.1835295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 31991301",
+        "ALAMAT": "THE BOULEVARD, JL. IR. H. JUANDA JL. H. FACHRUDIN NO.5 LT. UG, RT.1/RW.7, KP. BALI, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10250",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1007",
+        "DESA": "KAMPUNG BALI",
+        "LONGITUDE": 106.8164748,
+        "LATITUDE": -6.1835295,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "83e95557-bd40-41ec-af91-d14ce80d2d24",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8129605,
+          -6.217452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "WOW CLINIC - DENTAL, SKIN CARE & GENERAL MEDICAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0818-0206-2023",
+        "ALAMAT": "JL. JEND. SUDIRMAN NO.28, RW.1, BEND. HILIR, KECAMATAN TANAH ABANG, JAKARTA, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.8129605,
+        "LATITUDE": -6.217452,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "b5671e24-ed35-4cb0-ad18-02faad596ee1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8066109,
+          -6.1962103
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK PRATAMA BETHEL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0816-881-355",
+        "ALAMAT": "JL. PETAMBURAN IV NO.5 1, RT.1/RW.4, PETAMBURAN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 11440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1004",
+        "DESA": "PETAMBURAN",
+        "LONGITUDE": 106.8066109,
+        "LATITUDE": -6.1962103,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "f0e18ad6-90db-4112-96fe-7c4bdacc9978",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8141475,
+          -6.1943246
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK CITRA MEDIKA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 22391255",
+        "ALAMAT": "JL. K.H. MAS MANSYUR NO.60, RT.6/RW.13, KB. MELATI, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10230",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1005",
+        "DESA": "KEBON MELATI",
+        "LONGITUDE": 106.8141475,
+        "LATITUDE": -6.1943246,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "fa797a0a-1088-4b94-ac0d-50d9ab00241e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8197024,
+          -6.2091253
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MP CLINIC AYANA MIDPLAZA HOTEL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 2514523",
+        "ALAMAT": "JL. JEND. SUDIRMAN KAV. 10 - 11 KARET TENGSIN TANAH ABANG JAKARTA PUSAT DKI JAKA, RT.10/RW.11, KARET TENGSIN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8197024,
+        "LATITUDE": -6.2091253,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "f613ad05-5fcc-43d5-8826-28052de127ce",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8211713,
+          -6.2039251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK MHDC WISMA 46",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-1805-531",
+        "ALAMAT": "WISMA 46 - KOTA BNI, LANTAI 1, SUITE 1.10, JL. JENDERAL SUDIRMAN NO.KAV. 1, RT.10/RW.11, KARET TENGSIN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8211713,
+        "LATITUDE": -6.2039251,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "e8c54d9b-e4ad-4816-b7e5-e766cb2c6118",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8016954,
+          -6.1656855
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI SPESIALIS VICTORIA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 6386088",
+        "ALAMAT": "ROXY MAS BLOK B 2 NO.3-5 JALAN K.H HASYIM ASHARI, RT.15/RW.8, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1006",
+        "DESA": "DURI PULO",
+        "LONGITUDE": 106.8016954,
+        "LATITUDE": -6.1656855,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "5fdd0799-0ef4-4cab-9a0c-086f0f21a70f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8264909,
+          -6.191247
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "LAURA DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 31907567",
+        "ALAMAT": "JL. LOMBOK NO, 51, RT.4/RW.5, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8264909,
+        "LATITUDE": -6.191247,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "39d116df-5ed9-4e89-be6a-769757cdabbf",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8083529,
+          -6.1707686
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI SONNY SETIJONO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0815-8508-6868",
+        "ALAMAT": "JL. BIAK NO.3 10, RT.10/RW.4, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.8083529,
+        "LATITUDE": -6.1707686,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "cc4fd044-0a51-4499-9faa-256a37baba1e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.810097,
+          -6.175304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MAX DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3500535",
+        "ALAMAT": "JL. KAPUAS NO.22A 10, RT.10/RW.2, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.810097,
+        "LATITUDE": -6.175304,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "270d6123-a6ea-4970-ad40-63aa69a06d82",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8184626,
+          -6.2089678
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MONODENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0877-7796-9191",
+        "ALAMAT": "CITYWALK SUDIRMAN LT. 2 NO.16, RT.10/RW.11, KARET TENGSIN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8184626,
+        "LATITUDE": -6.2089678,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "dde4974a-5340-4886-b826-3bfc45f6fa39",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.852916,
+          -6.1997842
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTAPRO CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0816-1966-578",
+        "ALAMAT": "JL. SALEMBA RAYA NO.34-36 KAVLING O, RT.5/RW.6, KENARI, SENEN, CENTRAL JAKARTA CITY, JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.852916,
+        "LATITUDE": -6.1997842,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "9896157b-b653-4d08-9cd4-b5a219b3a44a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.845066,
+          -6.194994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTAL DEPO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 97484779",
+        "ALAMAT": "JALAN SALEMBA RAYA NO.4, RT.1/RW.4, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.845066,
+        "LATITUDE": -6.194994,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "86a3dbad-6e2a-4dbf-abe1-7488463c265c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8417666,
+          -6.1766868
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "FICKY DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0878-8158-0877",
+        "ALAMAT": "JL. PASAR SENEN, RT.18/RW.2, SENEN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10410",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1001",
+        "DESA": "SENEN",
+        "LONGITUDE": 106.8417666,
+        "LATITUDE": -6.1766868,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "72b857df-814a-4065-ab6d-1d7237d9c2c6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.820632,
+          -6.21019
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTAL CLINIC AT MIDPLAZA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 5703675",
+        "ALAMAT": "MIDPLAZA, LT. G KAV. 10-11, JL. JENDERAL SUDIRMAN NO.1 10, RT.10/RW.11, KARET TENGSIN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.820632,
+        "LATITUDE": -6.21019,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "845afd4d-94af-4d7f-803c-ffbd427786ce",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8498756,
+          -6.1914171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "ESTE DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0878-6755-2787",
+        "ALAMAT": "JL. PASEBAN RAYA NO.13, RT./RW:/RW.002/003, PASEBAN, SENEN, CENTRAL JAKARTA CITY, JAKARTA 10440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8498756,
+        "LATITUDE": -6.1914171,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2e412140-0dca-48ea-8e52-509fa3934c24",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8084623,
+          -6.1693125
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KURNIAWAN DENTIST",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0813-1736-6161",
+        "ALAMAT": "JL. BIAK NO.32, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.8084623,
+        "LATITUDE": -6.1693125,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "552b7f44-c8ae-4d20-9915-840475577d6f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8062881,
+          -6.1725179
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI EKA DHARMA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0815-1118-8760",
+        "ALAMAT": "JL. PETOJO VIJ VII NO.14, RT.14/RW.6, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.8062881,
+        "LATITUDE": -6.1725179,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "903e8232-d618-45bc-8fd4-b9ab189a30ee",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8487502,
+          -6.1746564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI 2000 TIGA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0896-6819-8474",
+        "ALAMAT": "2, JL. LETJEN SUPRAPTO NO.53, RT.2/RW.10, BUNGUR, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10460",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1006",
+        "DESA": "BUNGUR",
+        "LONGITUDE": 106.8487502,
+        "LATITUDE": -6.1746564,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "6e736509-d089-4f91-9390-848fa3715605",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8264472,
+          -6.1650276
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTLY DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-1213-2525",
+        "ALAMAT": "JL. PECENONGAN JL. SAMANHUDI NO.MOR 21, RT.1/RW.4, KB. KLP., KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10120",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1005",
+        "DESA": "KEBON KELAPA",
+        "LONGITUDE": 106.8264472,
+        "LATITUDE": -6.1650276,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3ced3c52-693b-4764-892b-5a3388d1061b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.807933,
+          -6.166437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI ORCHID (CABANG APOTEK ROXY BIAK)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-1886-191",
+        "ALAMAT": "APOTIK ROXY BIAK, JL. BIAK NO.39 LANTAI 2, RT.2/RW.11, CIDENG, KECAMATAN GAMBIR, DKI JAKARTA, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.807933,
+        "LATITUDE": -6.166437,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "e4b8516d-846d-4e3f-a4fa-c15709daa294",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.810472,
+          -6.176871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SUSILO DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3853936",
+        "ALAMAT": "JL. CIUJUNG NO.23, RT.6/RW.1, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.810472,
+        "LATITUDE": -6.176871,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "18fac270-4c55-4076-a394-a707dfeaa498",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.811248,
+          -6.2121824
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI DENTASSURE DENTAL HEALTHCARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-9888-8716",
+        "ALAMAT": "JL. BEND. JATILUHUR NO.78, RT.2/RW.3, BEND. HILIR, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.811248,
+        "LATITUDE": -6.2121824,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ebaa1ca2-ee10-4b6f-95d6-0f8a4f784fb1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8542638,
+          -6.1738343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "BELLA DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-8587-877",
+        "ALAMAT": "JL. TEMBAGA RAYA NO.39A, HARAPAN MULYA, KEMAYORAN, CENTRAL JAKARTA CITY, JAKARTA 10640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1003",
+        "DESA": "HARAPAN MULIA",
+        "LONGITUDE": 106.8542638,
+        "LATITUDE": -6.1738343,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "8f41b8ff-c4ea-4329-bc7e-c329401a971d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8492933,
+          -6.1745812
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MERAPIKAN GIGI - ORTHODONTIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "",
+        "ALAMAT": "JL. LETJEN SUPRAPTO NO.53 3, RT.2/RW.10, BUNGUR, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10460",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1006",
+        "DESA": "BUNGUR",
+        "LONGITUDE": 106.8492933,
+        "LATITUDE": -6.1745812,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "795854fb-6d1e-4cef-9085-509eb8c9e706",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8486329,
+          -6.1746812
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI 2003",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 42802689",
+        "ALAMAT": "JL. LETJEN SUPRAPTO NO.53, RT.17/RW.3, CEMP. BARU, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1006",
+        "DESA": "BUNGUR",
+        "LONGITUDE": 106.8486329,
+        "LATITUDE": -6.1746812,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2d7715b2-4abe-46c9-bd20-059685c6dc1c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.812749,
+          -6.1644567
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "WIDODO DENTAL CENTER",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 6316363",
+        "ALAMAT": "JALAN PETOJO UTARA, JL. PETOJO BINATU RAYA NO.26, RT.1/RW.4, PETOJO UTARA, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10140",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1003",
+        "DESA": "PETOJO UTARA",
+        "LONGITUDE": 106.812749,
+        "LATITUDE": -6.1644567,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "04cc2b82-e9d0-411f-8263-81b8095523d1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8186878,
+          -6.1608188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MONODENTAL KLINIK GIGI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0878-7893-6161",
+        "ALAMAT": "GAJAH MADA PLAZA, JL. GAJAH MADA NO.19 LT. UG 15N, RT.2/RW.1, NORTH PETOJO, GAMBIR, CENTRAL JAKARTA CITY, JAKARTA 10130",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1003",
+        "DESA": "PETOJO UTARA",
+        "LONGITUDE": 106.8186878,
+        "LATITUDE": -6.1608188,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "7c010efb-a1ab-4472-a50c-6b68190a8ff7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8109193,
+          -6.1678426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "IMAN DJAJADI SLAMET DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0815-8020-900",
+        "ALAMAT": "JL. CIDENG TIMUR NO.28, PETOJO UTARA, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10130",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1003",
+        "DESA": "PETOJO UTARA",
+        "LONGITUDE": 106.8109193,
+        "LATITUDE": -6.1678426,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "0818f254-9155-4162-94f9-bce47596fc27",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8520654,
+          -6.1681203
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK SRIKANDI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 4207948",
+        "ALAMAT": "JL. UTAN PANJANG BAR. NO.103A 7, RT.7/RW.8, UTAN PANJANG, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10650",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1008",
+        "DESA": "UTAN PANJANG",
+        "LONGITUDE": 106.8520654,
+        "LATITUDE": -6.1681203,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "512c868f-c20d-45b8-be76-6f89884c9837",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8421269,
+          -6.1923833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "WIDE SMILE DENTAL CLINIC - RADEN SALEH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0896-1774-5145",
+        "ALAMAT": "4, JL. RADEN SALEH NO.39G (KOMPLEK PURI INN, SEBERANG RS PGI 1, RT.1/RW.4, CIKINI, JAKARTA, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10330",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1003",
+        "DESA": "CIKINI",
+        "LONGITUDE": 106.8421269,
+        "LATITUDE": -6.1923833,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3855260c-ab5c-47f1-8245-7d06c03660da",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8715552,
+          -6.1883414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI DENT SMILE GREEN PRAMUKA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 29624687",
+        "ALAMAT": "CITY, APARTEMEN GREEN PRAMUKA, JL. JEND. AHMAD YANI KAV.49 TOWER PINO (KUNING) 11 RT.13/RW.9, KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10570",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1003",
+        "DESA": "RAWASARI",
+        "LONGITUDE": 106.8715552,
+        "LATITUDE": -6.1883414,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "de4e0f11-e4c2-4ba9-9429-4c9aab849734",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8288248,
+          -6.1894606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SMILE ART DENTAL AESTHETIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0858-1010-9191",
+        "ALAMAT": "JL. HOS. COKROAMINOTO NO.26A, RT.3/RW.4, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8288248,
+        "LATITUDE": -6.1894606,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3263c597-b3af-4ff6-9433-4088cf3eecde",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8167981,
+          -6.1944775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SMILE DENTAL | VENEER GIGI | BEHEL GIGI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0895-0570-1626",
+        "ALAMAT": "THAMRIN CITY MALL, LANTAI 2 BLOK C31 NO. 17 JAKARTA, KB. MELATI, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10230",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1005",
+        "DESA": "KEBON MELATI",
+        "LONGITUDE": 106.8167981,
+        "LATITUDE": -6.1944775,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c6d30619-1eda-4b7c-a121-974986970aa2",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8290062,
+          -6.1873897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "PURE DENTAL AESTHETIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 21230870",
+        "ALAMAT": "WH, JL. K.H. WAHID HASYIM NO.47 1, RT.1/RW.4, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8290062,
+        "LATITUDE": -6.1873897,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "d6d4fb37-785a-4fb8-990f-20a6ab753e98",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8561036,
+          -6.1834889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "DENTISTEAM DENTAL CLINIC JOHAR BARU",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0855-1488-875",
+        "ALAMAT": "JL. PERCETAKAN NEGARA II NO.19, RT.1/RW.6, JOHAR BARU, KEC. JOHAR BARU, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10560",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.08",
+        "KECAMATAN": "JOHAR BARU",
+        "ID_DESA": "31.71.08.1001",
+        "DESA": "JOHAR BARU",
+        "LONGITUDE": 106.8561036,
+        "LATITUDE": -6.1834889,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "62e576e9-4977-47d7-97e6-b9a0d98f9a05",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8161554,
+          -6.1813395
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SMILE ID DENTAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-1152-541",
+        "ALAMAT": "JL. JATI BARU RAYA NO.4 2A, RT.4/RW.1, SOUTH PETOJO, GAMBIR, JAKARTA, 10160",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1004",
+        "DESA": "PETOJO SELATAN",
+        "LONGITUDE": 106.8161554,
+        "LATITUDE": -6.1813395,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "563dd826-815a-4fb5-b1f3-f18f7267a477",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.809012,
+          -6.173843
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KUSNOTO ORTHODONTIC & GENERAL DENTISTRY",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3842768",
+        "ALAMAT": "JL. MUSI NO.27 13, RT.13/RW.2, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.809012,
+        "LATITUDE": -6.173843,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c957f1d0-1236-4d83-ad36-4fff5a0a197b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8455812,
+          -6.1826584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI APOTIK GARUDA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0878-8888-3222",
+        "ALAMAT": "JL. DURI UTARA 1 NO.2A, RT.3/RW.2, KRAMAT, KEC. SENEN, JAKARTA, DAERAH KHUSUS IBUKOTA JAKARTA 11270",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1004",
+        "DESA": "KRAMAT",
+        "LONGITUDE": 106.8455812,
+        "LATITUDE": -6.1826584,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "81200f85-fd98-456a-9e11-488511349798",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8251384,
+          -6.1849922
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "ADITYA DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-1062-062",
+        "ALAMAT": "HERO - GUARDIAN SABANG, JL. H. AGUS SALIM NO.39 2ND FLOOR, KB. SIRIH, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1005",
+        "DESA": "KEBON SIRIH",
+        "LONGITUDE": 106.8251384,
+        "LATITUDE": -6.1849922,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "fc84d3e0-6c8e-414b-b602-b1f59749ba95",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8144886,
+          -6.1794727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK TIARA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3847852",
+        "ALAMAT": "JL. TANAH ABANG 5 NO.37, RT.13/RW.4, PETOJO SEL., KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10160",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1004",
+        "DESA": "PETOJO SELATAN",
+        "LONGITUDE": 106.8144886,
+        "LATITUDE": -6.1794727,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "f6c4eb5e-ff12-4cae-ad9f-7f545a2c0e8f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.84008,
+          -6.1746109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SDC AESTHETIC CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0896-8879-9191",
+        "ALAMAT": "APARTMEN MITRA OASIS TOWER B, JL. SENEN RAYA NO.135, RT.2/RW.2, SENEN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10410",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1001",
+        "DESA": "SENEN",
+        "LONGITUDE": 106.84008,
+        "LATITUDE": -6.1746109,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "cfe12591-0903-4022-899b-f62d51073f1e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8113508,
+          -6.1609944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK WIRA SEHAT MEDIKA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 6332852",
+        "ALAMAT": "JL. KYAI HAJI ZAINUL ARIFIN G-H-I NO.59, RT.7/RW.4, PETOJO UTARA, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10130",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1003",
+        "DESA": "PETOJO UTARA",
+        "LONGITUDE": 106.8113508,
+        "LATITUDE": -6.1609944,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "31383ae1-be91-4a13-aa9e-1254b3261787",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8291453,
+          -6.1876073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RATA.ID MENTENG | CLEAR ALIGNERS & KLINIK GIGI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "",
+        "ALAMAT": "JL. K.H. WAHID HASYIM NO.47 1, RT.1/RW.4, GONDANGDIA, MENTENG, CENTRAL JAKARTA CITY, JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8291453,
+        "LATITUDE": -6.1876073,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "af670889-d8e6-40cc-b722-bfce8fb6aa29",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.826256,
+          -6.200384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "ORTHODONTIST HIMAWAN HALIM",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3147376",
+        "ALAMAT": "JL. SUMENEP NO.7, RT.11/RW.4, MENTENG, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.826256,
+        "LATITUDE": -6.200384,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "51bc544f-2c09-4225-97b4-f5e605663fef",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8373646,
+          -6.1995182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "MENTENG DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3910380",
+        "ALAMAT": "JL. TEUKU CIK DITIRO NO.43 10, RT.10/RW.5, MENTENG, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8373646,
+        "LATITUDE": -6.1995182,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "955d718d-d6d7-4826-ad11-23ea1ceb00dc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8282844,
+          -6.1964721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RED LIPS DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3905997",
+        "ALAMAT": "MENTENG CENTRAL LANTAI 3, JL. HOS. COKROAMINOTO NO.78, RT.2/RW.5, MENTENG, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8282844,
+        "LATITUDE": -6.1964721,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "0dc7f8e6-6248-4dbe-9eb6-448038e03a35",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8339317,
+          -6.1991332
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "CARE 12 DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 3900259",
+        "ALAMAT": "JL. SYAMSU RIZAL NO 12, RT.5/RW.5, MENTENG, CENTRAL JAKARTA CITY, JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8339317,
+        "LATITUDE": -6.1991332,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "e3195df2-dd04-4132-b3a6-1d430b2a4e46",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.832705,
+          -6.187514
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI GET DENTIST MENTENG - JAKARTA PUSAT",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0811-8881-5533",
+        "ALAMAT": "JL. JOHAR NO.1A, RT.5/RW.3, GONDANGDIA, MENTENG, CENTRAL JAKARTA CITY, JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.832705,
+        "LATITUDE": -6.187514,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2c50be6f-879a-421e-b0a7-23b78c1ae079",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8729675,
+          -6.1762805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI NITI, CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0817-0119-191",
+        "ALAMAT": "JL. CEMPAKA PUTIH NO. 129 A ( SEBELAH APOTIK TAMAN SOLO) LANTAI 2, RT.1/RW.7, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8729675,
+        "LATITUDE": -6.1762805,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3460d904-9cd1-4898-8c2f-19b73e60ca1d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8606471,
+          -6.1760419
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI 2000 TIGA CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-8039-6161",
+        "ALAMAT": "JL. CEMPAKA PUTIH RAYA NO. 9 RT 09 RW 03. KEL. CEMPAKA PUTIH BARAT JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10520",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1002",
+        "DESA": "CEMPAKA PUTIH BARAT",
+        "LONGITUDE": 106.8606471,
+        "LATITUDE": -6.1760419,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "44e2ea09-15ad-4fc1-acf2-70dc5cf7a28d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8696388,
+          -6.1855769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "AR DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0819-4888-998",
+        "ALAMAT": "JL. KOMP, JL. CEMP. PUTIH BAR. NO.26, RT.11, RT.11/RW.7, CEMP. PUTIH BAR., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10520",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1002",
+        "DESA": "CEMPAKA PUTIH BARAT",
+        "LONGITUDE": 106.8696388,
+        "LATITUDE": -6.1855769,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "96a9e2f7-d859-4a4d-9643-44678db08f7e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8729682,
+          -6.1759198
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "CEMPAKA DENTAL CARE",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0898-8818-217",
+        "ALAMAT": "JL. CEMPAKA PUTIH TENGAH XVII C NO.29 6, RT.6/RW.7, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8729682,
+        "LATITUDE": -6.1759198,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "a6f942bc-9d35-4abe-975d-1dc55ca57acd",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8741224,
+          -6.176704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "OCEAN DENTAL CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-8209-8797",
+        "ALAMAT": "JL. JAWA NO.16, RT.16/RW.3, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10520",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8741224,
+        "LATITUDE": -6.176704,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "eef2dfe1-614a-4aff-b557-13edb1e73fd7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8714133,
+          -6.169544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "CEMPAKA DENTAL BEAUTY",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0898-8818-217",
+        "ALAMAT": "NO 17 D, JL. CEMP. PUTIH TENGAH I NO.17D, RT.9/RW.7, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8714133,
+        "LATITUDE": -6.169544,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "27693de2-e896-4ced-ae35-ab259dfa8ff8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8743365,
+          -6.1767445
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SATU DENTAL CEMPAKA PUTIH | KLINIK GIGI DEKAT DAN TERPERCAYA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "0812-8099-9357",
+        "ALAMAT": "JL. CEMPAKA PUTIH RAYA NO.116D, EAST CEMPAKA PUTIH, CEMPAKA PUTIH, CENTRAL JAKARTA CITY, JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8743365,
+        "LATITUDE": -6.1767445,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c409402c-dcf6-4381-9cfd-db6544996dbb",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8663172,
+          -6.1765286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK GIGI CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 4259926",
+        "ALAMAT": "JL. CEMPAKA PUTIH RAYA NO.1 2, RT.2/RW.6, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8663172,
+        "LATITUDE": -6.1765286,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "994f4b13-a471-4a48-84ec-a3198a7b2ff7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8719866,
+          -6.1761136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "ESTETIKA DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "(021) 4245731",
+        "ALAMAT": "JALAN CEMPAKA PUTIH RAYA NO.B4, RT.7/RW.8, CEMPAKA PUTIH TIMUR, JAKARTA PUSAT, RT.7/RW.8, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8719866,
+        "LATITUDE": -6.1761136,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "6c3236e5-6885-466c-8531-97b17c4688d1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8661219,
+          -6.1794911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK PRATAMA CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "",
+        "ALAMAT": "KOMPLEK SEKNEG, JL. CEMPAKA PUTIH BARAT 26 NO.3, RT.5/RW.12, CEMP. PUTIH BAR., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10520",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1002",
+        "DESA": "CEMPAKA PUTIH BARAT",
+        "LONGITUDE": 106.8661219,
+        "LATITUDE": -6.1794911,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c9374563-8fd3-4c00-994c-6860a60eb5d6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8137209,
+          -6.217928
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK MEDICAL DENTAL CLINIC",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "KLINIK",
+        "TIPE_3": "KLINIK DAN DOKTER GIGI",
+        "TELEPON": "",
+        "ALAMAT": "JL. JEND. SUDIRMAN NO.32 14, RT.14/RW.1, BEND. HILIR, JAKARTA, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.8137209,
+        "LATITUDE": -6.217928,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    }
+  ]
+}

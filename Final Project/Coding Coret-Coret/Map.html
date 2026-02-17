@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+
+    <!-- MAPLIBRE -->
+    <script src="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class"
+        }
+    </script>
+    <!--CDN TAILWIN CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--CDN Turf.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+
+
+</head>
+
+<body class=" h-screen w-screen overflow-hidden bg-[#F5F9E9]">
+
+    <!-- NAVBAR -->
+    <nav class="w-full flex items-center justify-between gap-4 
+    bg-[#475b63] dark:bg-[#24322E]
+    text-[#F5F9E9] dark:text-[#E9EFE5]
+    px-4 py-2 sticky top-0 z-10">
+
+        <div class="flex items-center gap-3">
+            <a href="/Final Project/coding/Home_Page.html" id="home"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/home-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </a>
+
+            <div class="text-base font-bold flex items-center gap-1 cursor-pointer">
+                MyWebGIS
+            </div>
+        </div>
+
+        <div id="searchContainer"
+            class="flex items-center gap-2 bg-white dark:bg-[#1f2a30] shadow-md rounded-lg px-3 py-2">
+
+            <input id="searchInput" type="text" placeholder="Cari Lokasi Berdasarkan Kecamatan atau Desa" class="w-[260px] px-3 py-1 rounded 
+                    bg-white text-[black] border border-[#c2d3cd]
+                    focus:outline-none focus:ring-2 focus:ring-[#c2d3cd]
+                     dark:bg-white dark:text-black dark:border-[#24322E] dark:focus:ring-[#4CAF74]" />
+
+            <button id="searchButton" class="px-3 py-1 bg-[#57A773] text-white rounded">Cari</button>
+        </div>
+
+        <div class="flex items-center gap-2">
+            <button id="layer"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/layer-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </button>
+            <div id="layerPanel"
+                class="absolute top-16 right-4 w-48 bg-white dark:bg-[#1F2A30] p-3 rounded shadow hidden z-50">
+
+                <label class="flex items-center gap-2 mb-2 text-sm dark:text-white">
+                    <input type="checkbox" id="layerProperti" checked>
+                    Properti
+                </label>
+
+                <button id="applyLayer"
+                    class="w-full bg-[#57A773] text-white p-1 rounded hover:bg-[#4CAF74] active:scale-95">
+                    Apply
+                </button>
+
+            </div>
+
+
+            <a href="/Final Project/coding/Potofolio_Page.html" id="contact-us"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/contact-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </a>
+
+            <button id="mode"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/mode-dark-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </button>
+        </div>
+    </nav>
+    <!--MAP-->
+    <div id="map" class="w-full h-full bg-[#157145] dark:bg-[#13201C]"></div>
+
+
+    <script>
+
+        //1. script untuk switch mode
+        if (localStorage.theme === "dark") {
+            document.documentElement.classList.add("dark")
+        } else if (localStorage.theme === "light") {
+            document.documentElement.classList.remove("dark")
+        } else {
+            if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
+                document.documentElement.classList.add("dark")
+            }
+        }
+        function changeTheme() {
+            if (document.documentElement.classList.contains("dark")) {
+                document.documentElement.classList.remove("dark")
+                localStorage.theme = "light"
+            } else {
+                document.documentElement.classList.add("dark")
+                localStorage.theme = "dark"
+            }
+        }
+        document.getElementById("mode").addEventListener("click", changeTheme);
+
+        //2. Script memanggil peta
+        const MAP_SERVICE_KEY = "68dcd62806823ed3f510dddf";
+        const LIGHT_THEME = "street-2d-building";
+        const DARK_THEME = "dark";
+        //https://basemap.mapid.io/styles/street-new-generation/style.json?key=68dcd62806823ed3f510dddf
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${LIGHT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [107.14504645971738, -6.255886768288434],
+            zoom: 10, //0-22 level
+            pitch: 0,
+            bearing: 0,
+            container: "map",
+            canvasContextAttributes: { antialias: true },
+            attributionControl: true,
+        });
+
+        //3. script untuk switch mode theme map
+        function changeTheme() {
+            if (document.documentElement.classList.contains("dark")) {
+                document.documentElement.classList.remove("dark")
+                localStorage.theme = "light"
+                map.setStyle(`https://basemap.mapid.io/styles/${LIGHT_THEME}/style.json?key=${MAP_SERVICE_KEY}`)
+            } else {
+                document.documentElement.classList.add("dark")
+                localStorage.theme = "dark"
+                map.setStyle(`https://basemap.mapid.io/styles/${DARK_THEME}/style.json?key=${MAP_SERVICE_KEY}`)
+            }
+        }
+
+
+        // 4. masukin url data
+        const layersData = [
+            {
+                id: "properti",
+                name: "Properti",
+                url: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f3a96b90db738e31ad5&project_id=68f488c244612b4d22ec2f83&limit=10000",
+                type: "circle",
+                paint: {
+                    "circle-radius": 5,
+                    "circle-color": "#1E90FF"
+                }
+            },
+            {
+                id: "kesehatan",
+                name: "Kesehatan",
+                url: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f6096b90db738e31ee9&project_id=68f488c244612b4d22ec2f83&limit=10000",
+                type: "circle",
+                paint: {
+                    "circle-radius": 5,
+                    "circle-color": "#00FF7F"
+                }
+            },
+            {
+                id: "transportasi",
+                name: "Transportasi",
+                url: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f75c8804625c613cc1b&project_id=68f488c244612b4d22ec2f83&limit=10000",
+                type: "circle",
+                paint: {
+                    "circle-radius": 5,
+                    "circle-color": "#FFA500"
+                }
+            },
+            {
+                id: "pendidikan",
+                name: "Pendidikan",
+                url: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f99c8804625c613cd3c&project_id=68f488c244612b4d22ec2f83&limit=10000",
+                type: "circle",
+                paint: {
+                    "circle-radius": 5,
+                    "circle-color": "#FF69B4"
+                }
+            },
+            {
+                id: "banjir",
+                name: "Banjir",
+                url: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8fbec8804625c613d261&project_id=68f488c244612b4d22ec2f83&limit=10000",
+                type: "fill",
+                paint: {
+                    "fill-color": "#FF0000",
+                    "fill-opacity": 0.4,
+                    "fill-color": [
+                        "match", //mengganti data di SES dengan warna
+                        ["get", "KELAS_RISIKO"], //mengambil nilai dari kolom kelas risiko
+                        "RENDAH", "green", //kalau nilainya atas maka warna merah
+                        "SEDANG", "yellow",
+                        "TINGGI", "red",
+                        "gray" //kalau kosong atau null maka nilainya abu-abu
+                    ],
+                    "fill-opacity": 0.6
+                }
+            }
+        ];
+
+        //Bikin panel toggle layer
+        // Panel Layer
+        const layerPanel = document.createElement("div");
+        layerPanel.id = "layer-panel";
+        layerPanel.className = "absolute top-14 right-4 bg-white p-3 border rounded shadow hidden";
+        document.body.appendChild(layerPanel);
+
+        layersData.forEach(layer => {
+            const div = document.createElement("div");
+            div.innerHTML = `
+        <label class='flex items-center gap-2'>
+            <input type="checkbox" id="chk-${layer.id}" />
+            ${layer.name}
+        </label>`;
+            layerPanel.appendChild(div);
+        });
+
+        // Apply Button
+        const applyBtn = document.createElement("button");
+        applyBtn.textContent = "Apply";
+        applyBtn.className = "mt-2 w-full bg-blue-600 text-white p-1 rounded";
+        layerPanel.appendChild(applyBtn);
+
+        document.getElementById("layer").addEventListener("click", () => {
+            layerPanel.classList.toggle("hidden");
+        });
+
+        applyBtn.addEventListener("click", () => {
+            layersData.forEach(layer => {
+                const isChecked = document.getElementById(`chk-${layer.id}`).checked;
+
+                if (isChecked) {
+                    if (!map.getSource(layer.id)) {
+                        map.addSource(layer.id, { type: "geojson", data: layer.url });
+                        map.addLayer({ id: layer.id, type: layer.type, source: layer.id, paint: layer.paint });
+                    } else {
+                        map.setLayoutProperty(layer.id, "visibility", "visible");
+                    }
+                } else {
+                    if (map.getLayer(layer.id)) {
+                        map.setLayoutProperty(layer.id, "visibility", "none");
+                    }
+                }
+            });
+
+            layerPanel.classList.add("hidden");
+        });
+
+        // SEARCH
+        const searchInput = document.getElementById("searchInput");
+        const searchButton = document.getElementById("searchButton");
+
+        // Pastikan layer sudah ada dulu
+        map.on("load", () => {
+            map.addSource("properti", {
+                type: "geojson",
+                data: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f3a96b90db738e31ad5&project_id=68f488c244612b4d22ec2f83&limit=10000"
+            });
+
+            map.addLayer({
+                id: "properti-layer",
+                type: "circle",
+                source: "properti",
+                paint: {
+                    "circle-radius": 5,
+                    "circle-color": "#1E90FF"
+                },
+                filter: ["==", ["get", "KECAMATAN"], ""]
+            });
+
+        });
+
+        function doSearch() {
+            const keyword = searchInput.value.toLowerCase();
+            if (!keyword) return;
+
+            // Filter layer by kecamatan or desa
+            map.setFilter("properti-layer", [
+                "any",
+                ["==", ["downcase", ["get", "KECAMATAN"]], keyword],
+                ["==", ["downcase", ["get", "DESA"]], keyword]
+            ]);
+
+            // Fit to search result automatically
+            const features = map.querySourceFeatures("properti").filter(f =>
+                f.properties.KECAMATAN?.toLowerCase() === keyword ||
+                f.properties.DESA?.toLowerCase() === keyword
+            );
+
+            if (features.length > 0) {
+                const bbox = turf.bbox({
+                    type: "FeatureCollection",
+                    features
+                });
+                map.fitBounds(bbox, { padding: 60 });
+            } else {
+                alert("Tidak ditemukan lokasi.");
+            }
+        }
+
+        // Tombol & Enter = pencarian
+        searchButton.addEventListener("click", doSearch);
+        searchInput.addEventListener("keydown", e => {
+            if (e.key === "Enter") doSearch();
+        });
+
+
+
+
+
+    </script>
+
+
+</body>
+
+
+</html>

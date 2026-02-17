@@ -1,0 +1,1893 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ce775a81-6fd2-444c-8212-b6465e5819c7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8504347,
+          -6.1818835
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT UMUM DAERAH (RSUD) JOHAR BARU",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 21470344",
+        "ALAMAT": "JL. TANAH TINGGI XII NO.15-23, RT.10/RW.9, TANAH TINGGI, KEC. JOHAR BARU, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10540",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.08",
+        "KECAMATAN": "JOHAR BARU",
+        "ID_DESA": "31.71.08.1004",
+        "DESA": "TANAH TINGGI",
+        "LONGITUDE": 106.8504347,
+        "LATITUDE": -6.1818835,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "54689e80-473e-40c7-b70e-566e5a02072c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8637431,
+          -6.1566715
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSUD KEMAYORAN",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 4251005",
+        "ALAMAT": "JL. SERDANG BARU I, SERDANG, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10650",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1004",
+        "DESA": "SERDANG",
+        "LONGITUDE": 106.8637431,
+        "LATITUDE": -6.1566715,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "854880d8-315f-433f-b57c-94a15c1c9cb6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8472475,
+          -6.1957891
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSCM GEDUNG G",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "",
+        "ALAMAT": "JL. KENARI 2, RT.3/RW.4, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8472475,
+        "LATITUDE": -6.1957891,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "f6cefee4-9bd1-49ed-afda-9f78e1288930",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8445011,
+          -6.1975303
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSCM KIRANA (UPK MATA)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "(021) 31902885",
+        "ALAMAT": "JL. KIMIA NO.8-10 7 1 7 10, RT.10/RW.1, PEGANGSAAN, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1002",
+        "DESA": "PEGANGSAAN",
+        "LONGITUDE": 106.8445011,
+        "LATITUDE": -6.1975303,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "1d3ea468-d23f-46c8-9eaf-84cd7d3291c5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.837618,
+          -6.1761897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT PUSAT ANGKATAN DARAT GATOT SOEBROTO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 3840702",
+        "ALAMAT": "JL. ABDUL RAHMAN SALEH RAYA NO.24, RT.10/RW.5, SENEN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10410",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1001",
+        "DESA": "SENEN",
+        "LONGITUDE": 106.837618,
+        "LATITUDE": -6.1761897,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "563eb5b7-8042-47a6-aa04-4fd15a69c520",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8298665,
+          -6.1489402
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT UMUM DAERAH (RSUD) SAWAH BESAR",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 62320819",
+        "ALAMAT": "JL. DWIWARNA RAYA NO.6-8 15, RT.15/RW.9, KARANG ANYAR, KECAMATAN SAWAH BESAR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10740",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.02",
+        "KECAMATAN": "SAWAH BESAR",
+        "ID_DESA": "31.71.02.1002",
+        "DESA": "KARANG ANYAR",
+        "LONGITUDE": 106.8298665,
+        "LATITUDE": -6.1489402,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2d6bdc58-5097-46ae-af62-e93af206b52f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.81201,
+          -6.21092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT TNI ANGKATAN LAUT DR. MINTOHARDJO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 5703081",
+        "ALAMAT": "4, JL. BENDUNGAN HILIR NO.17, RT.4/RW.3, BEND. HILIR, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10210",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1002",
+        "DESA": "BENDUNGAN HILIR",
+        "LONGITUDE": 106.81201,
+        "LATITUDE": -6.21092,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "6ca40d3c-d7ff-4307-a8bb-17d58aba4747",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8693086,
+          -6.1697915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT YARSI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 80618618",
+        "ALAMAT": "JL. LETJEN SUPRAPTO NO.KAV 13 10, RT.10/RW.5, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8693086,
+        "LATITUDE": -6.1697915,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "81530cd5-f40b-4d17-8dde-5be8d09dfa1d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.828211,
+          -6.191149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT YPK MANDIRI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3909725",
+        "ALAMAT": "22, JL. GEREJA THERESIA NO.22, RT.7/RW.4, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.828211,
+        "LATITUDE": -6.191149,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "6007a244-fda1-40d6-bbdd-6a915eab0674",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8506777,
+          -6.1990958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT THT DAN ORTHOPEDI SS MEDIKA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 3913336",
+        "ALAMAT": "JL. SALEMBA I NO.11, RT.4/RW.6, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8506777,
+        "LATITUDE": -6.1990958,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "5cb4b026-ddc7-461c-99e2-7f6e7a9c316e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.842062,
+          -6.1914813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS CIKINI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 38997777",
+        "ALAMAT": "JL. RADEN SALEH RAYA NO.40 12, RT.12/RW.2, CIKINI, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10330",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1003",
+        "DESA": "CIKINI",
+        "LONGITUDE": 106.842062,
+        "LATITUDE": -6.1914813,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "4c7f5088-ad34-46a2-ac95-ac442350fd19",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8375114,
+          -6.1996312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS BINA ESTETIKA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3909393",
+        "ALAMAT": "41, JL. TEUKU CIK DITIRO NO.41, RT.10/RW.5, MENTENG, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8375114,
+        "LATITUDE": -6.1996312,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "12bb00b1-647b-4530-a08b-864b15eed99d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8629636,
+          -6.1688135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS ISLAM",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "",
+        "ALAMAT": "RT.3/RW.4, CEMP. BARU, KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1006",
+        "DESA": "CEMPAKA BARU",
+        "LONGITUDE": 106.8629636,
+        "LATITUDE": -6.1688135,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3b875357-d94d-45b4-8074-698ff2b7f93a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.871783,
+          -6.1729093
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "NAFSUL MUTHMAINNAH RS ISLAM JAKARTA CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "0821-1460-5415",
+        "ALAMAT": "GEDUNG UTAMA RUMAH SAKIT ISLAM JAKARTA, JL. CEMP. PUTIH TENGAH I NO.11, RT.11/RW.5, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.871783,
+        "LATITUDE": -6.1729093,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "eff5a07e-f09e-47fd-a7f3-925e27e36162",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8442336,
+          -6.1905061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "BRAWIJAYA HOSPITAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "",
+        "ALAMAT": "JL. RADEN SALEH RAYA NO.9A 1, RT.1/RW.2, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8442336,
+        "LATITUDE": -6.1905061,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ea26c6c5-128a-4bd2-801e-a9d89c473ac8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8465183,
+          -6.1961274
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GEDUNG A RUMAH SAKIT DR. CIPTO MANGUNKUSOMO (RSCM)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "1 500 135",
+        "ALAMAT": "GEDUNG A, JL. PANGERAN DIPONEGORO NO.71, RT.7/RW.5, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8465183,
+        "LATITUDE": -6.1961274,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ef4ee762-c0ef-4918-b7b8-7f4b009ec8c8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8352862,
+          -6.1951317
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "YPR HOSPITAL",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "",
+        "ALAMAT": "JL. SAWO NO.56-60, RT.10/RW.2, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8352862,
+        "LATITUDE": -6.1951317,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "6bab6c7e-c4af-4334-95ad-b963249cee5a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.871776,
+          -6.171736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GEDUNG RAUDHAH RS ISLAM JAKARTA CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 50919019",
+        "ALAMAT": "JL. CEMPAKA PUTIH TENGAH XXX, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.871776,
+        "LATITUDE": -6.171736,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "63fedb5b-ffbc-4a76-8668-65f75be45e57",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8597841,
+          -6.1935465
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "PRIMAYA HOSPITAL EVASARI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 4201515",
+        "ALAMAT": "JL. RAWAMANGUN NO.47 7, RT.10/RW.3, RAWASARI, KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10570",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1003",
+        "DESA": "RAWASARI",
+        "LONGITUDE": 106.8597841,
+        "LATITUDE": -6.1935465,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "4cf83e5e-3449-4afc-adac-a9e97c8ed30e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8520944,
+          -6.1936839
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RADJAK HOSPITAL SALEMBA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3904422",
+        "ALAMAT": "JL. SALEMBA TENGAH NO.24-28, PASEBAN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8520944,
+        "LATITUDE": -6.1936839,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3e64afca-b45e-44d4-a3ba-733c5191f0d7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8290156,
+          -6.189841
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS ABDI WALUYO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3144989",
+        "ALAMAT": "JL. HOS. COKROAMINOTO NO.31-33, RT.1/RW.3, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8290156,
+        "LATITUDE": -6.189841,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3f804727-f74d-4d8a-bc02-550c86442df8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.841935,
+          -6.191987
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "PRIMAYA HOSPITAL PGI CIKINI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 38997777",
+        "ALAMAT": "JL. RADEN SALEH RAYA NO.40, RT.12/RW.2, CIKINI, MENTENG, CENTRAL JAKARTA CITY, JAKARTA 10330",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1003",
+        "DESA": "CIKINI",
+        "LONGITUDE": 106.841935,
+        "LATITUDE": -6.191987,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "910ef29e-518e-4c0a-8ec2-6d7f5dc700a3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8512996,
+          -6.1815939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS JOHAR BARU TANAH TINGGI JAKARTA PUSAT",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "",
+        "ALAMAT": "JL. TANAH TINGGI XII NO.15 23, RT.5/RW.9, TANAH TINGGI, JOHAR BARU, CENTRAL JAKARTA CITY, JAKARTA 10540",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.08",
+        "KECAMATAN": "JOHAR BARU",
+        "ID_DESA": "31.71.08.1004",
+        "DESA": "TANAH TINGGI",
+        "LONGITUDE": 106.8512996,
+        "LATITUDE": -6.1815939,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "4cf32069-43c2-4ade-aebc-f224cdb0cbf2",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8102485,
+          -6.171623
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSUD TARAKAN JAKARTA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 85500303",
+        "ALAMAT": "JL. KYAI CARINGIN NO.7, RT.11/RW.4, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.8102485,
+        "LATITUDE": -6.171623,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "d263fee2-e70f-4f6c-9e22-356323d1abc1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8724572,
+          -6.1847813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSUD CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 4224243",
+        "ALAMAT": "JL. RAWASARI SEL. NO.1, RT.16/RW.2, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8724572,
+        "LATITUDE": -6.1847813,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "563e0c49-fa3d-4db3-a219-d33f2919be18",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8467739,
+          -6.1973909
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT DR. CIPTO MANGUNKUSUMO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 1500135",
+        "ALAMAT": "JL. PANGERAN DIPONEGORO NO.71, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8467739,
+        "LATITUDE": -6.1973909,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "5020d94e-5f43-4b5d-9d62-6832f4718346",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8194704,
+          -6.2095398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS MURNI TEGUH SUDIRMAN JAKARTA (MTSJ)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 57853911",
+        "ALAMAT": "KAWASAN SAHID CITY, JL. JENDERAL SUDIRMAN NO.86, RT.10/RW.11, KARET TENGSIN, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1003",
+        "DESA": "KARET TENGSIN",
+        "LONGITUDE": 106.8194704,
+        "LATITUDE": -6.2095398,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c2c14ac0-4575-48e2-9dc0-500916c90a93",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.830912,
+          -6.1496188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSU KECAMATAN SAWAH BESAR",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "",
+        "ALAMAT": "JL. DWI WARNA DLM 8 NO.28, RT.5/RW.1, KARTINI, KECAMATAN SAWAH BESAR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10750",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.02",
+        "KECAMATAN": "SAWAH BESAR",
+        "ID_DESA": "31.71.02.1003",
+        "DESA": "KARTINI",
+        "LONGITUDE": 106.830912,
+        "LATITUDE": -6.1496188,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "a95939c8-5037-4545-a220-de6dc4a162ad",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8458593,
+          -6.1545808
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSU HERMINA KEMAYORAN",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 22602525",
+        "ALAMAT": "BLOK B-10, JL. SELANGIT KAV. 4, RW.10, GN. SAHARI SEL., KEC. KEMAYORAN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.03",
+        "KECAMATAN": "KEMAYORAN",
+        "ID_DESA": "31.71.03.1005",
+        "DESA": "GUNUNG SAHARI SELATAN",
+        "LONGITUDE": 106.8458593,
+        "LATITUDE": -6.1545808,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "d81f2cc2-3f56-4686-95d7-40e11ceb84a1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8369665,
+          -6.1959424
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSU BUNDA JAKARTA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "1 500 799",
+        "ALAMAT": "JL. TEUKU CIK DITIRO NO.21 9, RT.9/RW.2, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.8369665,
+        "LATITUDE": -6.1959424,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c23aefaa-845d-4845-b1e7-9f95d97598b8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.818655,
+          -6.180105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT BUDI KEMULIAAN",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3842828",
+        "ALAMAT": "JL. BUDI KEMULIAAN NO.25, RT.2/RW.3, GAMBIR, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10110",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1001",
+        "DESA": "GAMBIR",
+        "LONGITUDE": 106.818655,
+        "LATITUDE": -6.180105,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "7842c270-c7ff-4e4c-851c-0cd6d3adfe86",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8368811,
+          -6.1985738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS MATA JEC @ MENTENG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "0804 122 1000",
+        "ALAMAT": "JL. TEUKU CIK DITIRO NO.46, MENTENG, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8368811,
+        "LATITUDE": -6.1985738,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "cc4c6688-505e-485b-9307-9241d22f75c4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8440879,
+          -6.1855402
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT KRAMAT 128",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3918288",
+        "ALAMAT": "JL. KRAMAT RAYA NO.128 1, RT.1/RW.8, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8440879,
+        "LATITUDE": -6.1855402,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "dd9cb533-d33d-4097-86d1-74484d1d112b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8295209,
+          -6.1474592
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT HUSADA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 6260108",
+        "ALAMAT": "JL. RAYA MANGGA BESAR NO.137-139, MANGGA DUA SEL., KECAMATAN SAWAH BESAR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10730",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.02",
+        "KECAMATAN": "SAWAH BESAR",
+        "ID_DESA": "31.71.02.1005",
+        "DESA": "MANGGA DUA SELATAN",
+        "LONGITUDE": 106.8295209,
+        "LATITUDE": -6.1474592,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ad598069-7440-461f-b731-5b17bb12c6d0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8708824,
+          -6.1706772
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT ISLAM JAKARTA CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 4250451",
+        "ALAMAT": "JL. CEMP. PUTIH TENGAH I NO.1, RT.11/RW.5, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8708824,
+        "LATITUDE": -6.1706772,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "54acf969-f938-40e9-88ec-3aa865a5cac0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8706399,
+          -6.1894621
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS UMUM KECAMATAN CEMPAKA PUTIH",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "",
+        "ALAMAT": "JL. PERCETAKAN NEGARA XI NO.135, RT.14/RW.8, RAWASARI, KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10570",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1003",
+        "DESA": "RAWASARI",
+        "LONGITUDE": 106.8706399,
+        "LATITUDE": -6.1894621,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "be060642-7344-4766-80c8-f6f163e2ce5e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.838301,
+          -6.187198
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT MENTENG MITRA AFIA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3154050",
+        "ALAMAT": "JL. KALI PASIR NO.9, RT.14/RW.10, KB. SIRIH, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10340",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1003",
+        "DESA": "CIKINI",
+        "LONGITUDE": 106.838301,
+        "LATITUDE": -6.187198,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "a86976d3-3197-4282-9c08-9f523d677d78",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.814916,
+          -6.191018
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSUD TANAH ABANG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 3150427",
+        "ALAMAT": "JL. K.H. MAS MANSYUR NO.30, RT.5/RW.7, KB. KACANG, KECAMATAN TANAH ABANG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10240",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.07",
+        "KECAMATAN": "TANAH ABANG",
+        "ID_DESA": "31.71.07.1006",
+        "DESA": "KEBON KACANG",
+        "LONGITUDE": 106.814916,
+        "LATITUDE": -6.191018,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "c07a25de-90e0-4971-b0d8-d491c259abe5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8761937,
+          -6.1732937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT PERTAMINA JAYA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 4211911",
+        "ALAMAT": "JL. JENDERAL AHMAD YANI NO.2, RT.2/RW.7, CEMP. PUTIH TIM., KEC. CEMP. PUTIH, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.05",
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "ID_DESA": "31.71.05.1001",
+        "DESA": "CEMPAKA PUTIH TIMUR",
+        "LONGITUDE": 106.8761937,
+        "LATITUDE": -6.1732937,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "70cb5aaa-a8bf-45f7-906f-a90b8faeb4b5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8369589,
+          -6.1757396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSPAD GATOT SOEBROTO.DRRACHMANTO.SPA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 3843023",
+        "ALAMAT": "JL. ABDUL RAHMAN SALEH NO.24 10, RT.10/RW.5, SENEN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10410",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1001",
+        "DESA": "SENEN",
+        "LONGITUDE": 106.8369589,
+        "LATITUDE": -6.1757396,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "cfaf7a8c-be35-4bcc-94c5-f6de2d992893",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8513711,
+          -6.1955107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT ST. CAROLUS",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM SWASTA",
+        "TELEPON": "(021) 3904441",
+        "ALAMAT": "JL. SALEMBA RAYA NO.41, RT.3/RW.5, PASEBAN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8513711,
+        "LATITUDE": -6.1955107,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "31d96193-014f-4c9c-8dc2-2b0fa1148ab3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8393271,
+          -6.1761586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSPAD GATOT SUBROTO",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT UMUM DAERAH/NEGERI",
+        "TELEPON": "(021) 3441008",
+        "ALAMAT": "I, JL. KWINI NO.1, RT.5/RW.1, SENEN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10410",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1001",
+        "DESA": "SENEN",
+        "LONGITUDE": 106.8393271,
+        "LATITUDE": -6.1761586,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "baf53692-356f-42f9-bc37-9a739f81c03b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8506777,
+          -6.1990958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT THT DAN ORTHOPEDI SS MEDIKA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT TULANG",
+        "TELEPON": "(021) 3913336",
+        "ALAMAT": "JL. SALEMBA I NO.11, RT.4/RW.6, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8506777,
+        "LATITUDE": -6.1990958,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "a3be6608-0aeb-43bd-b2be-23cbbe97be4b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.810279,
+          -6.1716178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLIKLINIK ORTHOPEDI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT TULANG",
+        "TELEPON": "",
+        "ALAMAT": "RT.11/RW.4, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.810279,
+        "LATITUDE": -6.1716178,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2cd9ff1e-287a-419a-b0eb-7027f0adef66",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8440879,
+          -6.1855402
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLIKLINIK BEDAH TULANG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT TULANG",
+        "TELEPON": "",
+        "ALAMAT": "RT.1/RW.8, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8440879,
+        "LATITUDE": -6.1855402,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "4ce66ae7-b1f0-4c63-a2fe-c981e2753742",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.810279,
+          -6.1716178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLIKLINIK MATA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "",
+        "ALAMAT": "RT.11/RW.4, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.810279,
+        "LATITUDE": -6.1716178,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "29c64162-ee29-4199-aa8d-5af900926b19",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8106016,
+          -6.1722056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLI MATA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "",
+        "ALAMAT": "RSUD ABADI SAMBOJA, JL. BALIKPAPAN, RT.4/RW.2, CIDENG, KECAMATAN GAMBIR, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10150",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.01",
+        "KECAMATAN": "GAMBIR",
+        "ID_DESA": "31.71.01.1002",
+        "DESA": "CIDENG",
+        "LONGITUDE": 106.8106016,
+        "LATITUDE": -6.1722056,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "a9933dde-4e70-4ebb-a5c3-ff9e57ea051a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.844558,
+          -6.1975874
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KLINIK EKSEKUTIF CITRA POLI MATA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "(021) 31902883",
+        "ALAMAT": "RT.10/RW.1, PEGANGSAAN, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1002",
+        "DESA": "PEGANGSAAN",
+        "LONGITUDE": 106.844558,
+        "LATITUDE": -6.1975874,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "edbcd361-0747-406b-91cc-7f4a5033e8f7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8517192,
+          -6.1954452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "SPESIALIS PENYAKIT MATA RS ST. CAROLUS",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "",
+        "ALAMAT": "SPESIALIS PENYAKIT MATA, RT.3/RW.5, PASEBAN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8517192,
+        "LATITUDE": -6.1954452,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "f4e9c82b-a735-4c95-9aba-00b9127c97b5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8445011,
+          -6.1975303
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSCM KIRANA (UPK MATA)",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "(021) 31902885",
+        "ALAMAT": "JL. KIMIA NO.8-10 7 1 7 10, RT.10/RW.1, PEGANGSAAN, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1002",
+        "DESA": "PEGANGSAAN",
+        "LONGITUDE": 106.8445011,
+        "LATITUDE": -6.1975303,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "b5eadcc4-e731-4dc8-8966-ca584249d0f3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8368811,
+          -6.1985738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS MATA JEC @ MENTENG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT MATA",
+        "TELEPON": "0804 122 1000",
+        "ALAMAT": "JL. TEUKU CIK DITIRO NO.46, MENTENG, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8368811,
+        "LATITUDE": -6.1985738,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "e73d6952-13c1-4034-835b-ccdaeb8e3c4c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8440879,
+          -6.1855402
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLIKLINIK PENYAKIT JANTUNG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT JANTUNG",
+        "TELEPON": "",
+        "ALAMAT": "RT.1/RW.8, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8440879,
+        "LATITUDE": -6.1855402,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "2dea7fbf-1854-4255-9944-ff30c97adb96",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8456697,
+          -6.1975643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "PELAYANAN JANTUNG TERPADU",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT JANTUNG",
+        "TELEPON": "(021) 3924242",
+        "ALAMAT": "RW.5, KENARI, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1002",
+        "DESA": "KENARI",
+        "LONGITUDE": 106.8456697,
+        "LATITUDE": -6.1975643,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "3e100108-2066-4861-b8a8-f1ed3192d30f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8517147,
+          -6.1954467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS ST. CAROLUS SPESIALIS PENYAKIT JANTUNG",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT JANTUNG",
+        "TELEPON": "(021) 3904441",
+        "ALAMAT": "JL. SALEMBA RAYA NO.41, PASEBAN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8517147,
+        "LATITUDE": -6.1954467,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "edd149d1-fa96-4d71-8ac7-179e9c888c92",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.836738,
+          -6.195922
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSIA BUNDA JAKARTA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT BERSALIN/IBU DAN ANAK",
+        "TELEPON": "1 500 799",
+        "ALAMAT": "JL. TEUKU CIK DITIRO NO.28, RT.9/RW.2, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1004",
+        "DESA": "GONDANGDIA",
+        "LONGITUDE": 106.836738,
+        "LATITUDE": -6.195922,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "fcc779bd-55d6-4341-8ea0-59cc2a4aaac7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8358833,
+          -6.1967976
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RUMAH SAKIT IBU DAN ANAK JAKARTA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT BERSALIN/IBU DAN ANAK",
+        "TELEPON": "(021) 365464",
+        "ALAMAT": "RT.10/RW.2, GONDANGDIA, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10310",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1001",
+        "DESA": "MENTENG",
+        "LONGITUDE": 106.8358833,
+        "LATITUDE": -6.1967976,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "731dd545-df95-43da-8022-d560f510b843",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8484765,
+          -6.2062368
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RSIA TAMBAK",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT BERSALIN/IBU DAN ANAK",
+        "TELEPON": "(021) 2303444",
+        "ALAMAT": "JL. TAMBAK NO.18, PEGANGSAAN, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1002",
+        "DESA": "PEGANGSAAN",
+        "LONGITUDE": 106.8484765,
+        "LATITUDE": -6.2062368,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "da19ccf2-4ebb-4091-b820-e9bf1b28e543",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8484901,
+          -6.2063209
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "INSTALASI GAWAT DARURAT RUMAH SAKIT IBU DAN ANAK TAMBAK",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT BERSALIN/IBU DAN ANAK",
+        "TELEPON": "(021) 2303444",
+        "ALAMAT": "JL. TAMBAK NO.18 1, RT.1/RW.6, PEGANGSAAN, KEC. MENTENG, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.06",
+        "KECAMATAN": "MENTENG",
+        "ID_DESA": "31.71.06.1002",
+        "DESA": "PEGANGSAAN",
+        "LONGITUDE": 106.8484901,
+        "LATITUDE": -6.2063209,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "b7b8be9e-da0f-4045-b306-702136ee2284",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8521995,
+          -6.1955401
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "RS BERSALIN ST. CAROLUS",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT BERSALIN/IBU DAN ANAK",
+        "TELEPON": "0812-8177-295",
+        "ALAMAT": "JL. SALEMBA BLUNTAS NO.155 3, RT.3/RW.5, PASEBAN, KEC. SENEN, KOTA JAKARTA PUSAT, DAERAH KHUSUS IBUKOTA JAKARTA 10440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.71",
+        "KABKOT": "KOTA ADM. JAKARTA PUSAT",
+        "ID_KEC": "31.71.04",
+        "KECAMATAN": "SENEN",
+        "ID_DESA": "31.71.04.1003",
+        "DESA": "PASEBAN",
+        "LONGITUDE": 106.8521995,
+        "LATITUDE": -6.1955401,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    }
+  ]
+}

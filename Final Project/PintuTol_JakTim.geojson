@@ -1,0 +1,1477 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "9c9b3f1a-ad91-4054-8063-9b6e95873fc5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9519052,
+          -6.21306146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TEGINENENG BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "PULO GEBANG TOLL PLAZA, JAKARTA OUTER RING RD, RT.11/RW.3, PULO GEBANG, CAKUNG, EAST JAKARTA CITY, JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.06",
+        "KECAMATAN": "CAKUNG",
+        "ID_DESA": "31.75.06.1005",
+        "DESA": "PULO GEBANG",
+        "LONGITUDE": 106.9519052,
+        "LATITUDE": -6.21306146,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8bb5938d-b683-4ed4-9598-f608f0065f67",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9432646,
+          -6.17807493
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CAKUNG 2, GERBANG TOL CAKUNG 2, RT.3, RW.5, EAST CAKUNG, CAKUNG, EAST JAKARTA CITY, JAKARTA 13910",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.06",
+        "KECAMATAN": "CAKUNG",
+        "ID_DESA": "31.75.06.1004",
+        "DESA": "CAKUNG TIMUR",
+        "LONGITUDE": 106.9432646,
+        "LATITUDE": -6.17807493,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "250331b0-5935-422e-919a-ff45f434f633",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9384468,
+          -6.187144914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "TERMINAL BAYANGAN CILEUNYI",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CAKUNG 1, JL. TOL LINGKAR LUAR, RT.1/RW.2, CAKUNG BAR., KEC. CAKUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13910",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.06",
+        "KECAMATAN": "CAKUNG",
+        "ID_DESA": "31.75.06.1007",
+        "DESA": "CAKUNG BARAT",
+        "LONGITUDE": 106.9384468,
+        "LATITUDE": -6.187144914,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b5ea2596-1f18-4c22-bc50-2c8045c73da7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9330117,
+          -6.248651622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. RAYA KALIMALANG 4-1, RT.4/RW.4, PD. KLP., KEC. DUREN SAWIT, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13450",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.07",
+        "KECAMATAN": "DUREN SAWIT",
+        "ID_DESA": "31.75.07.1004",
+        "DESA": "PONDOK KELAPA",
+        "LONGITUDE": 106.9330117,
+        "LATITUDE": -6.248651622,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d69dc210-03a6-4e09-bf0b-3b256edf63a0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.926014,
+          -6.248466857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PONDOK PINANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL PONDOK KELAPA 2, JL. RAYA KALIMALANG NO.97, RT.1/RW.8, PD. KLP., KEC. DUREN SAWIT, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13450",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.07",
+        "KECAMATAN": "DUREN SAWIT",
+        "ID_DESA": "31.75.07.1004",
+        "DESA": "PONDOK KELAPA",
+        "LONGITUDE": 106.926014,
+        "LATITUDE": -6.248466857,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "119ddbd7-4140-4306-be6e-799151bcc706",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9103536,
+          -6.312199988
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SRONDOL",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SETU, GERBANG TOL SETU, RT.2, RW.5, SETU, CIPAYUNG, EAST JAKARTA CITY, JAKARTA 13880",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.10",
+        "KECAMATAN": "CIPAYUNG",
+        "ID_DESA": "31.75.10.1005",
+        "DESA": "SETU",
+        "LONGITUDE": 106.9103536,
+        "LATITUDE": -6.312199988,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8d4d9d15-f7bd-4c99-9aaf-018e9fcaa6a1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9081397,
+          -6.256353435
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PONDOK GEDE BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL PD. GEDE BAR., JL. PANGKALAN JATI VI A NO.51, RT.2/RW.9, CIPINANG MELAYU, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1005",
+        "DESA": "CIPINANG MELAYU",
+        "LONGITUDE": 106.9081397,
+        "LATITUDE": -6.256353435,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "22ccddc3-4226-4641-999d-4aa6beecbe0b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9077884,
+          -6.25556938
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PONDOK GEDE TIMUR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL PD. GEDE BAR., JL. PANGKALAN JATI VI A NO.51, RT.6/RW.5, CIPINANG MELAYU, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1005",
+        "DESA": "CIPINANG MELAYU",
+        "LONGITUDE": 106.9077884,
+        "LATITUDE": -6.25556938,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "13fc3553-d852-4524-8520-5336d7bfb4ff",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9009098,
+          -6.310196306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATIASIH 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. RAYA MABES HANKAM, RT.13/RW.2, BAMBU APUS, KEC. CIPAYUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13890",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.10",
+        "KECAMATAN": "CIPAYUNG",
+        "ID_DESA": "31.75.10.1006",
+        "DESA": "BAMBU APUS",
+        "LONGITUDE": 106.9009098,
+        "LATITUDE": -6.310196306,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "930a79b0-7a1e-4101-b3e5-2f3a1e2ed879",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8956276,
+          -6.307542805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BAMBU APUS 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. RAYA MABES HANKAM, RT.6/RW.2, BAMBU APUS, KEC. CIPAYUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13890",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.10",
+        "KECAMATAN": "CIPAYUNG",
+        "ID_DESA": "31.75.10.1006",
+        "DESA": "BAMBU APUS",
+        "LONGITUDE": 106.8956276,
+        "LATITUDE": -6.307542805,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "da235fab-d7de-4ad1-a730-1d3355548087",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8950149,
+          -6.365805622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIMANGGIS 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "RW.1, PD. RANGGON, KEC. CIPAYUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 17860",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.10",
+        "KECAMATAN": "CIPAYUNG",
+        "ID_DESA": "31.75.10.1003",
+        "DESA": "PONDOK RANGGON",
+        "LONGITUDE": 106.8950149,
+        "LATITUDE": -6.365805622,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b9371ca6-3dfb-4375-bea4-4a646e812f85",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8950149,
+          -6.365805622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBUBUR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "RW.1, PD. RANGGON, KEC. CIPAYUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 17860",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.10",
+        "KECAMATAN": "CIPAYUNG",
+        "ID_DESA": "31.75.10.1003",
+        "DESA": "PONDOK RANGGON",
+        "LONGITUDE": 106.8950149,
+        "LATITUDE": -6.365805622,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "415dc52d-db67-4653-be49-668f72a18559",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.894234,
+          -6.365289217
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "KOTA WISATA TOLL GATE",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBUBUR 2, RT.8/RW.7, CIBUBUR, KEC. CIRACAS, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13720",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1002",
+        "DESA": "CIBUBUR",
+        "LONGITUDE": 106.894234,
+        "LATITUDE": -6.365289217,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "a87c736c-06cd-4619-8942-c4d924d9fe88",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.894234,
+          -6.365289217
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBUBUR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIBUBUR 2, RT.8/RW.7, CIBUBUR, KEC. CIRACAS, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13720",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1002",
+        "DESA": "CIBUBUR",
+        "LONGITUDE": 106.894234,
+        "LATITUDE": -6.365289217,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "18ccd4c3-5e0a-4d6e-87c6-0ea73a5d2b6a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8890249,
+          -6.245186314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PONDOK GEDE BARAT 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL HALIM, JL. SULAWESI NO.68, RT.5/RW.16, HALIM PERDANA KUSUMAH, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1004",
+        "DESA": "HALIM PERDANA KUSUMA",
+        "LONGITUDE": 106.8890249,
+        "LATITUDE": -6.245186314,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "39a720f5-a110-478c-b3a4-4ba2931e7283",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8887624,
+          -6.245264176
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL HALIM 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, HALIM PERDANA KUSUMAH, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1004",
+        "DESA": "HALIM PERDANA KUSUMA",
+        "LONGITUDE": 106.8887624,
+        "LATITUDE": -6.245264176,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "6698fed7-e96e-4df3-880f-3b56827d3c64",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.888379,
+          -6.245433077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL HALIM UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, HALIM PERDANA KUSUMAH, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1004",
+        "DESA": "HALIM PERDANA KUSUMA",
+        "LONGITUDE": 106.888379,
+        "LATITUDE": -6.245433077,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5476dc0a-175b-48bf-9073-435d1ad4b38d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8873818,
+          -6.246357111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CILILITAN UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL HALIM 2, RT.2/RW.14, HALIM PERDANA KUSUMAH, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1004",
+        "DESA": "HALIM PERDANA KUSUMA",
+        "LONGITUDE": 106.8873818,
+        "LATITUDE": -6.246357111,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "76af79fe-86f5-46eb-871f-2ba8b98085cc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8873784,
+          -6.246384144
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL HALIM",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL HALIM 2, RT.2/RW.14, HALIM PERDANA KUSUMAH, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1004",
+        "DESA": "HALIM PERDANA KUSUMA",
+        "LONGITUDE": 106.8873784,
+        "LATITUDE": -6.246384144,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "23f5e5b4-33f8-4840-b543-155d03e69a01",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8847767,
+          -6.310144877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL DUKUH 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RT.11/RW.6, RAMBUTAN, KEC. CIRACAS, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13830",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1005",
+        "DESA": "RAMBUTAN",
+        "LONGITUDE": 106.8847767,
+        "LATITUDE": -6.310144877,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ac266017-b92d-447a-b0c0-bf08508f728b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8847767,
+          -6.310144877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL DUKUH 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RT.11/RW.6, RAMBUTAN, KEC. CIRACAS, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13830",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1005",
+        "DESA": "RAMBUTAN",
+        "LONGITUDE": 106.8847767,
+        "LATITUDE": -6.310144877,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b7fe8ab8-38b1-4f98-9d08-fc73ceff7b8d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8835542,
+          -6.301690679
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL DUKUH 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RT.1, PINANG RANTI, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1002",
+        "DESA": "PINANGRANTI",
+        "LONGITUDE": 106.8835542,
+        "LATITUDE": -6.301690679,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "fb4097f6-4c12-4392-bee0-bb0ea6f1fd1f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8835542,
+          -6.301690679
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL DUKUH 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RT.1, PINANG RANTI, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1002",
+        "DESA": "PINANGRANTI",
+        "LONGITUDE": 106.8835542,
+        "LATITUDE": -6.301690679,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "2b70328e-624a-4033-b939-b470c40a9c94",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8832719,
+          -6.303403227
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KARANGGAN OFF RAMP",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RT.13/RW.4, DUKUH, KEC. KRAMAT JATI, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13550",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.04",
+        "KECAMATAN": "KRAMATJATI",
+        "ID_DESA": "31.75.04.1003",
+        "DESA": "DUKUH",
+        "LONGITUDE": 106.8832719,
+        "LATITUDE": -6.303403227,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "839de34c-25c5-4312-8bed-a003dc14718e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8832719,
+          -6.303403227
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KARANGGAN OFF RAMP",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RT.13/RW.4, DUKUH, KEC. KRAMAT JATI, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13550",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.04",
+        "KECAMATAN": "KRAMATJATI",
+        "ID_DESA": "31.75.04.1003",
+        "DESA": "DUKUH",
+        "LONGITUDE": 106.8832719,
+        "LATITUDE": -6.303403227,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "92f6af66-0ca4-4b89-bdaa-f39840bcadac",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8831708,
+          -6.299841932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL UTAMA PASAR REBO",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RW.3, PINANG RANTI, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13560",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1002",
+        "DESA": "PINANGRANTI",
+        "LONGITUDE": 106.8831708,
+        "LATITUDE": -6.299841932,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "babbd559-dbd2-4484-ba4a-4377c7f92bd2",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8831708,
+          -6.299841932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL UTAMA PASAR REBO",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA TIMUR, RW.3, PINANG RANTI, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13560",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1002",
+        "DESA": "PINANGRANTI",
+        "LONGITUDE": 106.8831708,
+        "LATITUDE": -6.299841932,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b98099fa-1b6a-492d-9f77-0feb1e358e6b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8782403,
+          -6.287112205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TAMAN MINI 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "TAMAN MINI TOLL GATE RAMP 1, JL. JKT - CIBADAK, RT.17/RW.1, MAKASAR, EAST JAKARTA CITY, JAKARTA 13570",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1001",
+        "DESA": "MAKASAR",
+        "LONGITUDE": 106.8782403,
+        "LATITUDE": -6.287112205,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "42356e63-401e-46bb-a87e-3ed1ce509b3c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8782403,
+          -6.287112205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CILILITAN 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "TAMAN MINI TOLL GATE RAMP 1, JL. JKT - CIBADAK, RT.17/RW.1, MAKASAR, EAST JAKARTA CITY, JAKARTA 13570",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1001",
+        "DESA": "MAKASAR",
+        "LONGITUDE": 106.8782403,
+        "LATITUDE": -6.287112205,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "3e6173b4-7c9d-429b-84f5-8284b1833fa3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8777694,
+          -6.307195248
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMPUNG RAMBUTAN 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAMPUNG RAMBUTAN, RT.2/RW.4, RAMBUTAN, KEC. CIRACAS, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13830",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1005",
+        "DESA": "RAMBUTAN",
+        "LONGITUDE": 106.8777694,
+        "LATITUDE": -6.307195248,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e7e85ec6-45a4-4f81-8293-c4c5f1b608e2",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8776228,
+          -6.287372476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TAMAN MINI 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL RAMP TAMAN MINI 2, RT.4/RW.1, DUKUH, KEC. KRAMAT JATI, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13550",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.04",
+        "KECAMATAN": "KRAMATJATI",
+        "ID_DESA": "31.75.04.1003",
+        "DESA": "DUKUH",
+        "LONGITUDE": 106.8776228,
+        "LATITUDE": -6.287372476,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "0d8424c4-5ad9-4e59-ac02-c6991228ca29",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8776228,
+          -6.287372476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TAMAN MINI 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL RAMP TAMAN MINI 2, RT.4/RW.1, DUKUH, KEC. KRAMAT JATI, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13550",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.04",
+        "KECAMATAN": "KRAMATJATI",
+        "ID_DESA": "31.75.04.1003",
+        "DESA": "DUKUH",
+        "LONGITUDE": 106.8776228,
+        "LATITUDE": -6.287372476,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "835642bd-518b-46df-b561-8b988f9881ea",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8772337,
+          -6.307366793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATIWARNA 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAMPUNG RAMBUTAN, RT.2/RW.4, RAMBUTAN, KEC. CIRACAS, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13830",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1005",
+        "DESA": "RAMBUTAN",
+        "LONGITUDE": 106.8772337,
+        "LATITUDE": -6.307366793,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7f237291-0742-4d1f-bb2a-f149cca4c213",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8771907,
+          -6.172229879
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CAKUNG 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CEMPAKA PUTIH, RT.3/RW.13, KAYU PUTIH, KEC. PULO GADUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 10510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.02",
+        "KECAMATAN": "PULOGADUNG",
+        "ID_DESA": "31.75.02.1006",
+        "DESA": "KAYU PUTIH",
+        "LONGITUDE": 106.8771907,
+        "LATITUDE": -6.172229879,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "cbe08179-7cb7-43f9-8d2b-1765be4dc278",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8771317,
+          -6.235407655
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KOJA BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KEBON NANAS, GERBANG TOL KB. NANAS, RT.12, RW.2, CIPINANG CEMPEDAK, JATINEGARA, EAST JAKARTA CITY, JAKARTA 13340",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.03",
+        "KECAMATAN": "JATINEGARA",
+        "ID_DESA": "31.75.03.1005",
+        "DESA": "CIPINANG CEMPEDAK",
+        "LONGITUDE": 106.8771317,
+        "LATITUDE": -6.235407655,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "03d4d974-af76-4c32-8e42-b4a219ccf86c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8750529,
+          -6.227185154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PONDOK AREN BARAT 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "PISANGAN TOLL PLAZA, JL. TOL BECAKAYU NO.12, RT.1/RW.2, CIPINANG CEMPEDAK, JATINEGARA, EAST JAKARTA CITY, JAKARTA 13340",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.03",
+        "KECAMATAN": "JATINEGARA",
+        "ID_DESA": "31.75.03.1005",
+        "DESA": "CIPINANG CEMPEDAK",
+        "LONGITUDE": 106.8750529,
+        "LATITUDE": -6.227185154,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "642456af-0396-48ef-adb1-3e6dcb47112a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8749218,
+          -6.224334022
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TANJUNG PRIOK 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL PEDATI, JL. DI. PANJAITAN, RT.8/RW.1, CIPINANG BESAR UTARA, KECAMATAN JATINEGARA, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13350",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.03",
+        "KECAMATAN": "JATINEGARA",
+        "ID_DESA": "31.75.03.1008",
+        "DESA": "CIPINANG BESAR UTARA",
+        "LONGITUDE": 106.8749218,
+        "LATITUDE": -6.224334022,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "a85d79b3-eac0-4648-870d-0bb3279fc34c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8737997,
+          -6.210227558
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOL JATIWARINGIN 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATINEGARA, JL. JENDERAL AHMAD YANI NO.79 15, RT.15/RW.14, PISANGAN BARU, KEC. MATRAMAN, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13110",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.01",
+        "KECAMATAN": "MATRAMAN",
+        "ID_DESA": "31.75.01.1001",
+        "DESA": "PISANGAN BARU",
+        "LONGITUDE": 106.8737997,
+        "LATITUDE": -6.210227558,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7499236e-76b0-42e5-9466-5522d17310fc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8734328,
+          -6.201475607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SENTUL 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL RAWAMANGUN, GERBANG TOL R.MANGUN, JL. JENDERAL AHMAD YANI NO.10, RT.10/RW.13, RAWAMANGUN, KEC. PULO GADUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13120",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.02",
+        "KECAMATAN": "PULOGADUNG",
+        "ID_DESA": "31.75.02.1005",
+        "DESA": "RAWAMANGUN",
+        "LONGITUDE": 106.8734328,
+        "LATITUDE": -6.201475607,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "86e8f509-6190-40f7-9b01-00f65870a3ab",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8730402,
+          -6.265507078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PONDOK GEDE TIMUR 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CILILITAN 3, JL. TOL JAGORAWI, RT.4/RW.4, MAKASAR, KEC. MAKASAR, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13510",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.08",
+        "KECAMATAN": "MAKASAR",
+        "ID_DESA": "31.75.08.1001",
+        "DESA": "MAKASAR",
+        "LONGITUDE": 106.8730402,
+        "LATITUDE": -6.265507078,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "430ab224-e9bc-4b6e-b890-e3b70afa2e59",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8729052,
+          -6.267075118
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TEBET 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL JAGORAWI NO.3, KRAMAT JATI, KEC. KRAMAT JATI, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.04",
+        "KECAMATAN": "KRAMATJATI",
+        "ID_DESA": "31.75.04.1001",
+        "DESA": "KRAMATJATI",
+        "LONGITUDE": 106.8729052,
+        "LATITUDE": -6.267075118,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1d8f64ec-907f-4603-88b1-e154eae1cd09",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8727216,
+          -6.266068902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CILILITAN 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CILILITAN 2, JL. TOL JAGORAWI, RW.3, KRAMAT JATI, KEC. KRAMAT JATI, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.04",
+        "KECAMATAN": "KRAMATJATI",
+        "ID_DESA": "31.75.04.1001",
+        "DESA": "KRAMATJATI",
+        "LONGITUDE": 106.8727216,
+        "LATITUDE": -6.266068902,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "79a90d71-371a-48dd-ba42-c31634727460",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8689065,
+          -6.308075059
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL GEDONG PANJANG 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL GEDONG 1, GERBANG TOL GEDONG 1, RT.6, RW.5, SUSUKAN, CIRACAS, EAST JAKARTA CITY, JAKARTA 13750",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.09",
+        "KECAMATAN": "CIRACAS",
+        "ID_DESA": "31.75.09.1004",
+        "DESA": "SUSUKAN",
+        "LONGITUDE": 106.8689065,
+        "LATITUDE": -6.308075059,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "0261be97-0bf9-4ed6-8c75-71df02958efb",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8618763,
+          -6.305662813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMPUNG RAMBUTAN 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL GEDONG 2, RT.2/RW.11, GEDONG, KEC. PS. REBO, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13760",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.05",
+        "KECAMATAN": "PASAR REBO",
+        "ID_DESA": "31.75.05.1001",
+        "DESA": "GEDONG",
+        "LONGITUDE": 106.8618763,
+        "LATITUDE": -6.305662813,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "9f781ec8-eb98-465e-a15e-3c5c5bd17e22",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9377967,
+          -6.1839846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CAKUNG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CAKUNG (JTD), JL. BEKASI TIMUR RAYA NO.55, RT.4/RW.2, CAKUNG BAR., KEC. CAKUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13950",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.06",
+        "KECAMATAN": "CAKUNG",
+        "ID_DESA": "31.75.06.1007",
+        "DESA": "CAKUNG BARAT",
+        "LONGITUDE": 106.9377967,
+        "LATITUDE": -6.1839846,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1e21c734-3d5d-4f82-a141-7f5472cd8e71",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9037828,
+          -6.2454557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMAL UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATIWARINGIN 1, JL. RAYA KALIMALANG NO.4F, RT.6/RW.12, DUREN SAWIT, KEC. DUREN SAWIT, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.75",
+        "KABKOT": "KOTA ADM. JAKARTA TIMUR",
+        "ID_KEC": "31.75.07",
+        "KECAMATAN": "DUREN SAWIT",
+        "ID_DESA": "31.75.07.1002",
+        "DESA": "PONDOK BAMBU",
+        "LONGITUDE": 106.9037828,
+        "LATITUDE": -6.2454557,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    }
+  ]
+}

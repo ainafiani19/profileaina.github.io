@@ -1,0 +1,933 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "c2f98369-00eb-4ba7-9536-9d20797fd3d4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0168899,
+          -6.261528036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TAMBUN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL JAKARTA - CIKAMPEK, RT.004/RW.012, MARGAHAYU, KEC. BEKASI TIM., KOTA BKS, JAWA BARAT 17114",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.01",
+        "KECAMATAN": "BEKASI TIMUR",
+        "ID_DESA": "32.75.01.1002",
+        "DESA": "MARGAHAYU",
+        "LONGITUDE": 107.0168899,
+        "LATITUDE": -6.261528036,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c8e692c1-3371-4c06-ad57-09e19e85eb02",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0158738,
+          -6.2634681
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BEKASI TIMUR 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL BEKASI TIM. 2, PENGASINAN, KEC. RAWALUMBU, KOTA BKS, JAWA BARAT 17115",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.05",
+        "KECAMATAN": "RAWALUMBU",
+        "ID_DESA": "32.75.05.1002",
+        "DESA": "PENGASINAN",
+        "LONGITUDE": 107.0158738,
+        "LATITUDE": -6.2634681,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "17659fa6-5e0a-41a7-8fc3-3b7ab40a8ea0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9980885,
+          -6.247731519
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL ROROTAN 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1002",
+        "DESA": "MARGAJAYA",
+        "LONGITUDE": 106.9980885,
+        "LATITUDE": -6.247731519,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "9a8d8fcd-8795-4518-98d3-ef0d7bb1233b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9903411,
+          -6.32032021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SETU",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "RT.002/RW.010, PADURENAN, KEC. MUSTIKA JAYA, KOTA BKS, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.11",
+        "KECAMATAN": "MUSTIKAJAYA",
+        "ID_DESA": "32.75.11.1001",
+        "DESA": "PADURENAN",
+        "LONGITUDE": 106.9903411,
+        "LATITUDE": -6.32032021,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "0fb5316f-d130-4457-aaa9-b9ae5f770ee1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9903408,
+          -6.249773156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BEKASI BARAT 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL BEKASI BARAT 1, ACCESS TOL JAKARTA-CIKAMPEK NO.16, RT.005/RW.002, PEKAYON JAYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17148",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1001",
+        "DESA": "PEKAYONJAYA",
+        "LONGITUDE": 106.9903408,
+        "LATITUDE": -6.249773156,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1ed27f20-2df9-4a26-a01d-8f8dd367d9e6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9879633,
+          -6.252506161
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BENDA UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL BEKASI BARAT 2, GERBANG TOL BEKASI BAR. 2, GERBANG TOL BEKASI BAR. 2, RT.005, RT.005/RW.002, PEKAYON JAYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17148",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1001",
+        "DESA": "PEKAYONJAYA",
+        "LONGITUDE": 106.9879633,
+        "LATITUDE": -6.252506161,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "960fe7b1-2354-45e2-afa8-823f500608f5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9870561,
+          -6.250715066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKEUSAL",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOLL BARAT BEKASI I, PEKAYON JAYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17148",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1001",
+        "DESA": "PEKAYONJAYA",
+        "LONGITUDE": 106.9870561,
+        "LATITUDE": -6.250715066,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "4b328153-698e-43f0-bfb9-b5b2fafbe37b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9635611,
+          -6.24973213
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATIKARYA 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JAKASAMPURNA, JL. INSPEKSI KALIMALANG NO.RT 006/15 BLOK B/6, RT.004/RW.009, JAKASAMPURNA, BEKASI BARAT, BEKASI, WEST JAVA 17145",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.02",
+        "KECAMATAN": "BEKASI BARAT",
+        "ID_DESA": "32.75.02.1005",
+        "DESA": "JAKASAMPURNA",
+        "LONGITUDE": 106.9635611,
+        "LATITUDE": -6.24973213,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "17a2eaa5-f4c9-4aa1-8209-e48b42b936d3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9601248,
+          -6.256785821
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BEKASI TIMUR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKUNIR 2, RT.001/RW.015, JAKA MULYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17146",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1003",
+        "DESA": "JAKAMULYA",
+        "LONGITUDE": 106.9601248,
+        "LATITUDE": -6.256785821,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "15108d92-5e4b-428a-a4ab-7ae7562ae50a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9601139,
+          -6.256792879
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 8",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKUNIR 2, RT.001/RW.015, JAKA MULYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17146",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1003",
+        "DESA": "JAKAMULYA",
+        "LONGITUDE": 106.9601139,
+        "LATITUDE": -6.256792879,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "12ce36dd-0691-4d5d-991c-cf5245f36c68",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9590343,
+          -6.257749007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "BEKASI, RT.004/RW.001, JAKA MULYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17146",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1003",
+        "DESA": "JAKAMULYA",
+        "LONGITUDE": 106.9590343,
+        "LATITUDE": -6.257749007,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "779d5ba9-bfa3-40a9-bfc1-e292266d26fa",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9580613,
+          -6.253350317
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL HELVETIA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "BEKASI, RT.13/RW.003, JAKASAMPURNA, KEC. BEKASI BAR., KOTA BKS, JAWA BARAT 17145",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.02",
+        "KECAMATAN": "BEKASI BARAT",
+        "ID_DESA": "32.75.02.1005",
+        "DESA": "JAKASAMPURNA",
+        "LONGITUDE": 106.9580613,
+        "LATITUDE": -6.253350317,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8099d96d-7b23-446d-9cb7-78706ce4f9b5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9557249,
+          -6.246439777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KARANG TENGAH BARAT 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KALIMALANG 2, GERBANG TOL KALIMALANG 2, RT.006, RW.017, JAKASAMPURNA, BEKASI BARAT, BEKASI, WEST JAVA 17145",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.02",
+        "KECAMATAN": "BEKASI BARAT",
+        "ID_DESA": "32.75.02.1005",
+        "DESA": "JAKASAMPURNA",
+        "LONGITUDE": 106.9557249,
+        "LATITUDE": -6.246439777,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7690f84b-723d-48af-a58b-6ce31cb903ea",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9555215,
+          -6.295655365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATI ASIH 1, RT.001/RW.009, JATIASIH, KEC. JATIASIH, KOTA BKS, JAWA BARAT 17423",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.09",
+        "KECAMATAN": "JATIASIH",
+        "ID_DESA": "32.75.09.1002",
+        "DESA": "JATIASIH",
+        "LONGITUDE": 106.9555215,
+        "LATITUDE": -6.295655365,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e98379ea-1e6f-4543-b72d-f2549491cbbd",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9549065,
+          -6.29735728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATIASIH 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "BEKASI, RT.001/RW.010, JATIASIH, KEC. JATIASIH, KOTA BKS, JAWA BARAT 17423",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.09",
+        "KECAMATAN": "JATIASIH",
+        "ID_DESA": "32.75.09.1002",
+        "DESA": "JATIASIH",
+        "LONGITUDE": 106.9549065,
+        "LATITUDE": -6.29735728,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "24ea0307-540e-4b42-8065-e24fb42b5523",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9547249,
+          -6.256867383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 4",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKUNIR 3, GERBANG TOL CIKUNIR 3,RT.005, RT.005/RW.002, JATIBENING, KEC. PD. GEDE, KOTA BKS, JAWA BARAT 17412",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.08",
+        "KECAMATAN": "PONDOKGEDE",
+        "ID_DESA": "32.75.08.1002",
+        "DESA": "JATIBENING",
+        "LONGITUDE": 106.9547249,
+        "LATITUDE": -6.256867383,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ac0d836d-55a4-4dcf-a50c-f1c5376fb782",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9547142,
+          -6.256871491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CILEDUG 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKUNIR 3, GERBANG TOL CIKUNIR 3,RT.005, RT.005/RW.002, JATIBENING, KEC. PD. GEDE, KOTA BKS, JAWA BARAT 17412",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.08",
+        "KECAMATAN": "PONDOKGEDE",
+        "ID_DESA": "32.75.08.1002",
+        "DESA": "JATIBENING",
+        "LONGITUDE": 106.9547142,
+        "LATITUDE": -6.256871491,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c0449330-46ce-4a79-9d7a-cc3f35172e9b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9546906,
+          -6.25641817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 4",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKUNIR 3, GERBANG TOL CIKUNIR 3,RT.005, RT.005/RW.002, JATIBENING, KEC. PD. GEDE, KOTA BKS, JAWA BARAT 17412",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.08",
+        "KECAMATAN": "PONDOKGEDE",
+        "ID_DESA": "32.75.08.1002",
+        "DESA": "JATIBENING",
+        "LONGITUDE": 106.9546906,
+        "LATITUDE": -6.25641817,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "dfb12178-7df0-4765-9bd5-9e9c0ee10923",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9546896,
+          -6.25641392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CIKUNIR 3, GERBANG TOL CIKUNIR 3,RT.005, RT.005/RW.002, JATIBENING, KEC. PD. GEDE, KOTA BKS, JAWA BARAT 17412",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.08",
+        "KECAMATAN": "PONDOKGEDE",
+        "ID_DESA": "32.75.08.1002",
+        "DESA": "JATIBENING",
+        "LONGITUDE": 106.9546896,
+        "LATITUDE": -6.25641392,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "dbbaa474-11d2-42ee-b9fd-20c804c2bede",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.953365,
+          -6.24170307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KALIMALANG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KALIMALANG 1, JL. TOL LKR. LUAR JKT NO.17, RT.014/RW.009, BINTARA JAYA, KEC. BEKASI BAR., KOTA BKS, JAWA BARAT 17136",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.02",
+        "KECAMATAN": "BEKASI BARAT",
+        "ID_DESA": "32.75.02.1004",
+        "DESA": "BINTARAJAYA",
+        "LONGITUDE": 106.953365,
+        "LATITUDE": -6.24170307,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b1970e3f-42ee-4937-8e7f-0fd4591ce560",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.951303,
+          -6.299529551
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BANTAR GEBANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "BEKASI, RT.004/RW.009, JATIASIH, KEC. JATIASIH, KOTA BKS, JAWA BARAT 17423",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.09",
+        "KECAMATAN": "JATIASIH",
+        "ID_DESA": "32.75.09.1001",
+        "DESA": "JATIMEKAR",
+        "LONGITUDE": 106.951303,
+        "LATITUDE": -6.299529551,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "592de516-5ffc-400c-bd2b-10d84e909f64",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9501742,
+          -6.249688726
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PULOGEBANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GT BINTARA JAYA, JL. KH. NOER ALI, RT.007/RW.003, JAKASAMPURNA, KEC. BEKASI BAR., KOTA BKS, JAWA BARAT 17145",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.02",
+        "KECAMATAN": "BEKASI BARAT",
+        "ID_DESA": "32.75.02.1004",
+        "DESA": "BINTARAJAYA",
+        "LONGITUDE": 106.9501742,
+        "LATITUDE": -6.249688726,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e5e08ba4-ce0b-4a87-8be1-dc8ec072994d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9501385,
+          -6.221473626
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BAMBU APUS 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. AKSES TOL BINTARA, RT.6/RW.11, BINTARA, KEC. BEKASI BAR., KOTA BKS, JAWA BARAT 17134",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.02",
+        "KECAMATAN": "BEKASI BARAT",
+        "ID_DESA": "32.75.02.1001",
+        "DESA": "BINTARA",
+        "LONGITUDE": 106.9501385,
+        "LATITUDE": -6.221473626,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b3f31233-4196-4c71-a0fb-44bd2cdd5dad",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9453956,
+          -6.257540881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKUNIR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL RAMP. PD. GEDE TIM. 2, RT.001/RW.003, JATIBENING, KEC. PD. GEDE, KOTA BKS, JAWA BARAT 17412",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.08",
+        "KECAMATAN": "PONDOKGEDE",
+        "ID_DESA": "32.75.08.1002",
+        "DESA": "JATIBENING",
+        "LONGITUDE": 106.9453956,
+        "LATITUDE": -6.257540881,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d6459756-b731-4b33-a0ec-39ccf22ddf70",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.943274,
+          -6.256825398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BEKASI BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL PONDOK GEDE TIMUR 1, BEKASI, RT.003/RW.007, JATIBENING, KEC. PD. GEDE, KOTA BKS, JAWA BARAT 17412",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.08",
+        "KECAMATAN": "PONDOKGEDE",
+        "ID_DESA": "32.75.08.1002",
+        "DESA": "JATIBENING",
+        "LONGITUDE": 106.943274,
+        "LATITUDE": -6.256825398,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e524f0c9-7e43-464f-a635-1cbd0768bf40",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9270391,
+          -6.31000567
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEMBANGAN UTARA 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATI WARNA 1, BEKASI, RT.006/RW.006, JATIWARNA, KEC. PD. MELATI, KOTA BKS, JAWA BARAT 17415",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.12",
+        "KECAMATAN": "PONDOKMELATI",
+        "ID_DESA": "32.75.12.1002",
+        "DESA": "JATIWARNA",
+        "LONGITUDE": 106.9270391,
+        "LATITUDE": -6.31000567,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "688ea2be-d779-44fb-a710-688de52d6ad3",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9216546,
+          -6.311428557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIKAMPEK",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATI WARNA 2, RT.001/RW.005, JATIMELATI, KEC. PD. MELATI, KOTA BKS, JAWA BARAT 17415",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.12",
+        "KECAMATAN": "PONDOKMELATI",
+        "ID_DESA": "32.75.12.1003",
+        "DESA": "JATIMELATI",
+        "LONGITUDE": 106.9216546,
+        "LATITUDE": -6.311428557,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1d9d9955-1abd-47c7-8d4a-dd110f7ce0ec",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9185397,
+          -6.382519528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATIKARYA 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATIKARYA 2, JL. ALTERNATIF CIBUBUR, RT.001/RW.009, JATIKARYA, KEC. JATISAMPURNA, KOTA BKS, JAWA BARAT 17435",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.10",
+        "KECAMATAN": "JATISAMPURNA",
+        "ID_DESA": "32.75.10.1002",
+        "DESA": "JATIKARYA",
+        "LONGITUDE": 106.9185397,
+        "LATITUDE": -6.382519528,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1d8daf4f-6e91-4b1d-8e88-1c81b9122975",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9181222,
+          -6.382034858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATINEGARA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JATIKARYA 2, JL. ALTERNATIF CIBUBUR, RT.001/RW.009, JATIKARYA, KEC. JATISAMPURNA, KOTA BKS, JAWA BARAT 17435",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.10",
+        "KECAMATAN": "JATISAMPURNA",
+        "ID_DESA": "32.75.10.1002",
+        "DESA": "JATIKARYA",
+        "LONGITUDE": 106.9181222,
+        "LATITUDE": -6.382034858,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    }
+  ]
+}

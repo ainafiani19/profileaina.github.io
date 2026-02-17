@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Task - WebGIS Bootcamp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #EAF6F3;
+      color: #2F3E3B;
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      padding: 18px 0;
+      background: #D5EEE8;
+      border-bottom: 2px solid #BFE5DA;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2F3E3B;
+      font-weight: 600;
+      position: relative;
+      padding-bottom: 4px;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 2px;
+      background: #2E7D6E;
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover::after,
+    nav a.active::after {
+      width: 100%;
+    }
+
+    /* ===== MAIN ===== */
+    .container {
+      padding: 50px 8%;
+    }
+
+    .page-title {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .page-desc {
+      color: #5A6F6B;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 30px;
+      text-align: justify;
+    }
+
+    /* ===== TASK GRID ===== */
+    .task-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .task-card {
+      background: #FFFFFF;
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+      transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .task-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.12);
+    }
+
+    .task-card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .task-type {
+      font-weight: 600;
+      color: #2E7D6E;
+      margin-bottom: 12px;
+    }
+
+    .task-card p {
+      color: #5A6F6B;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .task-card a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #FFFFFF;
+      background: #2E7D6E;
+      padding: 10px 16px;
+      border-radius: 12px;
+      width: fit-content;
+      transition: 0.25s;
+    }
+
+    .task-card a:hover {
+      background: #25695D;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      .container {
+        padding: 40px 5%;
+      }
+
+      .task-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="Bootcamp.html">Home</a>
+    <a href="Task.html" class="active">Task</a>
+    <a href="Final Project/coding/Home_Page.html">Final Project</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+
+    <h1 class="page-title">Bootcamp Tasks</h1>
+    <p class="page-desc">
+      Halaman ini berisi kumpulan tugas yang aku kerjakan selama mengikuti WebGIS Bootcamp. Mulai dari laporan PDF,
+      script Python, sampai hasil project WebGIS berbasis web yang dibuat selama proses belajar.
+    </p>
+
+    <!-- TASK LIST -->
+    <div class="task-grid">
+
+      <!-- TASK 1 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 1 🗺️</h3>
+          <div class="task-type">PDF</div>
+          <h3>Introduction and basic concepts of GIS and spatial data.</h3>
+          <p style="text-align: justify;">Pada task ini aku belajar dasar-dasar GIS menggunakan QGIS sebagai pengenalan
+            ArcGIS Desktop.
+            FYI, peta yang dibuat di task ini benar-benar berdasarkan pengalaman jalan-jalan ke Bandung 😄.
+            Data yang digunakan diambil dari WebGIS MAPID. Saat data ditambahkan ke GIS melalui API, terdapat perbedaan
+            datum dan sistem koordinat,
+            sehingga perlu dilakukan reproject agar seluruh data berada pada sistem koordinat yang sama dan bisa
+            dianalisis dengan benar.</p>
+        </div>
+        <a href="asset/Task/Task 1  GIS Fundamental_Aina Nurfiani.pdf" target="_blank">Open PDF →</a>
+      </div>
+
+      <!-- TASK 2 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 2 🎬</h3>
+          <div class="task-type">PDF</div>
+          <h3>Location Analytics.</h3>
+          <p style="text-align: justify;">Hasil dari task ini adalah peta persebaran lokasi strategis untuk pendirian
+            bioskop di Kota Surabaya. Analisis lokasi dilakukan dengan memperhatikan persebaran kompetitor, yang
+            divisualisasikan menggunakan heatmap.
+            Heatmap ini membantu melihat area dengan tingkat persaingan tinggi maupun rendah secara lebih jelas
+            menggunakan tools yang tersedia di WebGIS MAPID.</p>
+        </div>
+        <a href="asset/Task/TASK 2 LOCATION ANALYTICS PART 1_AINA NURFIANI (1).pdf" target="_blank">Open PDF →</a>
+      </div>
+
+      <!-- TASK 3 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 3☕📍</h3>
+          <div class="task-type">PDF</div>
+          <h3>Site Selection and Site Analysis.</h3>
+          <p style="text-align: justify;">Pada task ini diterapkan analisis hyperlocal untuk menentukan lokasi bisnis
+            yang optimal.
+            Tema yang diambil adalah penentuan lokasi study cafe dengan layanan ATK dan cetak.
+            Analisis dilakukan dengan memberikan pembobotan pada POI attractors dan POI detractors.
+            Untuk mendukung hasil analisis, digunakan juga fitur AI di WebGIS MAPID untuk mendapatkan insight tambahan
+            terkait site selection sebagai data pendukung.</p>
+        </div>
+        <a href="asset/Task/TASK 3 Site Selection and Site Analysis.pdf" target="_blank">Open PDF →</a>
+      </div>
+
+      <!-- TASK 4 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 4 🐍🗺️</h3>
+          <div class="task-type">Python Script</div>
+          <h3>Introduction Pyhton For Spacial Data.</h3>
+          <p style="text-align: justify;">Task ini jadi salah satu yang paling menarik buat aku 😆 karena ternyata data
+            spasial bisa diolah menggunakan Python.
+            Dengan memanfaatkan library Python, data seperti demografi dapat diolah dan divisualisasikan menjadi peta
+            tematik, misalnya peta kepadatan penduduk,
+            tanpa harus sepenuhnya bergantung pada software GIS desktop.</p>
+        </div>
+        <a href="asset/Task/TASK SESI 4 PYTHON_Aina Nurfiani.ipynb" target="_blank">View Script →</a>
+      </div>
+
+      <!-- TASK 5 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 5 📊🌍</h3>
+          <div class="task-type">Python Script</div>
+          <h3>Spatial Analysis with Python</h3>
+          <p style="text-align: justify;">Pada task ini dilakukan analisis spasial yang biasanya dikerjakan di ArcGIS
+            Desktop, namun direalisasikan menggunakan script Python.
+            Data dari WebGIS MAPID seperti demografi, ekonomi, dan risiko banjir melalui proses klasifikasi dan
+            pemberian skor pada tiap variabel.
+            Selanjutnya dilakukan overlay antar dataset sehingga diperoleh kelas klasifikasi gabungan sebagai hasil
+            akhir analisis.</p>
+        </div>
+        <a href="asset/Task/Aina Nurfiani_Sesi_6_Python.ipynb" target="_blank">View Script →</a>
+      </div>
+
+      <!-- TASK 6 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 6 🍜🔁</h3>
+          <div class="task-type">PDF</div>
+          <h3>Basic Logic Program.</h3>
+          <p style="text-align: justify;">Task ini berfokus pada penerapan logika pemrograman dasar dalam kehidupan
+            sehari-hari.
+            Flowchart pembuatan mi instan digunakan untuk menggambarkan alur berurutan (sequence) dan percabangan
+            keputusan (if–else), seperti penambahan bahan atau pemilihan jenis mi.
+            Dengan pendekatan ini, proses sederhana dapat dipahami seperti alur kerja sebuah program.</p>
+        </div>
+        <a href="asset/Task/Task 10_Flow Chart Pembuatan Mie Instan_Aina Nurfiani.pdf" target="_blank">Open PDF →</a>
+      </div>
+
+      <!-- TASK 7 -->
+      <div class="task-card">
+        <div>
+          <h3>Task 7 🌐🎨</h3>
+          <div class="task-type">HTML</div>
+          <h3>Web-based output presenting the final WebGIS interface.</h3>
+          <p style="text-align: justify;">ada task ini dibuat script untuk membangun peta WebGIS interaktif menggunakan
+            MapLibre GL JS dengan basemap dari MAPID. Data spasial berformat GeoJSON diambil dari WebGIS MAPID melalui
+            API dan ditampilkan sebagai layer polygon. Pewarnaan layer dilakukan secara tematik berdasarkan status
+            sosial ekonomi, sehingga setiap wilayah memiliki warna yang berbeda. Hasil akhirnya berupa peta tematik
+            interaktif yang memudahkan analisis visual kondisi sosial ekonomi suatu wilayah.</p>
+        </div>
+        <a href="asset/Task/task_terbaru.html" target="_blank">Open Web →</a>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>

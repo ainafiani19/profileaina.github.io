@@ -1,0 +1,1157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "7acc8692-e6f9-413d-8005-0ddc3d43ac58",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.940256,
+          -6.146100243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL LUBUK PAKAM",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. CAKUNG CILINCING RAYA 188, RT.2/RW.5, ROROTAN, KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14140",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1006",
+        "DESA": "ROROTAN",
+        "LONGITUDE": 106.940256,
+        "LATITUDE": -6.146100243,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "78ae8661-61f9-48d5-81bb-b63fb98a9322",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9402502,
+          -6.146118098
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BINTARA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. CAKUNG CILINCING RAYA 188, RT.2/RW.5, ROROTAN, KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14140",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1006",
+        "DESA": "ROROTAN",
+        "LONGITUDE": 106.9402502,
+        "LATITUDE": -6.146118098,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "f5615c70-7e8d-403f-8163-510d5abeedee",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9379457,
+          -6.139356806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SEMPER 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SEMPER 1, JL. RAYA CILINCING, RT.2/RW.5, CILINCING, KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14140",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1002",
+        "DESA": "SUKAPURA",
+        "LONGITUDE": 106.9379457,
+        "LATITUDE": -6.139356806,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "57c087ff-540c-490c-82b6-30f47a353eed",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9379349,
+          -6.139363505
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SEMPER 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SEMPER 1, JL. RAYA CILINCING, RT.2/RW.5, CILINCING, KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14140",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1002",
+        "DESA": "SUKAPURA",
+        "LONGITUDE": 106.9379349,
+        "LATITUDE": -6.139363505,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7e9cb985-1a82-4e81-9110-b2c4ec7e7f41",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9372509,
+          -6.134476433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MARGONDA 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA UTARA, SEMPER TIM., KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1005",
+        "DESA": "SEMPER TIMUR",
+        "LONGITUDE": 106.9372509,
+        "LATITUDE": -6.134476433,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d3dc510f-b99c-424e-8e9c-afffe2665047",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9255512,
+          -6.117956444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KOJA TIMUR",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SEMPER 2, RW.3, SEMPER TIM., KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14130",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1005",
+        "DESA": "SEMPER TIMUR",
+        "LONGITUDE": 106.9255512,
+        "LATITUDE": -6.117956444,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8c1c8b8b-c2e5-4f86-93fd-ae857c849199",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9124837,
+          -6.108374045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SERANG BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KOJA TIMUR, LINGKAR LUAR TIMUR, RT.1/RW.2, KALI BARU, KEC. CILINCING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14110",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.04",
+        "KECAMATAN": "CILINCING",
+        "ID_DESA": "31.72.04.1004",
+        "DESA": "KALIBARU",
+        "LONGITUDE": 106.9124837,
+        "LATITUDE": -6.108374045,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "4ab4d2b9-8a67-4cb0-b938-f0dab310f86d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9024791,
+          -6.108478286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PASURUAN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KOJA BARAT, JL. JAMPEA 1, KOJA, KEC. KOJA, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.03",
+        "KECAMATAN": "KOJA",
+        "ID_DESA": "31.72.03.1001",
+        "DESA": "KOJA",
+        "LONGITUDE": 106.9024791,
+        "LATITUDE": -6.108478286,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7390c995-a6bf-44f3-86bb-a2704ec84b52",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9000187,
+          -6.104091641
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SEMPER 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KOJA DIRECT, JL. TIMOR RAYA, RW.1, KOJA, KEC. KOJA, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14220",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.03",
+        "KECAMATAN": "KOJA",
+        "ID_DESA": "31.72.03.1001",
+        "DESA": "KOJA",
+        "LONGITUDE": 106.9000187,
+        "LATITUDE": -6.104091641,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d576359e-c4c5-4f27-ae63-c5507996f4c5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8933657,
+          -6.119566231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEBON BAWANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KEBON BAWANG, JL. RAYA SULAWESI NO.6, RT.6/RW.13, RAWABADAK UTARA, KEC. KOJA, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.03",
+        "KECAMATAN": "KOJA",
+        "ID_DESA": "31.72.03.1004",
+        "DESA": "RAWA BADAK UTARA",
+        "LONGITUDE": 106.8933657,
+        "LATITUDE": -6.119566231,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "127d6575-a36c-4dab-82b5-baccc38efe97",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8932522,
+          -6.119545811
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEBON JERUK 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KEBON BAWANG, JL. RAYA SULAWESI NO.6, RT.6/RW.13, RAWABADAK UTARA, KEC. KOJA, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14320",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.02",
+        "KECAMATAN": "TANJUNG PRIOK",
+        "ID_DESA": "31.72.02.1005",
+        "DESA": "KEBON BAWANG",
+        "LONGITUDE": 106.8932522,
+        "LATITUDE": -6.119545811,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5b0983b1-0f71-428e-8b57-0ec49d694c98",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8928319,
+          -6.132776314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TANJUNG PRIOK 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL TJ. PRIOK 1, IR. WIYOTO WIYONO MSC, RT.1/RW.4, RAWABADAK SEL., KEC. KOJA, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14230",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.03",
+        "KECAMATAN": "KOJA",
+        "ID_DESA": "31.72.03.1006",
+        "DESA": "RAWA BADAK SELATAN",
+        "LONGITUDE": 106.8928319,
+        "LATITUDE": -6.132776314,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "f7068d7d-5343-4946-865f-8264a54051b4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8912174,
+          -6.131825737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PLUIT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL TJ. PROIK 2, JL. TOL IR. WIYOTO WIYONO M.SC, RT.10/RW.6, SUNGAI BAMBU, KEC. TJ. PRIOK, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14330",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.02",
+        "KECAMATAN": "TANJUNG PRIOK",
+        "ID_DESA": "31.72.02.1004",
+        "DESA": "SUNGAI BAMBU",
+        "LONGITUDE": 106.8912174,
+        "LATITUDE": -6.131825737,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e6a3fd03-0a5e-4b53-8817-d7dcf8f675a6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8895964,
+          -6.148659845
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL ANCOL TIMUR",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL PODOMORO, RT.10/RW.11, KLP. GADING BAR., KEC. KLP. GADING, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14240",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.06",
+        "KECAMATAN": "KELAPA GADING",
+        "ID_DESA": "31.72.06.1003",
+        "DESA": "KELAPA GADING BARAT",
+        "LONGITUDE": 106.8895964,
+        "LATITUDE": -6.148659845,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1a29d561-6a25-4cdb-aa7d-28707f47a046",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8833814,
+          -6.158967391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TAMALANREA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SUNTER, GERBANG TOL SUNTER, RT.2, RW.9, SUNTER JAYA, TANJUNG PRIOK, NORTH JAKARTA CITY, JAKARTA 14360",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.02",
+        "KECAMATAN": "TANJUNG PRIOK",
+        "ID_DESA": "31.72.02.1002",
+        "DESA": "SUNTER JAYA",
+        "LONGITUDE": 106.8833814,
+        "LATITUDE": -6.158967391,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "28e13ec0-9b9f-41de-a50e-992df00413c5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8511139,
+          -6.125675426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KOJA DIRECT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL ANCOL TIMUR, ANCOL, KEC. PADEMANGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.05",
+        "KECAMATAN": "PADEMANGAN",
+        "ID_DESA": "31.72.05.1003",
+        "DESA": "ANCOL",
+        "LONGITUDE": 106.8511139,
+        "LATITUDE": -6.125675426,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "99b65eeb-f081-4516-b229-a817b6dc76b0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8461273,
+          -6.1308575
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PODOMORO",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KEMAYORAN, RT.6/RW.10, PADEMANGAN TIM., KEC. PADEMANGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14410",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.05",
+        "KECAMATAN": "PADEMANGAN",
+        "ID_DESA": "31.72.05.1001",
+        "DESA": "PADEMANGAN TIMUR",
+        "LONGITUDE": 106.8461273,
+        "LATITUDE": -6.1308575,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "6bc333d2-5cf5-47e0-9856-5f7f6ca50a8f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.824951,
+          -6.131417278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEMAYORAN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL ANCOL BARAT, RT.6/RW.4, ANCOL, KEC. PADEMANGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14430",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.05",
+        "KECAMATAN": "PADEMANGAN",
+        "ID_DESA": "31.72.05.1003",
+        "DESA": "ANCOL",
+        "LONGITUDE": 106.824951,
+        "LATITUDE": -6.131417278,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7c7babdc-54ee-4cfb-b3b0-95cf5fbfeb2e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8071393,
+          -6.130934997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JAKASAMPURNA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL GEDONG PANJANG 2, GERBANG TOL GEDONG PANJANG 2, RT.6, RW.5, PENJARINGAN, NORTH JAKARTA CITY, JAKARTA 14440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1001",
+        "DESA": "PENJARINGAN",
+        "LONGITUDE": 106.8071393,
+        "LATITUDE": -6.130934997,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5f4fe1b3-3df1-4a77-98ca-eb46f395fe42",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.8043223,
+          -6.131901462
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL GEDONG PANJANG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL GEDONG PANJANG 1, GERBANG TOL GEDONG PANJANG 1, RT.4, RW.13, PENJARINGAN, NORTH JAKARTA CITY, JAKARTA 14440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1001",
+        "DESA": "PENJARINGAN",
+        "LONGITUDE": 106.8043223,
+        "LATITUDE": -6.131901462,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "9b448d7e-3e18-4f72-b29c-c651263ee94e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7942834,
+          -6.132257261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL ANCOL BARAT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JEMBATAN TIGA 2, RT.13/RW.16, PENJARINGAN, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1001",
+        "DESA": "PENJARINGAN",
+        "LONGITUDE": 106.7942834,
+        "LATITUDE": -6.132257261,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5b80c273-23f5-4c17-a495-b766bf03eaf7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7912833,
+          -6.132559945
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PULOMAS",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JEMB. TIGA 1, RT.23, RW.8, PEJAGALAN, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14450",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1004",
+        "DESA": "PEJAGALAN",
+        "LONGITUDE": 106.7912833,
+        "LATITUDE": -6.132559945,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "1b2687bc-066c-4b6b-9cef-b6a0d93c3058",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7873108,
+          -6.14056648
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL ANGKE 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL ANGKE 1, GERBANG TOL ANGKE 1, RT.10, RW.6, PEJAGALAN, PENJARINGAN, NORTH JAKARTA CITY, JAKARTA 14450",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1004",
+        "DESA": "PEJAGALAN",
+        "LONGITUDE": 106.7873108,
+        "LATITUDE": -6.14056648,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "2bfd9065-f2aa-4594-9a79-37b814a4135d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7798767,
+          -6.124572744
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JATILUHUR",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. PLUIT SELATAN RAYA, RT.11/RW.15, PLUIT, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14450",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1005",
+        "DESA": "PLUIT",
+        "LONGITUDE": 106.7798767,
+        "LATITUDE": -6.124572744,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "621cc8e4-bcf2-49ef-86c3-424c5a0fadfa",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.779873,
+          -6.124583115
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CENGKARENG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. PLUIT SELATAN RAYA, RT.11/RW.15, PLUIT, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14450",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1005",
+        "DESA": "PLUIT",
+        "LONGITUDE": 106.779873,
+        "LATITUDE": -6.124583115,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5ee3450c-871c-4d61-bd64-b459699d31d1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7787871,
+          -6.127367312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PLUIT 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA UTARA, RT.7/RW.16, PEJAGALAN, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1004",
+        "DESA": "PEJAGALAN",
+        "LONGITUDE": 106.7787871,
+        "LATITUDE": -6.127367312,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "f328acfc-d571-4e43-9362-c02b4c58bcaa",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.777638,
+          -6.125959449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL FATMAWATI 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA UTARA, RT.7/RW.16, PEJAGALAN, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1004",
+        "DESA": "PEJAGALAN",
+        "LONGITUDE": 106.777638,
+        "LATITUDE": -6.125959449,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "cd8dc6b6-9606-4eab-920f-11e9f6751b6a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.777617,
+          -6.125957387
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PLUIT 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA UTARA, RT.7/RW.16, PEJAGALAN, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1004",
+        "DESA": "PEJAGALAN",
+        "LONGITUDE": 106.777617,
+        "LATITUDE": -6.125957387,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "95f487e8-1ee7-43a8-baff-19b7322f532c",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7696298,
+          -6.121546342
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMAL 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAPUK 2, RT.1/RW.16, KAPUK MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14460",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1003",
+        "DESA": "KAPUK MUARA",
+        "LONGITUDE": 106.7696298,
+        "LATITUDE": -6.121546342,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "66e746c4-4f78-4b57-b09d-4ce4903b9811",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7687827,
+          -6.121768765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAPUK 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAPUK, JL. TOL PROF. DR. INSINYUR SEDYATMO NO.1, RT.1/RW.16, KAPUK MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14460",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1003",
+        "DESA": "KAPUK MUARA",
+        "LONGITUDE": 106.7687827,
+        "LATITUDE": -6.121768765,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "27a3976d-59c6-4f6a-aeb8-f2a405cea255",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7351158,
+          -6.118960854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMAL 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAMAL 1, RT.1/RW.2, KAMAL MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1002",
+        "DESA": "KAMAL MUARA",
+        "LONGITUDE": 106.7351158,
+        "LATITUDE": -6.118960854,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "643da4f8-469a-480a-95b0-0821c6102a70",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7346014,
+          -6.116798262
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMAL 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JLB KAMAL UTAMA, 7, RT.7/RW.2, KAMAL MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1002",
+        "DESA": "KAMAL MUARA",
+        "LONGITUDE": 106.7346014,
+        "LATITUDE": -6.116798262,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "44b3e728-a6a8-4e32-8874-fdd54ffb973b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.734597,
+          -6.116804501
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JOMBANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JLB KAMAL UTAMA, 7, RT.7/RW.2, KAMAL MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1002",
+        "DESA": "KAMAL MUARA",
+        "LONGITUDE": 106.734597,
+        "LATITUDE": -6.116804501,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8c1b82f5-538f-454a-91dd-a876b338494e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7342957,
+          -6.117759422
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PLUIT 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA UTARA, RT.1/RW.2, KAMAL MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1002",
+        "DESA": "KAMAL MUARA",
+        "LONGITUDE": 106.7342957,
+        "LATITUDE": -6.117759422,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "fc9b890d-81cf-4695-91b5-6ef9762c920f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7342744,
+          -6.115604871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMAL 4",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA UTARA, RW.2, KAMAL MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1002",
+        "DESA": "KAMAL MUARA",
+        "LONGITUDE": 106.7342744,
+        "LATITUDE": -6.115604871,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "4d9c6523-74eb-49e2-a2ca-f98625104d44",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7341435,
+          -6.116164061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAMAL UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JLB KAMAL UTAMA, 7, RT.7/RW.2, KAMAL MUARA, KEC. PENJARINGAN, JKT UTARA, DAERAH KHUSUS IBUKOTA JAKARTA 14470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.72",
+        "KABKOT": "KOTA ADM. JAKARTA UTARA",
+        "ID_KEC": "31.72.01",
+        "KECAMATAN": "PENJARINGAN",
+        "ID_DESA": "31.72.01.1002",
+        "DESA": "KAMAL MUARA",
+        "LONGITUDE": 106.7341435,
+        "LATITUDE": -6.116164061,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarmUp</title>
+
+    <!--CDN MAPLIBRE GL JS-->
+    <script src="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- CDN TAILWIND CSS-->
+    <!---->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div id="map" class="w-full h-screen"></div>
+
+    <script>
+        const MAP_SERVICE_KEY = "68dcd62806823ed3f510dddf";
+        const DEFAULT_THEME = "street-new-generation";
+        //https://basemap.mapid.io/styles/street-new-generation/style.json?key=68dcd62806823ed3f510dddf
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${DEFAULT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [107.6, -6.9],
+            zoom: 10, //0-22 level
+            pitch: 0,
+            bearing: 0,
+            container: "map",
+            canvasContextAttributes: { antialias: true },
+            attributionControl: true,
+        });
+
+        map.on("load", function () {
+            map.addSource("data-SES", {
+                type: "geojson",
+                data: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68e8bdfc7583581fb9fdaea1&project_id=68dce08a32f5e9f00e3e0f2b&limit=10000",
+
+            });
+
+            map.addLayer({
+                id: "layer-data-SES",
+                type: "fill",
+                source: "data-SES",
+                paint: {
+                    "fill-color": [
+                        "match", //mengganti data di SES dengan warna
+                        ["get", "SOCIOECONOMIC_STATUS"], //mengambil nilai dari kolom SES
+                        "Atas", "red", //kalau nilainya atas maka warna merah
+                        "Menengah Atas", "yellow",
+                        "gray" //kalau kosong atau null maka nilainya abu-abu
+                    ],
+                    "fill-opacity": 0.6
+                }
+            },
+                "place_other");
+
+        })
+
+
+    </script>
+</body>
+
+</html>

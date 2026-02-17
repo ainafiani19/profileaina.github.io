@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Nama Kamu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(
+        135deg,
+        #FEEAC9,
+        #FFCDC9,
+        #FDACAC,
+        #F07979
+      );
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 0;
+      background: rgba(255,255,255,0.45);
+      backdrop-filter: blur(8px);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 10px;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background: #F07979;
+      color: white;
+    }
+
+    /* ===== CV SECTION ===== */
+    .cv-section {
+      padding: 50px 10%;
+      text-align: center;
+    }
+
+    .cv-section h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* ===== LANGUAGE BUTTONS ===== */
+    .lang-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+
+    .lang-buttons button {
+      padding: 10px 22px;
+      border-radius: 20px;
+      border: 2px solid #F07979;
+      background: white;
+      color: #F07979;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .lang-buttons button.active {
+      background: #F07979;
+      color: white;
+    }
+
+    /* ===== PDF VIEW ===== */
+    .pdf-wrapper {
+      max-width: 900px;
+      margin: 0 auto 35px;
+      background: rgba(255,255,255,0.65);
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      overflow: hidden;
+    }
+
+    .pdf-wrapper iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+
+    /* ===== DOWNLOAD BUTTON ===== */
+    .download-btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background: #F07979;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 768px) {
+      .pdf-wrapper iframe {
+        height: 450px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="Home_Profile.html">Home</a>
+    <a href="Portofoliosementara.html" class="active">Portofolio</a>
+    <a href="Profile.html">About Me</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <!-- CV SECTION -->
+  <section class="cv-section">
+    <h1>Curiculum Vitae</h1>
+
+    <!-- LANGUAGE SWITCH -->
+    <div class="lang-buttons">
+      <button id="btn-id" class="active" onclick="showCV('id')">
+        Bahasa Indonesia
+      </button>
+      <button id="btn-en" onclick="showCV('en')">
+        English
+      </button>
+    </div>
+
+    <!-- PDF VIEWER -->
+    <div class="pdf-wrapper">
+      <iframe id="cvViewer" src="cv-id.pdf"></iframe>
+    </div>
+  </section>
+
+  <!-- SCRIPT -->
+  <script>
+    function showCV(lang) {
+      const viewer = document.getElementById("cvViewer");
+      const btnId = document.getElementById("btn-id");
+      const btnEn = document.getElementById("btn-en");
+
+      if (lang === "id") {
+        viewer.src = "cv-id.pdf";
+        btnId.classList.add("active");
+        btnEn.classList.remove("active");
+      } else {
+        viewer.src = "cv-en.pdf";
+        btnEn.classList.add("active");
+        btnId.classList.remove("active");
+      }
+    }
+  </script>
+
+</body>
+</html>

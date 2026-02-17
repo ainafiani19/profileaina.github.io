@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "e1fc690a-ca97-4241-b35e-ae5ebd79c3e1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1446,
+          -6.25488
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN CIKARANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "COMMUTER",
+        "TELEPON": "",
+        "ALAMAT": "WEST, JL. YOS SUDARSO, KARANGASIH, KEC. CIKARANG UTARA, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2003",
+        "DESA": "KARANGASIH",
+        "LONGITUDE": 107.1446,
+        "LATITUDE": -6.25488,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b3dbce09-ecf4-4f8f-889b-92e344c0152e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0558,
+          -6.25861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN TAMBUN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "COMMUTER",
+        "TELEPON": "",
+        "ALAMAT": "TAMBUN, JL. ST. NO.37-43, MEKARSARI, KEC. TAMBUN SEL., JAWA BARAT 17510",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.06",
+        "KECAMATAN": "TAMBUN SELATAN",
+        "ID_DESA": "32.16.06.2007",
+        "DESA": "MEKARSARI",
+        "LONGITUDE": 107.0558,
+        "LATITUDE": -6.25861,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "a5f924de-5882-48ad-a822-7486b04e15f1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0558,
+          -6.25861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN TAMBUN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "KERETA API",
+        "TELEPON": "",
+        "ALAMAT": "TAMBUN, JL. ST. NO.37-43, MEKARSARI, KEC. TAMBUN SEL., JAWA BARAT 17510",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.06",
+        "KECAMATAN": "TAMBUN SELATAN",
+        "ID_DESA": "32.16.06.2007",
+        "DESA": "MEKARSARI",
+        "LONGITUDE": 107.0558,
+        "LATITUDE": -6.25861,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "02b11486-4c19-4b76-b238-3763f41b5789",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1108,
+          -6.25763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN METLAND TELAGA MURNI",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "KERETA API",
+        "TELEPON": "",
+        "ALAMAT": "JL. METLAND CIBITUNG, COMPLEX, CIKARANG, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2001",
+        "DESA": "TELAGAMURNI",
+        "LONGITUDE": 107.1108,
+        "LATITUDE": -6.25763,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ead28c56-e537-44ba-a560-bf7c9dd17c22",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1446,
+          -6.25488
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN CIKARANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "KERETA API",
+        "TELEPON": "",
+        "ALAMAT": "JL. YOS SUDARSO, KARANGASIH, KEC. CIKARANG UTARA, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2003",
+        "DESA": "KARANGASIH",
+        "LONGITUDE": 107.1446,
+        "LATITUDE": -6.25488,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e53d937c-2001-4a66-9444-f6e92d8b4f65",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1798,
+          -6.27057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN LEMAH ABANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "KERETA API",
+        "TELEPON": "",
+        "ALAMAT": "LEMAH ABANG, JALAN RAYA LEMAH ABANG BLOK LEMAH ABANG NO.4, SIMPANGAN, CIKARANG UTARA, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2007",
+        "DESA": "SIMPANGAN",
+        "LONGITUDE": 107.1798,
+        "LATITUDE": -6.27057,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "33f70de6-9084-456a-a293-6bfbf4dbbe0e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1798,
+          -6.27057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN LEMAH ABANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "COMMUTER",
+        "TELEPON": "",
+        "ALAMAT": "LEMAH ABANG, JALAN RAYA LEMAH ABANG BLOK LEMAH ABANG NO.4, SIMPANGAN, CIKARANG UTARA, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2007",
+        "DESA": "SIMPANGAN",
+        "LONGITUDE": 107.1798,
+        "LATITUDE": -6.27057,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ea4fd674-60b5-451d-92d2-8bdf96e16cb9",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.2612,
+          -6.2699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN KEDUNG GEDEH",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "COMMUTER",
+        "TELEPON": "",
+        "ALAMAT": "KEDUNGWARINGIN, KEC. KEDUNGWARINGIN, KABUPATEN BEKASI, JAWA BARAT 17540",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.12",
+        "KECAMATAN": "KEDUNG WARINGIN",
+        "ID_DESA": "32.16.12.2007",
+        "DESA": "KEDUNGWARINGIN",
+        "LONGITUDE": 107.2612,
+        "LATITUDE": -6.2699,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "f97232b7-554d-4f04-97f6-8ff75ba57ecf",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.2612,
+          -6.2699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN KEDUNG GEDEH",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "KERETA API",
+        "TELEPON": "",
+        "ALAMAT": "KEDUNGWARINGIN, KEC. KEDUNGWARINGIN, KABUPATEN BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.12",
+        "KECAMATAN": "KEDUNG WARINGIN",
+        "ID_DESA": "32.16.12.2007",
+        "DESA": "KEDUNGWARINGIN",
+        "LONGITUDE": 107.2612,
+        "LATITUDE": -6.2699,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ac9ce9e9-1fff-4034-90fd-03e93a915f9d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1798,
+          -6.27057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN LEMAH ABANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "LOGISTIK",
+        "TELEPON": "",
+        "ALAMAT": "KAB. BEKASI, JAWA BARAT",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.09",
+        "KECAMATAN": "CIKARANG UTARA",
+        "ID_DESA": "32.16.09.2007",
+        "DESA": "SIMPANGAN",
+        "LONGITUDE": 107.1798,
+        "LATITUDE": -6.27057,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "a3468e59-32de-4884-b6f5-1aada0960007",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.1108,
+          -6.25763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN METLAND TELAGA MURNI",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "COMMUTER",
+        "TELEPON": "",
+        "ALAMAT": "JL. METLAND CIBITUNG, COMPLEX, CIKARANG, KABUPATEN BEKASI, JAWA BARAT 17530",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.08",
+        "KECAMATAN": "CIKARANG BARAT",
+        "ID_DESA": "32.16.08.2001",
+        "DESA": "TELAGAMURNI",
+        "LONGITUDE": 107.1108,
+        "LATITUDE": -6.25763,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7a10f824-3c85-4cc6-9b38-2e95216bd42a",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.020882,
+          -6.2636739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN CIRACAS",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "LRT",
+        "TELEPON": "",
+        "ALAMAT": "JL. CIKAGO NO.34, RT.1/RW.6, CIRACAS, KEC. CIPAYUNG, KOTA JAKARTA TIMUR, DAERAH KHUSUS IBUKOTA JAKARTA 13840",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.06",
+        "KECAMATAN": "TAMBUN SELATAN",
+        "ID_DESA": "32.16.06.1001",
+        "DESA": "JATIMULYA",
+        "LONGITUDE": 107.020882,
+        "LATITUDE": -6.2636739,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d4730e27-ce73-4034-828b-5a631613f993",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0836,
+          -6.26178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN CIBITUNG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "KERETA API",
+        "TELEPON": "",
+        "ALAMAT": "JL. CENDANA RAYA, WANASARI, KEC. CIBITUNG, KABUPATEN BEKASI, JAWA BARAT 17520",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.07",
+        "KECAMATAN": "CIBITUNG",
+        "ID_DESA": "32.16.07.1001",
+        "DESA": "WANASARI",
+        "LONGITUDE": 107.0836,
+        "LATITUDE": -6.26178,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "72eb526a-b575-4e4a-89e6-bb8e0396acb0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0836,
+          -6.26178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "STASIUN CIBITUNG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "STASIUN",
+        "TIPE_3": "COMMUTER",
+        "TELEPON": "",
+        "ALAMAT": "JL. CENDANA RAYA, WANASARI, KEC. CIBITUNG, KABUPATEN BEKASI, JAWA BARAT 17520",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.16",
+        "KABKOT": "BEKASI",
+        "ID_KEC": "32.16.07",
+        "KECAMATAN": "CIBITUNG",
+        "ID_DESA": "32.16.07.1001",
+        "DESA": "WANASARI",
+        "LONGITUDE": 107.0836,
+        "LATITUDE": -6.26178,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    }
+  ]
+}

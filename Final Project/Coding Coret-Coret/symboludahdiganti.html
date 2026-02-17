@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+
+    <!-- MAPLIBRE -->
+    <script src="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class"
+        }
+    </script>
+    <!--CDN TAILWIN CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--CDN Turf.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+
+    <!-- Tambahkan AlpineJS biar dropdown bisa klik-buka -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+
+
+
+</head>
+
+<body class=" min-h-screen w-full bg-[#F5F9E9]">
+
+    <!-- NAVBAR -->
+    <nav class="w-1full flex flex-wrap items-center justify-between gap-4 
+    bg-[#475b63] dark:bg-[#24322E]
+    text-[#F5F9E9] dark:text-[#E9EFE5]
+    px-4 py-2 sticky top-0 z-10">
+
+        <div class="flex items-center gap-3">
+            <a href="/Final Project/coding/Home_Page.html" id="home"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/home-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </a>
+
+            <div class="text-base font-bold flex items-center gap-1 cursor-pointer">
+                MyWebGIS
+            </div>
+        </div>
+
+        <form id="formKecamatan" class="flex flex-wrap items-center gap-4 w-full md:w-auto">
+
+            <!-- Pilih Kecamatan -->
+            <div class="flex items-center gap-2">
+                <label for="kecamatan" class="font-semibold text-[#F5F9E9] whitespace-nowrap">
+                    Pilih Kecamatan:
+                </label>
+                <select name="kecamatan" id="kecamatan"
+                    class="text-black bg-white px-3 py-2 rounded shadow-sm border border-gray-300 focus:ring-2 focus:ring-[#57A773] focus:border-[#57A773]">
+                    <option value="">SEMUA KECAMATAN</option>
+                    <option value="BABELAN">BABELAN</option>
+                    <option value="BOJONGMANGU">BOJONGMANGU</option>
+                    <option value="CABANGBUNGIN">CABANGBUNGIN</option>
+                    <option value="CIBARUSAH">CIBARUSAH</option>
+                    <option value="CIBITUNG">CIBITUNG</option>
+                    <option value="CIKARANG BARAT">CIKARANG BARAT</option>
+                    <option value="CIKARANG PUSAT">CIKARANG PUSAT</option>
+                    <option value="CIKARANG SELATAN">CIKARANG SELATAN</option>
+                    <option value="CIKARANG TIMUR">CIKARANG TIMUR</option>
+                    <option value="CIKARANG UTARA">CIKARANG UTARA</option>
+                    <option value="KARANG BAHAGIA">KARANG BAHAGIA</option>
+                    <option value="KEDUNG WARINGIN">KEDUNG WARINGIN</option>
+                    <option value="MUARA GEMBONG">MUARA GEMBONG</option>
+                    <option value="PEBAYURAN">PEBAYURAN</option>
+                    <option value="SERANG BARU">SERANG BARU</option>
+                    <option value="SETU">SETU</option>
+                    <option value="SUKAKARYA">SUKAKARYA</option>
+                    <option value="SUKATANI">SUKATANI</option>
+                    <option value="SUKAWANGI">SUKAWANGI</option>
+                    <option value="TAMBELANG">TAMBELANG</option>
+                    <option value="TAMBUN SELATAN">TAMBUN SELATAN</option>
+                    <option value="TAMBUN UTARA">TAMBUN UTARA</option>
+                    <option value="TARUMAJAYA">TARUMAJAYA</option>
+                </select>
+            </div>
+
+
+            <!-- Layer Checkbox Custom -->
+            <div class="relative inline-block w-56" x-data="{ open: false }">
+                <div class="border border-gray-300 bg-white text-black px-3 py-2 rounded shadow-sm cursor-pointer select-none hover:border-[#57A773]"
+                    @click="open = !open">
+                    Pilih Layer
+                </div>
+
+                <div x-show="open"
+                    class="absolute mt-1 w-full bg-white border border-gray-300 rounded shadow-md p-2 z-10 max-h-48 overflow-y-auto">
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Properti" class="accent-[#57A773]"> Properti
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Pendidikan" class="accent-[#57A773]"> Pendidikan
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Kesehatan" class="accent-[#57A773]"> Kesehatan
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Transportasi" class="accent-[#57A773]"> Transportasi
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Banjir" class="accent-[#57A773]"> Kebencanaan
+                    </label>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit"
+                class="px-4 py-2 bg-[#57A773] text-white rounded shadow-md hover:bg-[#4CAF74] active:scale-95 cursor-pointer">
+        </form>
+
+        <div id="tools" class="flex flex-wrap items-center gap-2 w-full md:w-auto justify-end">
+            <button id="layer-variabel"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/layer-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </button>
+
+            <!-- portofilio page belum muncul-->
+            <a href="" id="contact-us"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/contact-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </a>
+
+            <button id="mode"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/mode-dark-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </button>
+        </div>
+    </nav>
+
+    <!-- SIDE PANEL -->
+    <div id="sidePanel"
+        class="fixed top-16 -right-1/4 w-1/4 h-[calc(100vh-4rem)] bg-white dark:bg-[#1f2937] shadow-lg transition-all duration-300 z-[9999] p-4 overflow-y-auto">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Layer Tools</h3>
+        </div>
+
+        <div id="isochrone-panel" class="space-y-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Isochrone</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Hitung jangkauan dari titik properti.</p>
+
+            <div>
+                <label class="block font-medium  text-black dark:text-white">Mode Transportasi:</label>
+                <div class="mt-1 space-y-1">
+                    <label class="flex items-center gap-2">
+                        <input type="radio" name="profile" value="motorcycle" class="accent-[#57A773]" checked>
+                        <span class=" text-black dark:text-white">Motor</span>
+                    </label>
+                    <label class="flex items-center gap-2">
+                        <input type="radio" name="profile" value="car" class="accent-[#57A773]">
+                        <span class=" text-black dark:text-white">Mobil</span>
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label for="duration" class="block font-medium  dark:text-white text-black ">Durasi (detik)</label>
+                <input id="duration" type="number" value="300"
+                    class="w-full border rounded px-2 py-1 dark:bg-gray-400 dark:text-white text-black">
+            </div>
+
+            <button id="runIsochrone"
+                class="w-full bg-[#57A773] text-white py-2 rounded hover:bg-[#4CAF74] active:scale-95 transition">
+                Jalankan
+            </button>
+
+            <div id="loadingIsochrone" class="hidden text-center text-gray-500 text-sm animate-pulse">
+                Memuat isochrone...
+            </div>
+
+            <div>
+                <p class="font-medium text-gray-800 dark:text-gray-100 mt-4">Properti dalam area:</p>
+                <ul id="isochroneResult" class="list-disc ml-5 text-sm text-gray-700 dark:text-gray-300"></ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!--MAP-->
+    <div id="map" class="w-full h-[calc(100vh-60px)] bg-[#157145] dark:bg-[#13201C]"></div>
+
+
+    <script>
+
+        //1. script untuk switch mode
+        const LIGHT = "https://basemap.mapid.io/styles/street-2d-building/style.json?key=68dcd62806823ed3f510dddf";
+        const DARK = "https://basemap.mapid.io/styles/dark/style.json?key=68dcd62806823ed3f510dddf";
+
+        if (localStorage.theme === "dark") {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+            localStorage.theme = "light";
+        }
+
+        function changeTheme() {
+            if (document.documentElement.classList.contains("dark")) {
+                document.documentElement.classList.remove("dark")
+                localStorage.theme = "light"
+                map.setStyle(lightStyle)
+            } else {
+                document.documentElement.classList.add("dark")
+                localStorage.theme = "dark"
+                map.setStyle(darkStyle)
+            }
+        }
+        document.getElementById("mode").addEventListener("click", changeTheme);
+
+        //2. Script memanggil peta
+        const MAP_SERVICE_KEY = "68dcd62806823ed3f510dddf";
+        const LIGHT_THEME = "street-2d-building";
+        const DARK_THEME = "dark";
+        const lightStyle = `https://basemap.mapid.io/styles/${LIGHT_THEME}/style.json?key=${MAP_SERVICE_KEY}`;
+        const darkStyle = `https://basemap.mapid.io/styles/${DARK_THEME}/style.json?key=${MAP_SERVICE_KEY}`;
+        const initialStyle = localStorage.theme === "dark" ? darkStyle : lightStyle;
+
+
+        const map = new maplibregl.Map({
+            style: initialStyle,
+            center: [107.14504645971738, -6.255886768288434],
+            zoom: 10,
+            container: "map"
+        });
+
+        //untuk side panel
+        const panel = document.getElementById("sidePanel");
+        const toggleBtn = document.getElementById("layer-variabel");
+
+        toggleBtn.addEventListener("click", () => {
+            const isOpen = panel.classList.contains("right-0");
+
+            if (isOpen) {
+                panel.classList.remove("right-0");
+                panel.classList.add("-right-1/4");
+            } else {
+                panel.classList.remove("-right-1/4");
+                panel.classList.add("right-0");
+            }
+        });
+
+
+
+        // polyon source
+        const kecUrl = "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fe2517c8804625c62c5477&project_id=68f488c244612b4d22ec2f83&limit=10000";
+
+        // point layer urls
+        const pointLayerSources = {
+            Properti: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=69061504016f40e5a8c33aaf&project_id=68f488c244612b4d22ec2f83&limit=10000",
+            Pendidikan: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f99c8804625c613cd3c&project_id=68f488c244612b4d22ec2f83&limit=10000",
+            Kesehatan: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f6096b90db738e31ee9&project_id=68f488c244612b4d22ec2f83&limit=10000",
+            Transportasi: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f75c8804625c613cc1b&project_id=68f488c244612b4d22ec2f83&limit=10000",
+        };
+
+        const polygonLayer = {
+            Banjir: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8fbec8804625c613d261&project_id=68f488c244612b4d22ec2f83&limit=10000",
+        }
+
+        // add kecamatan layer on load
+        map.on("load", () => {
+            map.addSource("Kecamatan", { type: "geojson", data: kecUrl });
+
+            map.addLayer({
+                id: "Kecamatan-layer",
+                type: "fill",
+                source: "Kecamatan",
+                paint: {
+                    "fill-color": "grey",
+                    "fill-opacity": 0.4,
+                }
+            });
+        });
+
+        // re-add polygon after theme switch
+        map.on("styledata", () => {
+            if (!map.getSource("Kecamatan")) {
+                map.addSource("Kecamatan", { type: "geojson", data: kecUrl });
+                map.addLayer({
+                    id: "Kecamatan-layer",
+                    type: "fill",
+                    source: "Kecamatan",
+                    paint: { "fill-color": "grey", "fill-opacity": 0.4 }
+                });
+            }
+        });
+
+        // handle submit
+        document.getElementById('formKecamatan').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const kec = document.getElementById('kecamatan').value;
+            const checked = [...document.querySelectorAll('input[type=checkbox]:checked')]
+                .map(cb => cb.value);
+
+            // filter kecamatan (empty = show all)
+            if (!kec) {
+                map.setFilter("Kecamatan-layer", null);
+                map.fitBounds([[106.8, -6.7], [107.4, -6.05]], { padding: 40 }); // adjust ke bounding daerah kamu
+            } else {
+                map.setFilter("Kecamatan-layer", ["==", ["get", "KECAMATAN"], kec]);
+
+                const data = await (await fetch(kecUrl)).json();
+                const fitur = data.features.filter(f => f.properties.KECAMATAN === kec);
+
+                if (fitur.length > 0) {
+                    const bbox = turf.bbox(fitur[0]);
+                    map.fitBounds(bbox, { padding: 40, maxZoom: 13 });
+                }
+            }
+
+            // clear point layers
+            Object.keys(pointLayerSources).forEach(id => {
+                if (map.getLayer(id)) map.removeLayer(id);
+                if (map.getSource(id)) map.removeSource(id);
+            });
+
+            // clear polygon layers
+            Object.keys(polygonLayer).forEach(id => {
+                if (map.getLayer(id)) map.removeLayer(id);
+                if (map.getSource(id)) map.removeSource(id);
+            });
+
+            // add selected points
+            for (const layerName of checked) {
+
+                // cek polygon dulu
+                if (polygonLayer[layerName]) {
+                    const res = await fetch(polygonLayer[layerName]);
+                    const data = await res.json();
+
+                    const filteredPoly = kec ? {
+                        type: "FeatureCollection",
+                        features: data.features.filter(f => f.properties.KECAMATAN === kec)
+                    } : data;
+
+                    map.addSource(layerName, { type: "geojson", data: filteredPoly });
+
+                    map.addLayer({
+                        id: layerName,
+                        type: "fill",
+                        source: layerName,
+                        paint: {
+                            "fill-color": [
+                                "match", //mengganti data di SES dengan warna
+                                ["get", "KELAS_RISIKO"], //mengambil nilai dari kolom kelas risiko
+                                "RENDAH", "green", //kalau nilainya atas maka warna merah
+                                "SEDANG", "yellow",
+                                "TINGGI", "red",
+                                "gray" //kalau kosong atau null maka nilainya abu-abu
+                            ],
+                            "fill-opacity": 0.4
+                        }
+                    });
+
+                    continue;
+                }
+
+                // klo bukan polygon, berarti point
+                const res = await fetch(pointLayerSources[layerName]);
+                const data = await res.json();
+
+                const filteredData = kec && kec !== "SEMUA KECAMATAN"
+                    ? {
+                        type: "FeatureCollection",
+                        features: data.features.filter(f =>
+                            f.properties.KECAMATAN?.toLowerCase() === kec.toLowerCase()
+                        )
+                    }
+                    : data;
+
+
+                console.log(`[${layerName}] Filtered ${filteredData.features.length} dari ${data.features.length} fitur untuk kecamatan "${kec}"`);
+
+                // --- ICON SVG DATA-URL ---
+                const pointIcons = {
+                    Properti: "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20width='1em'%20height='1em'%3E%3Cpath%20fill='currentColor'%20d='m11.996%201.658l10.416%209.259l-1.329%201.495L20%2011.449v10.55H4V11.455l-1.094.957l-1.317-1.505l4.41-3.86V3H8v2.254zM6%209.704V20h3v-6h6v6h3V9.67l-5.996-5.33L7.66%208.252zM13%2020v-4h-2v4z'/%3E%3C/svg%3E",
+                    Pendidikan: "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20width='24'%20height='24'%3E%3Cpath%20fill='currentColor'%20d='M12%203L1%209l4%202.18v6L12%2021l7-3.82v-6l2-1.09V17h2V9zm6.82%206L12%2012.72L5.18%209L12%205.28zM17%2015.99l-5%202.73l-5-2.73v-3.72L12%2015l5-2.73z'/%3E%3C/svg%3E",
+                    Kesehatan: "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%20width='24'%20height='24'%3E%3Cpath%20fill='currentColor'%20d='M160%20304h32v32h-32zm80%200h32v32h-32zm80%200h32v32h-32z'/%3E%3Cpath%20fill='currentColor'%20d='M440%20464V88h-72V16H144v72H72v376H16v32h480v-32ZM176%2048h160v160H176Zm232%20416H272v-64h-32v64H104V120h40v120h224V120h40Z'/%3E%3Cpath%20fill='currentColor'%20d='M272%2080h-32v32h-32v32h32v32h32v-32h32v-32h-32z'/%3E%3C/svg%3E",
+                    Transportasi: "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%20width='24'%20height='24'%3E%3Cpath%20fill='none'%20stroke='currentColor'%20stroke-linecap='round'%20stroke-linejoin='round'%20d='M13.163%2031.663a15.326%2015.326%200%201%201%2021.674%200L24%2042.5'/%3E%3Ccircle%20cx='24'%20cy='20.826'%20r='5.109'%20fill='none'%20stroke='currentColor'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3Cpath%20fill='none'%20stroke='currentColor'%20stroke-linecap='round'%20stroke-linejoin='round'%20d='M16.775%2028.051a10.217%2010.217%200%201%201%2014.45%200L20.388%2038.888'/%3E%3C/svg%3E"
+                };
+
+                // --- HELPER TAMBAH GAMBAR SVG ---
+                function addImageFromDataUrl(map, name, dataUrl) {
+                    return new Promise((resolve, reject) => {
+                        const img = new Image();
+                        img.onload = () => {
+                            try {
+                                if (!map.hasImage(name)) map.addImage(name, img);
+                                resolve();
+                            } catch (err) { reject(err); }
+                        };
+                        img.onerror = reject;
+                        img.src = dataUrl;
+                    });
+                }
+
+                // --- LOOP PER KATEGORI YANG DICENTANG ---
+                for (const layerName of checked) {
+
+                    // 1) dpt URL geojson
+                    const url = pointLayerSources[layerName];
+                    if (!url) continue;
+
+                    // 2) fetch data
+                    const res = await fetch(url);
+                    const data = await res.json();
+
+                    // 3) filter kecamatan
+                    const filteredData = kec && kec !== "SEMUA KECAMATAN"
+                        ? {
+                            type: "FeatureCollection",
+                            features: data.features.filter(f =>
+                                (f.properties.KECAMATAN || "").toLowerCase() === kec.toLowerCase()
+                            )
+                        }
+                        : data;
+
+                    // 4) add source
+                    const sourceId = `${layerName}-src`;
+                    map.addSource(sourceId, { type: "geojson", data: filteredData });
+
+                    // 5) siapkan icon name (unik setiap kategori)
+                    const iconName = `${layerName.toLowerCase()}-icon`;
+
+                    // 6) load SVG icon → addImage
+                    if (pointIcons[layerName]) {
+                        try {
+                            await addImageFromDataUrl(map, iconName, pointIcons[layerName]);
+                        } catch (err) {
+                            console.warn("Gagal add icon:", layerName, err);
+                        }
+                    }
+
+                    // 7) add symbol layer
+                    map.addLayer({
+                        id: layerName,
+                        type: "symbol",
+                        source: sourceId,
+                        layout: {
+                            "icon-image": iconName,
+                            "icon-size": 1,
+                            "icon-allow-overlap": true
+                        }
+                    });
+                }
+            }
+        })
+
+        // script popup masuk DI SINI
+        map.on("click", "Properti", function (e) {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const props = e.features[0].properties;
+            const point = e.features[0].geometry.coordinates;
+            console.log(point)
+            const content = `
+<div class="text-sm">
+    <div class="font-semibold mb-1">${props["NAMA PROPERTI"] || "Tidak ada nama"}</div>
+    <div>Kelas: ${props["KELAS_STRATEGIS"] || "-"}</div>
+    <div>Tipe: ${props["TIPE_2"] || "-"}</div>
+    <div>Alamat: ${props["ALAMAT"] || "-"}</div>
+    <div>Harga: ${props["HARGA PROPERTI NET"] || "-"} </div>
+    <div>Luas Tanah: ${props["LUAS TANAH (M²)"] || "-"} m²</div>
+    <div>Luas Bangunan: ${props["LUAS BANGUNAN (M²)"] || "-"} m²</div>
+</div>
+    `;
+
+            new maplibregl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(content)
+                .addTo(map);
+        });
+        map.on("mouseenter", "Properti", () => map.getCanvas().style.cursor = "pointer");
+        map.on("mouseleave", "Properti", () => map.getCanvas().style.cursor = "");
+        let selectedPoint = null;
+
+
+    </script>
+
+
+</body>
+
+
+</html>

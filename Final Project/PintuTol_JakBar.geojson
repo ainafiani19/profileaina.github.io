@@ -1,0 +1,1093 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "85fb1866-7756-42bb-8b64-3dd7a2fde177",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7986347,
+          -6.199967993
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CAWANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SLIPI 1, RT.1/RW.4, SLIPI, KEC. PALMERAH, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.07",
+        "KECAMATAN": "PAL MERAH",
+        "ID_DESA": "31.73.07.1001",
+        "DESA": "PALMERAH",
+        "LONGITUDE": 106.7986347,
+        "LATITUDE": -6.199967993,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "20db4af9-32a5-4a92-8198-852ce2d3d265",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7975265,
+          -6.195197246
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TOMANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL SLIPI 2, RW.3, SLIPI, KEC. PALMERAH, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11480",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.07",
+        "KECAMATAN": "PAL MERAH",
+        "ID_DESA": "31.73.07.1002",
+        "DESA": "SLIPI",
+        "LONGITUDE": 106.7975265,
+        "LATITUDE": -6.195197246,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "48a56dc3-8685-4f71-bdc4-b861fe24088f",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7935369,
+          -6.181589138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TANJUNG DUREN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL TOMANG, JL. TOL JKT - TANGERANG, RT.12/RW.1, TJ. DUREN SEL., KEC. GROGOL PETAMBURAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11470",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.02",
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "ID_DESA": "31.73.02.1005",
+        "DESA": "TANJUNG DUREN SELATAN",
+        "LONGITUDE": 106.7935369,
+        "LATITUDE": -6.181589138,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e3e0245a-8386-4dd4-81d1-250160eab433",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7929209,
+          -6.156485016
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL PLUIT 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "RT.8/RW.9, GROGOL, KEC. GROGOL PETAMBURAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.02",
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "ID_DESA": "31.73.02.1001",
+        "DESA": "GROGOL",
+        "LONGITUDE": 106.7929209,
+        "LATITUDE": -6.156485016,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e01f7617-c7e2-4a6d-89d0-c2424134c8c6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7919101,
+          -6.157678506
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JELAMBAR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JELAMBAR 1, JL. PROF. DR. LATUMETEN B NO.2, RT.1/RW.7, JELAMBAR, KEC. GROGOL PETAMBURAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11460",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.02",
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "ID_DESA": "31.73.02.1004",
+        "DESA": "JELAMBAR",
+        "LONGITUDE": 106.7919101,
+        "LATITUDE": -6.157678506,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ea819751-733d-4e81-855b-2d75975262fc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.790307,
+          -6.173282004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CEMPAKA PUTIH",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL TANJUNG DUREN, RT.3/RW.8, TOMANG, KEC. GROGOL PETAMBURAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11440",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.02",
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "ID_DESA": "31.73.02.1003",
+        "DESA": "TOMANG",
+        "LONGITUDE": 106.790307,
+        "LATITUDE": -6.173282004,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "77d894e7-e240-426f-b717-bb354f89c4cc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7897933,
+          -6.144459674
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BAKAUHENI SELATAN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL ANGKE 2, GERBANG TOL ANGKE 2, RT.8, RW.6, JELAMBAR BARU, GROGOL PETAMBURAN, WEST JAKARTA CITY, JAKARTA 11460",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.02",
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "ID_DESA": "31.73.02.1006",
+        "DESA": "JELAMBAR BARU",
+        "LONGITUDE": 106.7897933,
+        "LATITUDE": -6.144459674,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "dc627295-1534-419d-bb93-6a8eb6b7a9db",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.76798,
+          -6.189723932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEBON NANAS",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KEBON JERUK 1, KB. JERUK I, RT.11, RW.10, KEBON JERUK, KEBONJERUK, WEST JAKARTA CITY, JAKARTA 11530",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.05",
+        "KECAMATAN": "KEBON JERUK",
+        "ID_DESA": "31.73.05.1007",
+        "DESA": "KEDOYA SELATAN",
+        "LONGITUDE": 106.76798,
+        "LATITUDE": -6.189723932,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "de9553bc-5a5d-413c-82ef-03f5e2aa1064",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7679668,
+          -6.190267626
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEBON JERUK 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KEBON JERUK 1, KB. JERUK I, RT.11, RW.10, KEBON JERUK, KEBONJERUK, WEST JAKARTA CITY, JAKARTA 11530",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.05",
+        "KECAMATAN": "KEBON JERUK",
+        "ID_DESA": "31.73.05.1001",
+        "DESA": "KEBON JERUK",
+        "LONGITUDE": 106.7679668,
+        "LATITUDE": -6.190267626,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8a6534ea-5e62-4ff3-8219-643de0954ffc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7477174,
+          -6.22199911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KARANG TENGAH BARAT 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JOGLO 3, RT.13/RW.7, JOGLO, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1005",
+        "DESA": "JOGLO",
+        "LONGITUDE": 106.7477174,
+        "LATITUDE": -6.22199911,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "37ae6972-c860-4893-b6b3-d490ea7138c7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7472001,
+          -6.221214275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JOGLO 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL JOGLO 1, RT.8/RW.7, JOGLO, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1005",
+        "DESA": "JOGLO",
+        "LONGITUDE": 106.7472001,
+        "LATITUDE": -6.221214275,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "8fc39bdf-f96a-4f92-bbd4-95a996d07fd0",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7447556,
+          -6.191717553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA 1 SATELIT",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JAKARTA BARAT, RT.5/RW.9, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7447556,
+        "LATITUDE": -6.191717553,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "14ddd4e5-bdb5-4f3b-8a47-7ca556041946",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7442314,
+          -6.191676671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA 1, JL. TOL MERAK - JKT NO.5, RT.5/RW.9, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7442314,
+        "LATITUDE": -6.191676671,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c27a14ff-1098-44e9-b5e6-0fd3207f4f01",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.744196,
+          -6.191197512
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL BITUNG 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA 2, JL. TOL MERAK - JKT NO.5, RT.5/RW.2, KEMBANGAN SEL., KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1006",
+        "DESA": "KEMBANGAN SELATAN",
+        "LONGITUDE": 106.744196,
+        "LATITUDE": -6.191197512,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ecf27d1a-abfd-47ad-a6f4-e1def0d322b8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7440457,
+          -6.216377975
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL JOGLO 4",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL LINGKAR LUAR JAKARTA W2 NO.7, RT.7/RW.9, JOGLO, KEC. KEMBANGAN, KOTA JAKARTA SELATAN, DAERAH KHUSUS IBUKOTA JAKARTA 11640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1005",
+        "DESA": "JOGLO",
+        "LONGITUDE": 106.7440457,
+        "LATITUDE": -6.216377975,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d272131a-3569-468c-bc4d-d2929659f9fc",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7435649,
+          -6.215569356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA SELATAN 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL LINGKAR LUAR JAKARTA W2, RT.7/RW.9, JOGLO, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11640",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1005",
+        "DESA": "JOGLO",
+        "LONGITUDE": 106.7435649,
+        "LATITUDE": -6.215569356,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "9ff48a6d-7667-44e8-9665-c42bd1f0eefd",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7402159,
+          -6.208738451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA SELATAN 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "RT.4/RW.1, MERUYA SEL., KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11650",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1003",
+        "DESA": "MERUYA SELATAN",
+        "LONGITUDE": 106.7402159,
+        "LATITUDE": -6.208738451,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "678a7b93-7c4a-41e3-b044-6f99bbe50077",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7372795,
+          -6.204139847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL TANGERANG UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "RT.3/RW.4, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7372795,
+        "LATITUDE": -6.204139847,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "fc1829c4-5d80-4f6f-93e2-20f7f4fb6be6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.735989,
+          -6.191353617
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL NGURAH RAI",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA UTARA 1, GERBANG TOL MERUYA UTARA 1, RT.1, RW.1, SOUTH KEMBANGAN, KEMBANGAN, WEST JAKARTA CITY, JAKARTA 11610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1006",
+        "DESA": "KEMBANGAN SELATAN",
+        "LONGITUDE": 106.735989,
+        "LATITUDE": -6.191353617,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "d80c3f25-db48-4ed6-82bf-ae73b8ba8a96",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7334592,
+          -6.192035289
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL SLIPI 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA UTARA 2, RT.5/RW.11, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7334592,
+        "LATITUDE": -6.192035289,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "98ab9af4-69f5-44b1-9e8a-afeaa52cefe5",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7332279,
+          -6.192873905
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA UTARA 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA UTARA 3, RT.5/RW.11, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7332279,
+        "LATITUDE": -6.192873905,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "4bb4170c-cf58-428d-9778-9b33a1af4808",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7331707,
+          -6.194867021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CIBUBUR 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL LINGKAR LUAR JAKARTA W2 NO.5, RT.5/RW.11, MERUYA UTARA, KEC. KB. JERUK, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7331707,
+        "LATITUDE": -6.194867021,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "c9c89690-b281-4168-baaa-374bc9b07722",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7327402,
+          -6.193169907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA UTARA 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA UTARA 3, RT.5/RW.11, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7327402,
+        "LATITUDE": -6.193169907,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7c6eb6f7-5824-411f-9748-6a76c675d3b4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7327153,
+          -6.193945216
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA UTAMA 3",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA UTAMA 1, RW.11, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.7327153,
+        "LATITUDE": -6.193945216,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "ef566a83-a817-4eeb-8f1d-d59923913ef1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.731418,
+          -6.194029182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA UTAMA 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL MERUYA UTARA 4, RT.4/RW.11, MERUYA UTARA, KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11620",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1002",
+        "DESA": "MERUYA UTARA",
+        "LONGITUDE": 106.731418,
+        "LATITUDE": -6.194029182,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "f11b8da1-dd46-48cd-afa5-3cca526a6cd7",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7302548,
+          -6.18995716
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL MERUYA 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "KEMBANGAN SEL. 1, AH2, RT.1/RW.1, KEMBANGAN SEL., KEC. KEMBANGAN, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1006",
+        "DESA": "KEMBANGAN SELATAN",
+        "LONGITUDE": 106.7302548,
+        "LATITUDE": -6.18995716,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "7b127f74-4ef3-4fa3-87f9-691a48e1de86",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7302322,
+          -6.129935371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEBON BAWANG",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAYU BESAR 2, JL. LKR. LUAR BARAT NO.9 9, RT.1/RW.14, CENGKARENG TIM., KECAMATAN CENGKARENG, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11730",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.01",
+        "KECAMATAN": "CENGKARENG",
+        "ID_DESA": "31.73.01.1006",
+        "DESA": "CENGKARENG TIMUR",
+        "LONGITUDE": 106.7302322,
+        "LATITUDE": -6.129935371,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "5cfe548c-f34f-426d-8e50-9874991af2aa",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7301439,
+          -6.129488935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KAYU BESAR 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL KAYU BESAR 1, JL. TOL LKR. LUAR JKT W1 NO.9, RT.9/RW.14, CENGKARENG TIM., KECAMATAN CENGKARENG, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11730",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.01",
+        "KECAMATAN": "CENGKARENG",
+        "ID_DESA": "31.73.01.1006",
+        "DESA": "CENGKARENG TIMUR",
+        "LONGITUDE": 106.7301439,
+        "LATITUDE": -6.129488935,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e2f3ce2e-4b21-46e9-bdde-911cfbfd9045",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7289876,
+          -6.181432844
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOL CIBITUNG 7",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "NORTH KEMBANGAN TOLL PLAZA, KEMBANGAN UTARA, JL. KEMBANGAN UTARA JL. PURI INDAH RAYA, RT.2/RW.1, SOUTH KEMBANGAN, KEMBANGAN, WEST JAKARTA CITY, JAKARTA 11610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1006",
+        "DESA": "KEMBANGAN SELATAN",
+        "LONGITUDE": 106.7289876,
+        "LATITUDE": -6.181432844,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "06f1bb6a-6590-4724-a9fb-72bcd73cd5d4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.728878,
+          -6.181006064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL KEMBANGAN UTARA 1",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "NORTH KEMBANGAN TOLL PLAZA, KEMBANGAN UTARA, JL. KEMBANGAN UTARA JL. PURI INDAH RAYA, RT.2/RW.1, SOUTH KEMBANGAN, KEMBANGAN, WEST JAKARTA CITY, JAKARTA 11610",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.08",
+        "KECAMATAN": "KEMBANGAN",
+        "ID_DESA": "31.73.08.1006",
+        "DESA": "KEMBANGAN SELATAN",
+        "LONGITUDE": 106.728878,
+        "LATITUDE": -6.181006064,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "e3fd5854-2b79-4995-a204-63a46c0d8ae6",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7275723,
+          -6.157436976
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL HALIM UTAMA",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JLB RW. BUAYA SEL., RT.13/RW.1, RW. BUAYA, KECAMATAN CENGKARENG, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11740",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.01",
+        "KECAMATAN": "CENGKARENG",
+        "ID_DESA": "31.73.01.1003",
+        "DESA": "RAWA BUAYA",
+        "LONGITUDE": 106.7275723,
+        "LATITUDE": -6.157436976,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "b5839c53-2285-47a9-a716-dc126fb5bd7b",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.7273147,
+          -6.152010798
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL RAWAMANGUN",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL RAWA BUAYA UTARA, JLB RW. BUAYA UTARA, JL. LKR. LUAR BARAT, RT.1/RW.2, CENGKARENG BAR., KECAMATAN CENGKARENG, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11730",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.01",
+        "KECAMATAN": "CENGKARENG",
+        "ID_DESA": "31.73.01.1001",
+        "DESA": "CENGKARENG BARAT",
+        "LONGITUDE": 106.7273147,
+        "LATITUDE": -6.152010798,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "0fd60f09-f96c-43aa-a509-4983b706327d",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.6977393,
+          -6.105167575
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL VETERAN 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "GERBANG TOL CENGKARENG 2, JL. TOL AIRPORT PROF. SEDYATMO NO.5, RT.5/RW.5, KAMAL, KEC. KALIDERES, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11810",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.06",
+        "KECAMATAN": "KALIDERES",
+        "ID_DESA": "31.73.06.1004",
+        "DESA": "KAMAL",
+        "LONGITUDE": 106.6977393,
+        "LATITUDE": -6.105167575,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    },
+    {
+      "id": "2f7691ec-2cf5-4ccc-a8d8-91e6efda26d4",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.6963394,
+          -6.105802562
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "GERBANG TOLL CENGKARENG 2",
+        "TIPE_1": "TRANSPORTASI",
+        "TIPE_2": "PINTU TOL",
+        "TIPE_3": "-",
+        "TELEPON": "",
+        "ALAMAT": "JL. TOL AIRPORT PROF. SEDYATMO, RT.5/RW.5, KAMAL, KEC. KALIDERES, KOTA JAKARTA BARAT, DAERAH KHUSUS IBUKOTA JAKARTA 11810",
+        "ID_PROV": "31",
+        "PROVINSI": "DKI JAKARTA",
+        "ID_KABKOT": "31.73",
+        "KABKOT": "KOTA ADM. JAKARTA BARAT",
+        "ID_KEC": "31.73.06",
+        "KECAMATAN": "KALIDERES",
+        "ID_DESA": "31.73.06.1004",
+        "DESA": "KAMAL",
+        "LONGITUDE": 106.6963394,
+        "LATITUDE": -6.105802562,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q2 2024",
+        "TANGGAL UPDATE": "27/07/2025"
+      }
+    }
+  ]
+}

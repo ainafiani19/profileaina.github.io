@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Nama Kamu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg,
+          #FEEAC9,
+          #FFCDC9,
+          #FDACAC,
+          #F07979);
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 0;
+      background: rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(8px);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 10px;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background: #F07979;
+      color: white;
+    }
+
+    /* ===== CONTACT SECTION ===== */
+    .contact {
+      padding: 70px 10%;
+      text-align: center;
+    }
+
+    .contact h1 {
+      font-size: 32px;
+      margin-bottom: 50px;
+      color: #333;
+    }
+
+    /* ===== CONTACT CARDS ===== */
+    .contact-cards {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 70px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 230px;
+      padding: 35px 25px;
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(6px);
+      border-radius: 22px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card span {
+      font-size: 40px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #F07979;
+      font-weight: bold;
+      word-break: break-word;
+    }
+
+    /* ===== MESSAGE SECTION ===== */
+    .message-box {
+      max-width: 700px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(6px);
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .message-box h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .message-box p {
+      font-size: 14px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .message-box textarea {
+      width: 100%;
+      height: 120px;
+      padding: 15px;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+      resize: none;
+      margin-bottom: 20px;
+    }
+
+    .message-box button {
+      padding: 12px 28px;
+      background: #F07979;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .message-box button:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .contact {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="Home_Profile.html">Home</a>
+    <a href="Portofoliosementara.html">Portofolio</a>
+    <a href="Profile.html">About Me</a>
+    <a href="Contact.html" class="active">Contact</a>
+  </nav>
+
+  <!-- CONTACT CONTENT -->
+  <section class="contact">
+    <h1>Let’s Connect</h1>
+
+    <!-- CONTACT CARDS -->
+    <div class="contact-cards">
+      <div class="card">
+        <span>📧</span>
+        <h3>Email</h3>
+        <a href="mailto:ainafiani.19@gmail">
+          ainafiani.19@gmail
+        </a>
+      </div>
+
+      <div class="card flex items-center gap-3">
+        <span style="
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+    background-color: #0A66C2;
+  ">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16" height="16" fill="white">
+            <path
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 01107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+          </svg>
+        </span>
+
+
+        <div>
+          <h3 class="font-semibold">LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/ainanurfiani/" target="_blank" rel="noopener"
+            class="text-blue-600 hover:underline">
+            linkedin.com/in/ainanurfiani
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span>📷</span>
+        <h3>Instagram</h3>
+        <a href="https://instagram.com/dkdlsk._.vldksl" target="_blank">
+          @dkdlsk._.vldksl
+        </a>
+      </div>
+    </div>
+
+    <!-- MESSAGE BOX -->
+    <div class="message-box">
+      <h2>Send me suggestions & feedback</h2>
+      <p>Please be kind — ENFJ-T friendly space 🤍</p>
+
+      <textarea placeholder="Write your message here..."></textarea>
+      <button>Send Message</button>
+    </div>
+  </section>
+
+</body>
+
+</html>

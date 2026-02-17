@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "e1ae2349-3f4d-44c5-932d-9b7df993b765",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.030932,
+          -6.227417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLI GIGI",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT GIGI",
+        "TELEPON": "(021) 8806140",
+        "ALAMAT": "JL. PAHLAWAN NO.60, RT.003/RW.016, DUREN JAYA, KEC. BEKASI TIM., KOTA BKS, JAWA BARAT 17111",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.01",
+        "KECAMATAN": "BEKASI TIMUR",
+        "ID_DESA": "32.75.01.1003",
+        "DESA": "DURENJAYA",
+        "LONGITUDE": 107.030932,
+        "LATITUDE": -6.227417,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "ab757980-4db6-470e-a11d-a0a852f8a4d9",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9257153,
+          -6.3473499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLI GIGI - RS JATISAMPURNA",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT GIGI",
+        "TELEPON": "(021) 8451457",
+        "ALAMAT": "JL. STUDIO ANTV, KRANGGAN, JATIRADEN, JATISAMPURNA, JATIRADEN, JATISAMPURNA, RT.003/RW.007, JATIRADEN, KEC. JATISAMPURNA, KOTA BKS, JAWA BARAT 17433",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.10",
+        "KECAMATAN": "JATISAMPURNA",
+        "ID_DESA": "32.75.10.1005",
+        "DESA": "JATIRADEN",
+        "LONGITUDE": 106.9257153,
+        "LATITUDE": -6.3473499,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "fc2522f2-9158-4ae2-8ef3-754da384d47e",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9837761,
+          -6.2477494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLI GIGI & MULUT",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT GIGI",
+        "TELEPON": "",
+        "ALAMAT": "JL. BANDENG RAYA NO.28, RT.001/RW.009, KAYURINGIN JAYA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17144",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1005",
+        "DESA": "KAYURINGINJAYA",
+        "LONGITUDE": 106.9837761,
+        "LATITUDE": -6.2477494,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "dbdae748-3e3c-4ab0-bd58-24b2495947e1",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          107.0103794,
+          -6.2325544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLIKLINIK DOKTER GIGI UMUM",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT GIGI",
+        "TELEPON": "",
+        "ALAMAT": "RT.001/RW.010, BEKASI JAYA, KEC. BEKASI TIM., KOTA BKS, JAWA BARAT 17112",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.01",
+        "KECAMATAN": "BEKASI TIMUR",
+        "ID_DESA": "32.75.01.1001",
+        "DESA": "BEKASIJAYA",
+        "LONGITUDE": 107.0103794,
+        "LATITUDE": -6.2325544,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    },
+    {
+      "id": "65384e8b-9440-4e27-b508-59d74e631af8",
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          106.9770245,
+          -6.2751173
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "NAMA": "POLI GIGI RS ANNA PEKAYON",
+        "TIPE_1": "KESEHATAN DAN PENGOBATAN",
+        "TIPE_2": "RUMAH SAKIT",
+        "TIPE_3": "RUMAH SAKIT GIGI",
+        "TELEPON": "0812-1392-109",
+        "ALAMAT": "JL. PEKAYON RAYA NO.36, RT.004/RW.001, JAKA SETIA, KEC. BEKASI SEL., KOTA BKS, JAWA BARAT 17147",
+        "ID_PROV": "32",
+        "PROVINSI": "JAWA BARAT",
+        "ID_KABKOT": "32.75",
+        "KABKOT": "KOTA BEKASI",
+        "ID_KEC": "32.75.04",
+        "KECAMATAN": "BEKASI SELATAN",
+        "ID_DESA": "32.75.04.1004",
+        "DESA": "JAKASETIA",
+        "LONGITUDE": 106.9770245,
+        "LATITUDE": -6.2751173,
+        "STATUS": "BUKA",
+        "TANGGAL PENGUMPULAN": "Q1 2024",
+        "TANGGAL UPDATE": "28/02/2025"
+      }
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+
+    <!-- MAPLIBRE -->
+    <script src="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class"
+        }
+    </script>
+    <!--CDN TAILWIN CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--CDN Turf.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+
+    <!-- Tambahkan AlpineJS biar dropdown bisa klik-buka -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+
+
+
+</head>
+
+<body class=" min-h-screen w-full bg-[#F5F9E9]">
+
+    <!-- NAVBAR -->
+    <nav class="w-1full flex flex-wrap items-center justify-between gap-4 
+    bg-[#475b63] dark:bg-[#24322E]
+    text-[#F5F9E9] dark:text-[#E9EFE5]
+    px-4 py-2 sticky top-0 z-10">
+
+        <div class="flex items-center gap-3">
+            <a href="/Final Project/coding/Home_Page.html" id="home"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/home-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </a>
+
+            <div class="text-base font-bold flex items-center gap-1 cursor-pointer">
+                MyWebGIS
+            </div>
+        </div>
+
+        <form id="formKecamatan" class="flex flex-wrap items-center gap-4 w-full md:w-auto">
+
+            <!-- Pilih Kecamatan -->
+            <div class="flex items-center gap-2">
+                <label for="kecamatan" class="font-semibold text-[#F5F9E9] whitespace-nowrap">
+                    Pilih Kecamatan:
+                </label>
+                <select name="kecamatan" id="kecamatan"
+                    class="text-black bg-white px-3 py-2 rounded shadow-sm border border-gray-300 focus:ring-2 focus:ring-[#57A773] focus:border-[#57A773]">
+                    <option value="">SEMUA KECAMATAN</option>
+                    <option value="BABELAN">BABELAN</option>
+                    <option value="BOJONGMANGU">BOJONGMANGU</option>
+                    <option value="CABANGBUNGIN">CABANGBUNGIN</option>
+                    <option value="CIBARUSAH">CIBARUSAH</option>
+                    <option value="CIBITUNG">CIBITUNG</option>
+                    <option value="CIKARANG BARAT">CIKARANG BARAT</option>
+                    <option value="CIKARANG PUSAT">CIKARANG PUSAT</option>
+                    <option value="CIKARANG SELATAN">CIKARANG SELATAN</option>
+                    <option value="CIKARANG TIMUR">CIKARANG TIMUR</option>
+                    <option value="CIKARANG UTARA">CIKARANG UTARA</option>
+                    <option value="KARANG BAHAGIA">KARANG BAHAGIA</option>
+                    <option value="KEDUNG WARINGIN">KEDUNG WARINGIN</option>
+                    <option value="MUARA GEMBONG">MUARA GEMBONG</option>
+                    <option value="PEBAYURAN">PEBAYURAN</option>
+                    <option value="SERANG BARU">SERANG BARU</option>
+                    <option value="SETU">SETU</option>
+                    <option value="SUKAKARYA">SUKAKARYA</option>
+                    <option value="SUKATANI">SUKATANI</option>
+                    <option value="SUKAWANGI">SUKAWANGI</option>
+                    <option value="TAMBELANG">TAMBELANG</option>
+                    <option value="TAMBUN SELATAN">TAMBUN SELATAN</option>
+                    <option value="TAMBUN UTARA">TAMBUN UTARA</option>
+                    <option value="TARUMAJAYA">TARUMAJAYA</option>
+                </select>
+            </div>
+
+
+            <!-- Layer Checkbox Custom -->
+            <div class="relative inline-block w-56" x-data="{ open: false }">
+                <div class="border border-gray-300 bg-white text-black px-3 py-2 rounded shadow-sm cursor-pointer select-none hover:border-[#57A773]"
+                    @click="open = !open">
+                    Pilih Layer
+                </div>
+
+                <div x-show="open"
+                    class="absolute mt-1 w-full bg-white border border-gray-300 rounded shadow-md p-2 z-10 max-h-48 overflow-y-auto">
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Properti" class="accent-[#57A773]"> Properti
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Pendidikan" class="accent-[#57A773]"> Pendidikan
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Kesehatan" class="accent-[#57A773]"> Kesehatan
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Transportasi" class="accent-[#57A773]"> Transportasi
+                    </label>
+                    <label class="flex items-center gap-2 py-1 px-2 hover:bg-gray-100 text-black">
+                        <input type="checkbox" value="Banjir" class="accent-[#57A773]"> Kebencanaan
+                    </label>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit"
+                class="px-4 py-2 bg-[#57A773] text-white rounded shadow-md hover:bg-[#4CAF74] active:scale-95 cursor-pointer">
+        </form>
+
+        <div id="tools" class="flex flex-wrap items-center gap-2 w-full md:w-auto justify-end">
+            <button id="layer-variabel"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/layer-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </button>
+
+            <!-- portofilio page belum muncul-->
+            <a href="/Potofolio_Page.html" id="contact-us"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/contact-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </a>
+
+            <button id="mode"
+                class="p-2 bg-[#345995] dark:bg-[#2E5A94] rounded hover:bg-[#57A773] dark:hover:bg-[#4CAF74] transition active:scale-95">
+                <img src="assets/mode-dark-svgrepo-com.svg" class="w-5 h-5 invert brightness-0">
+            </button>
+        </div>
+    </nav>
+
+    <!-- SIDE PANEL -->
+    <div id="sidePanel"
+        class="fixed top-16 -right-1/4 w-1/4 h-[calc(100vh-4rem)] bg-white dark:bg-[#1f2937] shadow-lg transition-all duration-300 z-[9999] p-4 overflow-y-auto">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Layer Tools</h3>
+        </div>
+
+        <p class="text-gray-700 dark:text-gray-300 text-sm">Isi konten layer disini.</p>
+    </div>
+
+    <!--MAP-->
+    <div id="map" class="w-full h-[calc(100vh-60px)] bg-[#157145] dark:bg-[#13201C]"></div>
+
+
+    <script>
+
+        //1. script untuk switch mode
+        const LIGHT = "https://basemap.mapid.io/styles/street-2d-building/style.json?key=68dcd62806823ed3f510dddf";
+        const DARK = "https://basemap.mapid.io/styles/dark/style.json?key=68dcd62806823ed3f510dddf";
+
+        if (localStorage.theme === "dark") {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+            localStorage.theme = "light";
+        }
+
+        function changeTheme() {
+            if (document.documentElement.classList.contains("dark")) {
+                document.documentElement.classList.remove("dark")
+                localStorage.theme = "light"
+                map.setStyle(lightStyle)
+            } else {
+                document.documentElement.classList.add("dark")
+                localStorage.theme = "dark"
+                map.setStyle(darkStyle)
+            }
+        }
+        document.getElementById("mode").addEventListener("click", changeTheme);
+
+        //2. Script memanggil peta
+        const MAP_SERVICE_KEY = "68dcd62806823ed3f510dddf";
+        const LIGHT_THEME = "street-2d-building";
+        const DARK_THEME = "dark";
+        const lightStyle = `https://basemap.mapid.io/styles/${LIGHT_THEME}/style.json?key=${MAP_SERVICE_KEY}`;
+        const darkStyle = `https://basemap.mapid.io/styles/${DARK_THEME}/style.json?key=${MAP_SERVICE_KEY}`;
+        const initialStyle = localStorage.theme === "dark" ? darkStyle : lightStyle;
+
+
+        const map = new maplibregl.Map({
+            style: initialStyle,
+            center: [107.14504645971738, -6.255886768288434],
+            zoom: 10,
+            container: "map"
+        });
+
+        //untuk side panel
+        const panel = document.getElementById("sidePanel");
+        const toggleBtn = document.getElementById("layer-variabel");
+
+        toggleBtn.addEventListener("click", () => {
+            const isOpen = panel.classList.contains("right-0");
+
+            if (isOpen) {
+                panel.classList.remove("right-0");
+                panel.classList.add("-right-1/4");
+            } else {
+                panel.classList.remove("-right-1/4");
+                panel.classList.add("right-0");
+            }
+        });
+
+
+
+        // polyon source
+        const kecUrl = "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fe2517c8804625c62c5477&project_id=68f488c244612b4d22ec2f83&limit=10000";
+
+        // point layer urls
+        const pointLayerSources = {
+            Properti: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=69061504016f40e5a8c33aaf&project_id=68f488c244612b4d22ec2f83&limit=10000",
+            Pendidikan: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f99c8804625c613cd3c&project_id=68f488c244612b4d22ec2f83&limit=10000",
+            Kesehatan: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f6096b90db738e31ee9&project_id=68f488c244612b4d22ec2f83&limit=10000",
+            Transportasi: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8f75c8804625c613cc1b&project_id=68f488c244612b4d22ec2f83&limit=10000",
+        };
+
+        const polygonLayer = {
+            Banjir: "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68fb8fbec8804625c613d261&project_id=68f488c244612b4d22ec2f83&limit=10000",
+        }
+
+        // add kecamatan layer on load
+        map.on("load", () => {
+            map.addSource("Kecamatan", { type: "geojson", data: kecUrl });
+
+            map.addLayer({
+                id: "Kecamatan-layer",
+                type: "fill",
+                source: "Kecamatan",
+                paint: {
+                    "fill-color": "grey",
+                    "fill-opacity": 0.4,
+                }
+            });
+        });
+
+        // re-add polygon after theme switch
+        map.on("styledata", () => {
+            if (!map.getSource("Kecamatan")) {
+                map.addSource("Kecamatan", { type: "geojson", data: kecUrl });
+                map.addLayer({
+                    id: "Kecamatan-layer",
+                    type: "fill",
+                    source: "Kecamatan",
+                    paint: { "fill-color": "grey", "fill-opacity": 0.4 }
+                });
+            }
+        });
+
+        // handle submit
+        // handle submit
+        document.getElementById('formKecamatan').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const kec = document.getElementById('kecamatan').value;
+            const checked = [...document.querySelectorAll('input[type=checkbox]:checked')]
+                .map(cb => cb.value);
+
+            // filter kecamatan (empty = show all)
+            if (!kec) {
+                map.setFilter("Kecamatan-layer", null);
+                map.fitBounds([[106.8, -6.7], [107.4, -6.05]], { padding: 40 }); // adjust ke bounding daerah kamu
+            } else {
+                map.setFilter("Kecamatan-layer", ["==", ["get", "KECAMATAN"], kec]);
+
+                const data = await (await fetch(kecUrl)).json();
+                const fitur = data.features.filter(f => f.properties.KECAMATAN === kec);
+
+                if (fitur.length > 0) {
+                    const bbox = turf.bbox(fitur[0]);
+                    map.fitBounds(bbox, { padding: 40, maxZoom: 13 });
+                }
+            }
+
+            // clear point layers
+            Object.keys(pointLayerSources).forEach(id => {
+                if (map.getLayer(id)) map.removeLayer(id);
+                if (map.getSource(id)) map.removeSource(id);
+            });
+
+            // clear polygon layers
+            Object.keys(polygonLayer).forEach(id => {
+                if (map.getLayer(id)) map.removeLayer(id);
+                if (map.getSource(id)) map.removeSource(id);
+            });
+
+            // add selected points
+            for (const layerName of checked) {
+
+                // cek polygon dulu
+                if (polygonLayer[layerName]) {
+                    const res = await fetch(polygonLayer[layerName]);
+                    const data = await res.json();
+
+                    const filteredPoly = kec ? {
+                        type: "FeatureCollection",
+                        features: data.features.filter(f => f.properties.KECAMATAN === kec)
+                    } : data;
+
+                    map.addSource(layerName, { type: "geojson", data: filteredPoly });
+
+                    map.addLayer({
+                        id: layerName,
+                        type: "fill",
+                        source: layerName,
+                        paint: {
+                            "fill-color": [
+                                "match", //mengganti data di SES dengan warna
+                                ["get", "KELAS_RISIKO"], //mengambil nilai dari kolom kelas risiko
+                                "RENDAH", "green", //kalau nilainya atas maka warna merah
+                                "SEDANG", "yellow",
+                                "TINGGI", "red",
+                                "gray" //kalau kosong atau null maka nilainya abu-abu
+                            ],
+                            "fill-opacity": 0.4
+                        }
+                    });
+
+                    continue;
+                }
+
+                // klo bukan polygon, berarti point
+                const res = await fetch(pointLayerSources[layerName]);
+                const data = await res.json();
+
+                const filteredData = kec && kec !== "SEMUA KECAMATAN" ? {
+                    type: "FeatureCollection",
+                    features: data.features.filter(f => {
+                        const namaKec = (f.properties.KECAMATAN || "")
+                            .toString()
+                            .replace(/\u00A0/g, " ") // hapus non-breaking space
+                            .replace(/\s+/g, " ")    // ubah spasi ganda jadi satu
+                            .trim()
+                            .toLowerCase();
+
+                        const selected = kec
+                            .toString()
+                            .replace(/\u00A0/g, " ")
+                            .replace(/\s+/g, " ")
+                            .trim()
+                            .toLowerCase();
+
+                        return namaKec === selected;
+                    })
+                } : data;
+
+                console.log(`[${layerName}] Filtered ${filteredData.features.length} dari ${data.features.length} fitur untuk kecamatan "${kec}"`);
+
+
+                const pointColors = {
+                    Properti: "#e63946",      // merah
+                    Pendidikan: "#1d3557",    // biru tua
+                    Kesehatan: "#2a9d8f",     // hijau
+                    Transportasi: "#f4a261"   // oranye
+                };
+
+                map.addSource(layerName, { type: "geojson", data: filteredData });
+
+                map.addLayer({
+                    id: layerName,
+                    type: "circle",
+                    source: layerName,
+                    paint: {
+                        "circle-radius": 6,
+                        "circle-color": pointColors[layerName] || "#000",
+                        "circle-stroke-width": 1,
+                        "circle-stroke-color": "#fff"
+                    }
+                });
+            }
+
+        });
+
+
+        // script popup masuk DI SINI
+        map.on("click", "Properti", function (e) {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const props = e.features[0].properties;
+
+            const content = `
+<div class="text-sm">
+    <div class="font-semibold mb-1">${props["NAMA PROPERTI"] || "Tidak ada nama"}</div>
+    <div>Kelas: ${props["KELAS_STRATEGIS"] || "-"}</div>
+    <div>Tipe: ${props["TIPE_2"] || "-"}</div>
+    <div>Alamat: ${props["ALAMAT"] || "-"}</div>
+    <div>Harga: ${props["HARGA PROPERTI NET"] || "-"} </div>
+    <div>Luas Tanah: ${props["LUAS TANAH (M²)"] || "-"} m²</div>
+    <div>Luas Bangunan: ${props["LUAS BANGUNAN (M²)"] || "-"} m²</div>
+</div>
+    `;
+
+            new maplibregl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(content)
+                .addTo(map);
+        });
+
+        map.on("mouseenter", "Properti", () => map.getCanvas().style.cursor = "pointer");
+        map.on("mouseleave", "Properti", () => map.getCanvas().style.cursor = "");
+
+
+    </script>
+
+
+</body>
+
+
+</html>

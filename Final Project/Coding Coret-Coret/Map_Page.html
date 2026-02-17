@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class"
+        }
+    </script>
+
+    <title>Map Page</title>
+
+    <!--CDN MAPLIBRE GL JS-->
+    <script src="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.8.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- CDN TAILWIND CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--CDN Turf.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+
+</head>
+
+<body>
+    <div id="map" class="w-75vw h-screen"></div>
+
+    <!--sidebar-->
+    <aside class="fixed top-0 bottom-0 left-0 z-10 bg-white w-1/4 "> 
+        <header class="p-4">
+            <h1 class="text-2xl font-semibold">Isochrone</h1>
+            <p>menampilkan isochrone untuk tujuan memfilter toko</p>
+            <hr />
+        </header>
+        
+        <div class="p-4">
+            <p>pilih mode transportasi yang digunakan</p>
+            <!--
+            bisa pake select option
+            <select>
+                <option value="motorcycle">Motor</option>
+                <option value="foot">Jalan Kaki</option>
+            </select>-->
+            <div>
+                <input type="radio" id="motorcycle" name="profile" value="motorcycle">
+                <label for="motorcycle">Motor</label>
+            </div>    
+            <div>
+                <input type="radio" id="foot" name="profile" value="foot">
+                <label for="foot">Jalan Kaki</label>
+            </div>
+        
+                <p>Pilih durasi</p>
+                    <input type="number" id="duration" name="duration" value="300" class="w-full border rounded px-2 py-1"/>
+
+                    <button id="run" class="w-full mt-4 bg-blue-500 text-white p-2 rounded cursor-pointer hover:bg-blue-700 active:scale-90">
+                        Jalankan
+                    </button>
+                    <svg 
+                        id="loading"
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 512 512" 
+                        width='1em' 
+                        height='1em' 
+                        class="w-6 h-6 animate-spin mx-auto m-4"
+                        style="display: none;">
+                        <path 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-linecap="round" 
+                            stroke-miterlimit="10" 
+                            stroke-width="32" 
+                            d="m400 148l-21.12-24.57A191.43 191.43 0 0 0 240 64C134 64 48 150 48 256s86 192 192 192a192.09 192.09 0 0 0 181.07-128"/>
+                        <path 
+                            fill="currentColor" 
+                            d="M464 97.42V208a16 16 0 0 1-16 16H337.42c-14.26 0-21.4-17.23-11.32-27.31L436.69 86.1C446.77 76 464 83.16 464 97.42"/>
+                        </svg>
+
+                    <hr class="mt-4"/>
+                    <div >
+                        <p>Hasil Toko yang ditemukan</p>
+                        <ul id="result" class="list-decimal ml-4 mt-4">
+                        </ul>
+                    </div>
+        </div>
+
+        
+    </aside>
+
+    <script>
+        const MAP_SERVICE_KEY = "68dcd62806823ed3f510dddf"; //Kunci API dari MAPID supaya bisa mengakses layanan peta dari server MAPID
+        const DEFAULT_THEME = "street-new-generation"; //diambil dari galery peta yang ada di MAPID
+        //https://basemap.mapid.io/styles/street-new-generation/style.json?key=68dcd62806823ed3f510dddf
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${DEFAULT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [107.6, -6.9], //koordinat awal pusat peta dalam format
+            zoom: 10, //0-22 level
+            pitch: 0, //kemiringan kamera (0=tampilan dari atas. >0=sudut miring)
+            bearing: 0, //rotaasi peta (0=utara diatas. >0=peta diputar)
+            container: "map", //ID elemen HTML tempat peta akan dimasukkan
+            canvasContextAttributes: { antialias: true }, //menghaluskan tepi garis dan objek di peta agar tampak leih halus
+            attributionControl: true, //menampilkan kontrol sumber data (biasnya di pojok kanan bawah)
+            hash: false, //jika true (posisi peta zoom dan koordinat akan disimpan di url dan false tidak disimpan)
+        });
+
+        map.on("load",function(){//tunggu semua sumber dan style peta selesei dimuat baru menjalankan fungi di dalamnya
+            //karena ada beberapa operasi (seperti menambahkan layer, mengambil tile atau menggunakan fitur isochrone/route)
+            //yang harus dilakukan setelah peta selesei, jika tidak akan gagal karena belum tersedia
+            const triggerButton = document.getElementById("run"); //mengambil elemen tombol dari DOM untuk dipakai sebagai pemicu proses
+
+
+            triggerButton.addEventListener("click",()=>execute());
+            // execute-> fungsi javascript yang berisi serangkaian perintah saat tombol di klik
+            //addEventListener -> fungsi pada JS digunakan untuk "mendengarkan" suatu jehadian (event) pada element HTML
+            //logikanya jika button di klik maka jalankan aksi yang ada di execute
+
+            async function execute (){
+                const profile = document.querySelector(
+                    'input[name="profile"]:checked').value;
+                const duration = document.getElementById("duration").value;
+                const loading = document.getElementById("loading");
+
+                loading.style.display = "block";
+                triggerButton.style.display ="none";
+
+
+
+                //     memanggil API Isochrone
+            const baseurl = "https://routing.mapid.io/isochrone";
+            const point = "-6.921762392402272, 107.60625471408412";
+            const url = `${baseurl}?key=${MAP_SERVICE_KEY}&point=${point}&profile=${profile}&time_limit=${duration}`;
+            const data_isochrone = await fetch(url)
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    return data;
+
+                    // map.addLayer({
+                    //     id:"isochrone-layer",
+                    //     type:"line",
+                    //     source:"isochrone",
+                    //     paint:{
+                    //         "line-color":"#ff0000",
+                    //         "line-opacity":0.7,
+                    //         "line-width":5,
+                    //     },
+                    // })
+                })
+
+                .catch((err) => {
+                    console.log(err);
+                });
+
+            const data_tokos = await fetch(
+                "https://geoserver.mapid.io/layers_new/get_layer?api_key=5249521c14de436ebcf1fb8f05e6048d&layer_id=68ea22001f2f7bd5e6fcd60e&project_id=68ea21ef8bc5e6b16eff33a3")
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    return data;
+                });
+
+            const feature_isochrone = data_isochrone.polygons[0];
+
+            if(map.getSource("isochrone")){
+                map.removeLayer("isochrone-layer");
+                map.removeSource("isochrone");
+            }
+            map.addSource("isochrone", {
+                type: "geojson",
+                data: feature_isochrone,
+            });
+            map.addLayer({
+                id: "isochrone-layer",
+                type: "fill",
+                source: "isochrone",
+                paint: {
+                    "fill-color": "#ff0000",
+                    "fill-opacity": 0.3,
+                },
+            });
+
+            if(map.getSource("tokos")){
+                map.removeLayer("tokos-layer");
+                map.removeSource("tokos");
+            }
+                map.addSource("tokos", {
+                type: "geojson",
+                data: data_tokos,
+            });
+                map.addLayer({
+                id: "tokos-layer",
+                type: "circle",
+                source: "tokos",
+                paint: {
+                    "circle-color": "blue",
+                    "circle-radius": 10,
+                },
+            });
+
+            let resultString="";
+            for (let index = 0; index < data_tokos.features.length; index++) {
+                const element = data_tokos.features[index];
+                
+                const lat = element.geometry.coordinates[0]
+                const lng = element.geometry.coordinates[1]
+
+                const pt = turf.point([lat,lng])
+                const poly = turf.polygon(feature_isochrone.geometry.coordinates);
+                console.log(turf.booleanPointInPolygon(pt,poly));
+
+                if(turf.booleanPointInPolygon(pt,poly)){
+                    console.log(element);
+                    resultString += `<li>Toko ${element.properties.Nama}</li>`;
+                }
+            //toko mana saja yang ada di isochrone
+            
+
+                // var pt = turf.point([
+                //     element.geometry.coordinates[0],
+                //     element.geometry.coordinates[1],
+                // ]);
+                // var poly = turf.polygons(data_isochrone.coordinates);
+
+                // console.log(pt);
+                // console.log(poly);
+
+                // if(turf.booleanPointInPolygon(pt,poly)){
+                //     console.log(element);
+                // }
+            }
+            
+
+            document.getElementById("result").innerHTML= resultString;
+            
+            loading.style.display = "none";
+            triggerButton.style.display ="block";
+        }
+                
+
+           
+        })
+
+    </script>
+</body>
+
+</html>
