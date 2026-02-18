@@ -61,7 +61,12 @@
     }
 
     h2 {
-      margin-bottom: 15px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    h3 {
+      margin-bottom: 5px;
       color: #333;
     }
 
@@ -184,6 +189,138 @@
       transform: scale(1.12);
       box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
     }
+
+    /* ===== MOBILE FRIENDLY ===== */
+    @media (max-width: 768px) {
+
+      /* NAVBAR */
+      nav {
+        flex-wrap: wrap;
+        gap: 14px;
+        padding: 14px 10px;
+      }
+
+      nav a {
+        font-size: 14px;
+        padding: 6px 10px;
+      }
+
+      nav button {
+        font-size: 13px;
+        padding: 6px 10px;
+      }
+
+      /* SECTION */
+      section {
+        padding: 30px 6%;
+      }
+
+      /* INTRO */
+      .intro {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .intro p {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .photo {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+      }
+
+      /* GRID 4 BOX */
+      .grid-4 {
+        grid-template-columns: 1fr;
+      }
+
+      /* SKILL */
+      .skill-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .skill-list {
+        justify-content: center;
+      }
+
+      .skill {
+        font-size: 13px;
+        padding: 6px 12px;
+      }
+
+      /* LANGUAGE */
+      .language-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .language {
+        font-size: 14px;
+      }
+
+      /* HEADINGS */
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+    }
+
+    @media (hover: hover) {
+      .glass:hover {
+        transform: translateY(-10px) scale(1.02);
+      }
+
+      .skill:hover {
+        transform: scale(1.12);
+      }
+    }
+
+    .glass a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .glass a:hover {
+      color: #F07979;
+    }
+
+    .edu-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+
+    .edu-list li {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    .edu-list span {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .detail-list {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .toggle-btn {
+      margin-top: 10px;
+      border: none;
+      background: transparent;
+      color: #F07979;
+      font-weight: bold;
+      cursor: pointer;
+    }
   </style>
 </head>
 
@@ -195,18 +332,46 @@
     <a href="Portofoliosementara.html" class="active">Portofolio</a>
     <a href="Profile.html">About Me</a>
     <a href="Contact.html">Contact</a>
+
+    <!--Lang Setting-->
+    <div style="display:flex; gap:8px;">
+      <button onclick="setLang('id')" id="btn-id"
+        style="border:none; padding:6px 12px; border-radius:10px; cursor:pointer;">
+        ID
+      </button>
+      <button onclick="setLang('en')" id="btn-en"
+        style="border:none; padding:6px 12px; border-radius:10px; cursor:pointer;">
+        EN
+      </button>
+    </div>
+
   </nav>
+
 
   <!-- INTRO -->
   <section>
     <div class="glass intro">
       <div class="photo">Photo</div>
       <div>
-        <h2>Pengenalan Diri</h2>
-        <p>
-          Saya adalah mahasiswa dengan ketertarikan pada GIS, pemetaan,
-          dan pengembangan web. Terbiasa mengolah data spasial dan
-          membuat visualisasi yang informatif.
+        <h2>Aina Nurfiani</h2>
+        <h3 data-lang="id">Bekasi, Jawa Barat</h3>
+        <h3 data-lang="en">Bekasi, West Java</h3>
+        <p data-lang="id"
+          style="text-align: justify; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+          Lulusan S1 Perencanaan Wilayah dan Kota di Universitas Brawijaya dengan akreditasi unggul.
+          Saya memiliki pengalaman dalam analisis spasial, penyusunan dokumen perencanaan dan pengolahan data dengan
+          menggunakan perangkat lunak seperti
+          ArcMAP, QGIS, SketchUp dan Microsoft Office. Selama masa studi, aktif di organisasi kemahasiswaan tingkat
+          jurusan dan beberapa kali
+          dipercaya sebagai ketua bidang di berbagai acara tingkat jurusan. Pengalaman tersebut membentuk kemampuan
+          berpikir strategis,
+          bekerja dalam tim dan beradaptasi dalam lingkungan yang dinamis. Meskipun minat utama saya di bidang
+          perencanaan wilayah dan kota,
+          saya tetap terbuka untuk berkontribusi di bidang lain.
+        </p>
+        <p data-lang="en"
+          style="text-align: justify; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+          I'm graduated from Brawijaya Uniersity
         </p>
       </div>
     </div>
@@ -214,14 +379,39 @@
     <!-- GRID 4 -->
     <div class="grid-4">
       <div class="glass">
-        <h2>Pendidikan</h2>
-        <p>Universitas / Jurusan<br>2021 – Sekarang</p>
+        <h2 data-lang="id">Pendidikan</h2>
+        <h2 data-lang="en">Education</h2>
+        <ul class="edu-list">
+          <li>
+            <strong>Universitas Brawijaya</strong> | Perencanaan Wilayah dan Kota
+            <br><span>2020 – 2024</span>
+          </li>
+          <li>
+            <strong>SMA Negeri 4 Tambun Selatan</strong>
+            <br><span>2016 – 2019</span>
+          </li>
+        </ul>
+
       </div>
 
       <div class="glass">
         <h2>Pengalaman Profesional</h2>
-        <p>Magang / Freelance / Project</p>
+
+        <ul class="summary-list">
+          <li>Urban and Regional Planning Student Association</li>
+          <li>Staff External Affairs</li>
+        </ul>
+
+        <button class="toggle-btn" onclick="toggleDetail(this)">
+          Lihat detail
+        </button>
+
+        <ul class="detail-list">
+          <li>Staff External Affairs Department (2022–2023)</li>
+          <li>Coordinator of several faculty events</li>
+        </ul>
       </div>
+
 
       <div class="glass">
         <h2>Project Kuliah</h2>
@@ -229,8 +419,20 @@
       </div>
 
       <div class="glass">
-        <h2>Organisasi</h2>
-        <p>Himpunan, Kepanitiaan, Relawan</p>
+        <h2><a href="organisasi.html">Organisasi</a></h2>
+        <ul class="summary-list">
+          <li>Urban and Regional Planning Student Association</li>
+          <li>Staff External Affairs</li>
+        </ul>
+
+        <button class="toggle-btn" onclick="toggleDetail(this)">
+          Lihat detail
+        </button>
+
+        <ul class="detail-list">
+          <li>Staff External Affairs Department (2022–2023)</li>
+          <li>Coordinator of several faculty events</li>
+        </ul>
       </div>
     </div>
 
@@ -283,5 +485,39 @@
   </section>
 
 </body>
+<script>
+  function setLang(lang) {
+    localStorage.setItem("lang", lang);
+
+    document.querySelectorAll("[data-lang]").forEach(el => {
+      el.style.display =
+        el.getAttribute("data-lang") === lang ? "block" : "none";
+    });
+
+    document.getElementById("btn-id").style.background =
+      lang === "id" ? "#F07979" : "white";
+    document.getElementById("btn-id").style.color =
+      lang === "id" ? "white" : "#333";
+
+    document.getElementById("btn-en").style.background =
+      lang === "en" ? "#F07979" : "white";
+    document.getElementById("btn-en").style.color =
+      lang === "en" ? "white" : "#333";
+  }
+
+  // default language
+  const savedLang = localStorage.getItem("lang") || "id";
+  setLang(savedLang);
+</script>
+<script>
+function toggleDetail(btn) {
+  const detail = btn.nextElementSibling;
+  detail.style.display =
+    detail.style.display === "block" ? "none" : "block";
+  btn.textContent =
+    detail.style.display === "block" ? "Tutup" : "Lihat detail";
+}
+</script>
+
 
 </html>

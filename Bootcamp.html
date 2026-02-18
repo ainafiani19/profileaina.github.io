@@ -24,11 +24,23 @@
         nav {
             display: flex;
             justify-content: center;
-            gap: 60px;
-            padding: 18px 0;
+            align-items: center;
+            padding: 18px 8%;
             background: #D5EEE8;
             border-bottom: 2px solid #BFE5DA;
+            position: relative;
         }
+
+        .lang-switch {
+            position: absolute;
+            right: 8%;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+
+
 
         nav a {
             text-decoration: none;
@@ -52,6 +64,11 @@
         nav a:hover::after,
         nav a.active::after {
             width: 100%;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 60px;
         }
 
         .container {
@@ -233,13 +250,27 @@
 
             /* NAVBAR */
             nav {
-                gap: 20px;
-                padding: 14px 10px;
                 flex-wrap: wrap;
+                gap: 10px;
             }
 
             nav a {
                 font-size: 14px;
+            }
+
+            .nav-links {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .lang-switch {
+                position: static;
+                /* penting */
+                width: 100%;
+                justify-content: center;
+                margin-top: 8px;
             }
 
             /* CONTAINER */
@@ -331,22 +362,32 @@
 
     <!-- NAVBAR -->
     <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="TASK.html">Task</a>
-        <a href="Final Project/coding/Home_Page.html">Final Project</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="TASK.html">Task</a>
+            <a href="Final Project/coding/Home_Page.html">Final Project</a>
+        </div>
+
+        <div class="lang-switch">
+            <button onclick="setLanguage('id')">ID</button>
+            <span>|</span>
+            <button onclick="setLanguage('en')">EN</button>
+        </div>
     </nav>
+
 
     <main class="container">
 
         <!-- HERO -->
         <section class="hero">
-            <h1>WebGIS Bootcamp Portfolio</h1>
-            <p>
+            <h1 data-id="WebGIS Bootcamp Portfolio" data-en="WebGIS Bootcamp Portfolio">WebGIS Bootcamp Portfolio</h1>
+            <p data-id="Halaman ini berisi kumpulan tugas, analisis spasial, serta project WebGIS yang dikerjakan selama mengikuti WebGIS Bootcamp."
+                data-en="This page contains a collection of tasks, spatial analyses, and WebGIS projects completed during the WebGIS Bootcamp.">
                 Halaman ini berisi kumpulan tugas, analisis spasial, serta project WebGIS yang dikerjakan selama
                 mengikuti WebGIS Bootcamp.
             </p>
             <div class="hero-btns">
-                <a href="Task.html" class="btn-primary">Lihat Task</a>
+                <a href="Task.html" class="btn-primary" data-id="Lihat Task" data-en="View Task">Lihat Task</a>
                 <a href="Final Project/coding/index.html" class="btn-secondary">Final Project</a>
             </div>
         </section>
@@ -355,15 +396,20 @@
         <section class="highlight-grid">
             <div class="highlight-card">
                 <h3>🗺️ Spatial Analysis</h3>
-                <p>Overlay, scoring, klasifikasi wilayah, dan analisis berbasis GIS.</p>
+                <p data-id="Overlay, scoring, klasifikasi wilayah, dan analisis berbasis GIS."
+                data-en="Overlay analysis, scoring, area classification, GIS-based analysis. ">Overlay, scoring, klasifikasi wilayah, dan analisis berbasis GIS.</p>
             </div>
             <div class="highlight-card">
                 <h3>🐍 Python for GIS</h3>
-                <p>Pengolahan data spasial, API WebGIS, dan peta tematik dengan Python.</p>
+                <p data-id="Pengolahan data spasial, API WebGIS, dan peta tematik dengan Python."
+                data-en="Spatial data processing, WebGIS APIs, and thematic mapping using Python.">
+                Pengolahan data spasial, API WebGIS, dan peta tematik dengan Python.</p>
             </div>
             <div class="highlight-card">
                 <h3>🌐 WebGIS Development</h3>
-                <p>MapLibre GL JS, GeoJSON, dan WebGIS interaktif berbasis MAPID.</p>
+                <p data-id="MapLibre GL JS, GeoJSON, dan WebGIS interaktif berbasis MAPID."
+                data-en="MapLibre GL JS, GeoJSON, and interactive WebGIS powered by MAPID.">
+                    MapLibre GL JS, GeoJSON, dan WebGIS interaktif berbasis MAPID.</p>
             </div>
         </section>
 
@@ -371,12 +417,20 @@
         <div class="preview-grid">
             <section class="preview-box">
                 <h1>Bootcamp Overview</h1>
-                <p style="text-align: justify;">
-                    Pertama kali mengikuti sebuah bootcamp yang berlangsung selama kurang lebih tiga bulan. Selama
-                    periode tersebut, proses pembelajaran berjalan dengan sangat baik dan memberikan pengalaman yang
-                    berharga. Materi yang disampaikan bersifat aplikatif dan relevan, sehingga mudah dipahami dan
-                    menarik untuk diikuti. Selain itu, para mentor menyampaikan materi dengan jelas dan sistematis, yang
-                    sangat membantu dalam memahami konsep serta penerapannya selama kegiatan bootcamp berlangsung.
+                <p style="text-align: justify;" 
+                data-en="This was my first time joining a bootcamp, and at the beginning, I did not expect the material to be this complex. As a Regional and Urban Planning (PWK) student who was used to working with desktop-based mapping tools such as ArcMap, learning to process spatial data through programming felt like stepping into a new environment. Although it was challenging at first, the mentors’ clear explanations and supportive approach made the learning process engaging and enjoyable."
+                data-id="Ini pengalaman pertama mengikuti sebuah bootcamp. 
+                    Awalnya, tidak menyangka bahwa materi yang dipelajari akan cukup kompleks. 
+                    Sebagai anak Perencanaan Wilayah dan Kota (PWK) yang terbiasa menggunakan ArcMap Desktop untuk pemetaan, 
+                    belajar mengolah data spasial melalui bahasa pemrograman terasa seperti memasuki dunia baru. 
+                    Prosesnya memang menantang, tetapi berkat kesabaran dan cara penyampaian para mentor yang jelas dan suportif, 
+                    materi yang awalnya terasa sulit justru menjadi menarik dan menyenangkan untuk dipelajari. love youu all kakak-kakak mentor">
+                    Ini pengalaman pertama mengikuti sebuah bootcamp. 
+                    Awalnya, tidak menyangka bahwa materi yang dipelajari akan cukup kompleks. 
+                    Sebagai anak Perencanaan Wilayah dan Kota (PWK) yang terbiasa menggunakan ArcMap Desktop untuk pemetaan, 
+                    belajar mengolah data spasial melalui bahasa pemrograman terasa seperti memasuki dunia baru. 
+                    Prosesnya memang menantang, tetapi berkat kesabaran dan cara penyampaian para mentor yang jelas dan suportif, 
+                    materi yang awalnya terasa sulit justru menjadi menarik dan menyenangkan untuk dipelajari. love youu all kakak-kakak mentor
                 </p>
             </section>
 
@@ -395,11 +449,18 @@
         <section class="built">
             <h2>What I Built</h2>
             <ul>
-                <li>✔️ Peta wisata & observasi lapangan</li>
-                <li>✔️ Analisis lokasi strategis & heatmap</li>
-                <li>✔️ Hyperlocal site selection</li>
-                <li>✔️ Python spatial analysis</li>
-                <li>✔️ WebGIS interaktif</li>
+                <li data-id="✔️ Peta wisata & observasi lapangan"
+                data-en="✔️Tourism maps & field observations">
+                ✔️ Peta wisata & observasi lapangan</li>
+                <li data-id="✔️ Analisis lokasi strategis & heatmap"
+                data-en="✔️ Strategic location analysis and heatmap visualization">✔️ Analisis lokasi strategis & heatmap</li>
+                <li data-id="✔️ Hyperlocal site selection"
+                data-en="✔️ Hyperlocal site selection">
+                ✔️ Hyperlocal site selection</li>
+                <li data-id="Python spatial analysis"
+                data-en="✔️ Spatial Analysis using Python">✔️ Python spatial analysis</li>
+                <li data-id="✔️ WebGIS interaktif"
+                data-en="✔️ Interactive WebGIS Development">✔️ WebGIS interaktif</li>
             </ul>
         </section>
 
@@ -409,6 +470,13 @@
         </div>
 
     </main>
+    <script>
+        function setLanguage(lang) {
+            document.querySelectorAll('[data-id]').forEach(el => {
+                el.textContent = el.getAttribute(`data-${lang}`);
+            });
+        }
+    </script>
 
 </body>
 
