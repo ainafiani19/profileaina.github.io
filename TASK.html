@@ -24,10 +24,20 @@
     nav {
       display: flex;
       justify-content: center;
-      gap: 60px;
-      padding: 18px 0;
+      align-items: center;
+      padding: 18px 8%;
       background: #D5EEE8;
       border-bottom: 2px solid #BFE5DA;
+      position: relative;
+    }
+
+    .lang-switch {
+      position: absolute;
+      right: 8%;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
     }
 
     nav a {
@@ -52,6 +62,11 @@
     nav a:hover::after,
     nav a.active::after {
       width: 100%;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 60px;
     }
 
     /* ===== MAIN ===== */
@@ -137,6 +152,30 @@
         grid-template-columns: 1fr;
       }
     }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      .nav-links {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .lang-switch {
+        position: static;
+        width: 100%;
+        justify-content: center;
+        margin-top: 8px;
+      }
+    }
   </style>
 </head>
 
@@ -144,16 +183,26 @@
 
   <!-- NAVBAR -->
   <nav>
-    <a href="Bootcamp.html">Home</a>
-    <a href="Task.html" class="active">Task</a>
-    <a href="Final Project/coding/Home_Page.html">Final Project</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="TASK.html" class="active:">Task</a>
+      <a href="Final Project/coding/Home_Page.html">Final Project</a>
+    </div>
+
+    <div class="lang-switch">
+      <button onclick="setLanguage('id')">ID</button>
+      <span>|</span>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
   </nav>
 
   <!-- MAIN CONTENT -->
   <main class="container">
 
     <h1 class="page-title">Bootcamp Tasks</h1>
-    <p class="page-desc">
+    <p class="page-desc" data-id="Halaman ini berisi kumpulan tugas yang aku kerjakan selama mengikuti WebGIS Bootcamp. Mulai dari laporan PDF,
+      script Python, sampai hasil project WebGIS berbasis web yang dibuat selama proses belajar." 
+      data-en="This page showcases the tasks I worked on during the WebGIS Bootcamp, including PDF reports, Python scripts, and web-based WebGIS projects created throughout the learning process.">
       Halaman ini berisi kumpulan tugas yang aku kerjakan selama mengikuti WebGIS Bootcamp. Mulai dari laporan PDF,
       script Python, sampai hasil project WebGIS berbasis web yang dibuat selama proses belajar.
     </p>
@@ -167,9 +216,18 @@
           <h3>Task 1 🗺️</h3>
           <div class="task-type">PDF</div>
           <h3>Introduction and basic concepts of GIS and spatial data.</h3>
-          <p style="text-align: justify;">Pada task ini aku belajar dasar-dasar GIS menggunakan QGIS sebagai pengenalan
+          <p style="text-align: justify;"
+          data-id="Pada task ini aku belajar dasar-dasar GIS menggunakan QGIS sebagai pengenalan
             ArcGIS Desktop.
-            FYI, peta yang dibuat di task ini benar-benar berdasarkan pengalaman jalan-jalan ke Bandung 😄.
+            FYI, peta yang dibuat di task ini betulan berguna pas jalan-jalan ke Bandung 😄.
+            Data yang digunakan diambil dari WebGIS MAPID. Saat data ditambahkan ke GIS melalui API, terdapat perbedaan
+            datum dan sistem koordinat,
+            sehingga perlu dilakukan reproject agar seluruh data berada pada sistem koordinat yang sama dan bisa
+            dianalisis dengan benar."
+          data-en="In this task, I learned the basic concepts of GIS using QGIS as an introduction to ArcGIS Desktop. For context, the map created in this task turned out to be genuinely useful during my trip to Bandung 😄. The data were obtained from MAPID WebGIS. When the data were added to the GIS through an API, differences in datum and coordinate systems were identified, making reprojection necessary so that all datasets shared the same coordinate system and could be analyzed correctly.">
+            Pada task ini aku belajar dasar-dasar GIS menggunakan QGIS sebagai pengenalan
+            ArcGIS Desktop.
+            FYI, peta yang dibuat di task ini betulan berguna pas jalan-jalan ke Bandung 😄.
             Data yang digunakan diambil dari WebGIS MAPID. Saat data ditambahkan ke GIS melalui API, terdapat perbedaan
             datum dan sistem koordinat,
             sehingga perlu dilakukan reproject agar seluruh data berada pada sistem koordinat yang sama dan bisa
@@ -184,11 +242,20 @@
           <h3>Task 2 🎬</h3>
           <div class="task-type">PDF</div>
           <h3>Location Analytics.</h3>
-          <p style="text-align: justify;">Hasil dari task ini adalah peta persebaran lokasi strategis untuk pendirian
+          <p style="text-align: justify;"
+          data-id="Hasil dari task ini adalah peta persebaran lokasi strategis untuk pendirian
             bioskop di Kota Surabaya. Analisis lokasi dilakukan dengan memperhatikan persebaran kompetitor, yang
             divisualisasikan menggunakan heatmap.
             Heatmap ini membantu melihat area dengan tingkat persaingan tinggi maupun rendah secara lebih jelas
-            menggunakan tools yang tersedia di WebGIS MAPID.</p>
+            menggunakan tools yang tersedia di WebGIS MAPID."
+          data-en="The result of this task is map of strategic location distribution for cinema establishment locations in Surabaya. 
+          The location analysis was conducted by examining he spatial distribution of competitors, which was visualized using a heatmap. 
+          This heatmap helped identify areas with high and low levels of competition more clearly using the tools available in MAPID WebGIS.">
+          Hasil dari task ini adalah peta persebaran lokasi strategis untuk pendirian
+          bioskop di Kota Surabaya. Analisis lokasi dilakukan dengan memperhatikan persebaran kompetitor, yang
+          divisualisasikan menggunakan heatmap.
+          Heatmap ini membantu melihat area dengan tingkat persaingan tinggi maupun rendah secara lebih jelas
+          menggunakan tools yang tersedia di WebGIS MAPID.</p>
         </div>
         <a href="asset/Task/TASK 2 LOCATION ANALYTICS PART 1_AINA NURFIANI (1).pdf" target="_blank">Open PDF →</a>
       </div>
@@ -199,8 +266,17 @@
           <h3>Task 3☕📍</h3>
           <div class="task-type">PDF</div>
           <h3>Site Selection and Site Analysis.</h3>
-          <p style="text-align: justify;">Pada task ini diterapkan analisis hyperlocal untuk menentukan lokasi bisnis
-            yang optimal.
+          <p style="text-align: justify;" 
+          data-id="Pada task ini diterapkan analisis hyperlocal untuk menentukan lokasi bisnis yang optimal.
+            Tema yang diambil adalah penentuan lokasi study cafe dengan layanan ATK dan cetak.
+            Analisis dilakukan dengan memberikan pembobotan pada POI attractors dan POI detractors.
+            Untuk mendukung hasil analisis, digunakan juga fitur AI di WebGIS MAPID untuk mendapatkan insight tambahan
+            terkait site selection sebagai data pendukung."
+          data-en="In this task, a hyperlocal analysis was applied to determine the optimal business location. 
+          The selected theme focused on identifying a suitable location for a study café offering stationery and printing services. 
+          The analysis was conducted by assigning weights to POI attractors and POI detractors. To support the analysis results, 
+          AI features in MAPID WebGIS were also utilized to gain additional insights related to site selection as supporting data.">
+            Pada task ini diterapkan analisis hyperlocal untuk menentukan lokasi bisnis yang optimal.
             Tema yang diambil adalah penentuan lokasi study cafe dengan layanan ATK dan cetak.
             Analisis dilakukan dengan memberikan pembobotan pada POI attractors dan POI detractors.
             Untuk mendukung hasil analisis, digunakan juga fitur AI di WebGIS MAPID untuk mendapatkan insight tambahan
@@ -215,7 +291,15 @@
           <h3>Task 4 🐍🗺️</h3>
           <div class="task-type">Python Script</div>
           <h3>Introduction Pyhton For Spacial Data.</h3>
-          <p style="text-align: justify;">Task ini jadi salah satu yang paling menarik buat aku 😆 karena ternyata data
+          <p style="text-align: justify;" data-id="Task ini jadi salah satu yang paling menarik buat aku 😆 karena ternyata data
+            spasial bisa diolah menggunakan Python.
+            Dengan memanfaatkan library Python, data seperti demografi dapat diolah dan divisualisasikan menjadi peta
+            tematik, misalnya peta kepadatan penduduk,
+            tanpa harus sepenuhnya bergantung pada software GIS desktop."
+            data-en="This task became one of the most interesting for me 😆, as I discovered that spatial data can be processed using Python. 
+            By leveraging Python libraries, data such as demographic information can be processed and visualized into thematic maps, 
+            for example population density maps, without having to rely entirely on desktop GIS software.">
+            Task ini jadi salah satu yang paling menarik buat aku 😆 karena ternyata data
             spasial bisa diolah menggunakan Python.
             Dengan memanfaatkan library Python, data seperti demografi dapat diolah dan divisualisasikan menjadi peta
             tematik, misalnya peta kepadatan penduduk,
@@ -230,7 +314,14 @@
           <h3>Task 5 📊🌍</h3>
           <div class="task-type">Python Script</div>
           <h3>Spatial Analysis with Python</h3>
-          <p style="text-align: justify;">Pada task ini dilakukan analisis spasial yang biasanya dikerjakan di ArcGIS
+          <p style="text-align: justify;" data-id="Pada task ini dilakukan analisis spasial yang biasanya dikerjakan di ArcGIS
+            Desktop, namun direalisasikan menggunakan script Python.
+            Data dari WebGIS MAPID seperti demografi, ekonomi, dan risiko banjir melalui proses klasifikasi dan
+            pemberian skor pada tiap variabel.
+            Selanjutnya dilakukan overlay antar dataset sehingga diperoleh kelas klasifikasi gabungan sebagai hasil
+            akhir analisis."
+            data-en="In this task, spatial analyses that are typically performed in ArcGIS Desktop were implemented using Python scripts. Data from MAPID WebGIS, including demographic, economic, and flood risk datasets, were processed through classification and scoring for each variable. Subsequently, an overlay analysis was conducted across the datasets to produce a combined classification as the final result.">
+            Pada task ini dilakukan analisis spasial yang biasanya dikerjakan di ArcGIS
             Desktop, namun direalisasikan menggunakan script Python.
             Data dari WebGIS MAPID seperti demografi, ekonomi, dan risiko banjir melalui proses klasifikasi dan
             pemberian skor pada tiap variabel.
@@ -246,7 +337,14 @@
           <h3>Task 6 🍜🔁</h3>
           <div class="task-type">PDF</div>
           <h3>Basic Logic Program.</h3>
-          <p style="text-align: justify;">Task ini berfokus pada penerapan logika pemrograman dasar dalam kehidupan
+          <p style="text-align: justify;"
+          data-id="Task ini berfokus pada penerapan logika pemrograman dasar dalam kehidupan
+            sehari-hari.
+            Flowchart pembuatan mi instan digunakan untuk menggambarkan alur berurutan (sequence) dan percabangan
+            keputusan (if–else), seperti penambahan bahan atau pemilihan jenis mi.
+            Dengan pendekatan ini, proses sederhana dapat dipahami seperti alur kerja sebuah program."
+          data-en="This task focused on applying basic programming logic to everyday activities. A flowchart for making instant noodles was used to illustrate sequential processes and decision branches (if–else), such as adding ingredients or choosing the type of noodles. Through this approach, simple processes can be understood in the same way as a program’s workflow.">
+            Task ini berfokus pada penerapan logika pemrograman dasar dalam kehidupan
             sehari-hari.
             Flowchart pembuatan mi instan digunakan untuk menggambarkan alur berurutan (sequence) dan percabangan
             keputusan (if–else), seperti penambahan bahan atau pemilihan jenis mi.
@@ -261,7 +359,14 @@
           <h3>Task 7 🌐🎨</h3>
           <div class="task-type">HTML</div>
           <h3>Web-based output presenting the final WebGIS interface.</h3>
-          <p style="text-align: justify;">ada task ini dibuat script untuk membangun peta WebGIS interaktif menggunakan
+          <p style="text-align: justify;"
+          data-id="Pada task ini dibuat script untuk membangun peta WebGIS interaktif menggunakan
+            MapLibre GL JS dengan basemap dari MAPID. Data spasial berformat GeoJSON diambil dari WebGIS MAPID melalui
+            API dan ditampilkan sebagai layer polygon. Pewarnaan layer dilakukan secara tematik berdasarkan status
+            sosial ekonomi, sehingga setiap wilayah memiliki warna yang berbeda. Hasil akhirnya berupa peta tematik
+            interaktif yang memudahkan analisis visual kondisi sosial ekonomi suatu wilayah."
+          data-en="In this task, a script was developed to build an interactive WebGIS map using MapLibre GL JS with a basemap from MAPID. Spatial data in GeoJSON format were retrieved from MAPID WebGIS via an API and displayed as polygon layers. The layers were styled thematically based on socio-economic status, resulting in different colors for each area. The final output is an interactive thematic map that facilitates visual analysis of socio-economic conditions across regions.">
+            Pada task ini dibuat script untuk membangun peta WebGIS interaktif menggunakan
             MapLibre GL JS dengan basemap dari MAPID. Data spasial berformat GeoJSON diambil dari WebGIS MAPID melalui
             API dan ditampilkan sebagai layer polygon. Pewarnaan layer dilakukan secara tematik berdasarkan status
             sosial ekonomi, sehingga setiap wilayah memiliki warna yang berbeda. Hasil akhirnya berupa peta tematik
@@ -273,7 +378,13 @@
     </div>
 
   </main>
-
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll('[data-id]').forEach(el => {
+        el.textContent = el.getAttribute(`data-${lang}`);
+      });
+    }
+  </script>
 </body>
 
 </html>
