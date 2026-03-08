@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: "class" }
+  </script>
+
+  <title>Home Page | FindNest</title>
+
+  <style>
+    @keyframes scale {
+      from { transform: scale(.9); opacity: 0 }
+      to { transform: scale(1); opacity: 1 }
+    }
+    .animate-scale {
+      animation: scale .25s ease-out;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col
+bg-gradient-to-br from-[#A8E6CF] via-[#BEE7E8] to-[#5FB3B3]
+dark:from-[#1F3F3B] dark:via-[#2F7F7B] dark:to-[#1F3F3B]">
+
+<!-- NAVBAR -->
+<nav class="flex justify-center py-4 sticky top-0 z-10
+bg-gradient-to-r from-[#A8E6CF] via-[#BEE7E8] to-[#5FB3B3]
+dark:from-[#1F3F3B] dark:via-[#2F7F7B] dark:to-[#1F3F3B]">
+  <ul class="flex gap-6 font-medium text-[#2F7F7B] dark:text-[#E9EFE5]">
+    <li><a href="#">Home</a></li>
+    <li><a href="index.html">Map</a></li>
+    <li><a href="Potofolio_Page.html">Portfolio</a></li>
+    <li><button onclick="changeTheme()">Dark / Light</button></li>
+  </ul>
+</nav>
+
+<!-- MAIN -->
+<main class="flex-grow max-w-7xl mx-auto px-6 py-12 space-y-10">
+
+<!-- ROW 1 -->
+<div class="grid md:grid-cols-3 gap-6">
+  <div class="bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-6 rounded-2xl shadow flex justify-center">
+    <img src="assets/FindNestadabg.svg" class="max-w-xs" />
+  </div>
+
+  <div class="md:col-span-2 bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-8 rounded-2xl shadow">
+    <h1 class="text-5xl font-serif font-bold text-[#2F7F7B] dark:text-[#E9EFE5] mb-4">
+      I Present To You<br>FindNest
+    </h1>
+    <p class="font-mono text-[#355F5B] dark:text-[#E9EFE5]">
+      WebGIS properti rumah bekas berbasis analisis spasial
+      untuk membantu menentukan hunian yang aman dan strategis.
+    </p>
+  </div>
+</div>
+
+<!-- ROW 2 -->
+<div class="grid md:grid-cols-3 gap-6">
+
+<!-- CARD -->
+<div class="group bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-6 rounded-2xl shadow
+transition hover:scale-105 hover:shadow-xl">
+  <h3 class="text-xl font-semibold text-[#2F7F7B] dark:text-[#BEE7E8]">
+    Why I Choose This Theme
+  </h3>
+  <p class="font-mono mt-2 text-[#355F5B] dark:text-[#E9EFE5] line-clamp-3">
+    Tema “Nest” merepresentasikan rumah sebagai tempat aman dan nyaman.
+  </p>
+  <button onclick="openModal('theme')" class="mt-4 text-sm underline text-[#2F7F7B]">
+    Open more
+  </button>
+</div>
+
+<div class="group bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-6 rounded-2xl shadow
+transition hover:scale-105 hover:shadow-xl">
+  <h3 class="text-xl font-semibold text-[#2F7F7B] dark:text-[#BEE7E8]">
+    Progress
+  </h3>
+  <p class="font-mono mt-2 text-[#355F5B] dark:text-[#E9EFE5] line-clamp-3">
+    Pengembangan WebGIS, GeoMAPID, dan analisis risiko.
+  </p>
+  <button onclick="openModal('progress')" class="mt-4 text-sm underline text-[#2F7F7B]">
+    Open more
+  </button>
+</div>
+
+<div class="group bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-6 rounded-2xl shadow
+transition hover:scale-105 hover:shadow-xl">
+  <h3 class="text-xl font-semibold text-[#2F7F7B] dark:text-[#BEE7E8]">
+    The Hope
+  </h3>
+  <p class="font-mono mt-2 text-[#355F5B] dark:text-[#E9EFE5] line-clamp-3">
+    Membantu pengambilan keputusan hunian yang lebih baik.
+  </p>
+  <button onclick="openModal('hope')" class="mt-4 text-sm underline text-[#2F7F7B]">
+    Open more
+  </button>
+</div>
+
+</div>
+
+<!-- ROW 3 -->
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-6 rounded-2xl shadow">
+  <h3 class="text-xl font-semibold text-[#2F7F7B] dark:text-[#BEE7E8]">
+    The Feature
+  </h3>
+  <ul class="list-disc ml-4 font-mono text-[#355F5B] dark:text-[#E9EFE5]">
+    <li>Filter lokasi</li>
+    <li>Fasilitas umum</li>
+    <li>Analisis banjir</li>
+  </ul>
+</div>
+
+<div class="md:col-span-2 bg-[#F7FBFA]/80 dark:bg-[#1F3F3B]/80 p-6 rounded-2xl shadow
+transition hover:scale-105 hover:shadow-xl">
+  <h3 class="text-xl font-semibold text-[#2F7F7B] dark:text-[#BEE7E8]">
+    Tutorial
+  </h3>
+  <p class="font-mono text-[#355F5B] dark:text-[#E9EFE5] mt-2">
+    Panduan penggunaan WebGIS FindNest.
+  </p>
+  <a href="Tutorial.html" class="inline-block mt-4 underline text-[#2F7F7B]">
+    Open tutorial →
+  </a>
+</div>
+
+</div>
+
+</main>
+
+<!-- MODAL -->
+<div id="modal" onclick="closeModal()"
+class="fixed inset-0 hidden bg-black/40 backdrop-blur-sm flex items-center justify-center z-50">
+  <div onclick="event.stopPropagation()"
+  class="bg-[#F7FBFA] dark:bg-[#1F3F3B] p-8 rounded-2xl max-w-xl w-full animate-scale relative">
+    <button onclick="closeModal()" class="absolute top-3 right-4">✕</button>
+    <h3 id="modalTitle" class="text-2xl font-bold mb-4 text-[#2F7F7B]"></h3>
+    <p id="modalContent" class="font-mono text-[#355F5B] dark:text-[#E9EFE5]"></p>
+  </div>
+</div>
+
+<script>
+const modal = document.getElementById("modal");
+const modalTitle = document.getElementById("modalTitle");
+const modalContent = document.getElementById("modalContent");
+
+const data = {
+  theme: {
+    title: "Why I Choose This Theme",
+    content: "Tema Nest menggambarkan rumah sebagai pusat keamanan dan kenyamanan hidup..."
+  },
+  progress: {
+    title: "Progress",
+    content: "Pengembangan mencakup WebGIS interaktif, filtering spasial..."
+  },
+  hope: {
+    title: "The Hope",
+    content: "FindNest diharapkan membantu masyarakat memilih hunian terbaik..."
+  }
+};
+
+function openModal(key) {
+  modalTitle.innerText = data[key].title;
+  modalContent.innerText = data[key].content;
+  modal.classList.remove("hidden");
+}
+function closeModal() {
+  modal.classList.add("hidden");
+}
+function changeTheme() {
+  document.documentElement.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
